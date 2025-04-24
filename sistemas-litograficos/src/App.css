@@ -36,3 +36,107 @@
     transform: rotate(360deg);
   }
 }
+
+/* navbar */
+.banner {
+  background-color: white;
+ color: white;
+  padding: 5px;
+  text-align: center;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.nlogo {
+  width: 100px;
+  height: auto;
+  margin: 0 auto;
+}
+ 
+/* menu */
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #282c34;
+  margin: 10px;
+}
+
+/* Estilo base del menú */
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.menu.open {
+  display: flex;
+}
+
+.menu li {
+  margin: 0 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #282c34;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block; 
+  }
+
+  .menu {
+    display: none; 
+    flex-direction: column; 
+    align-items: flex-start;
+    background-color: #61dafb;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .menu.open {
+    display: flex; 
+  }
+
+  .menu li {
+    margin: 10px 0;
+  }
+
+  .menu a {
+    font-size: 1rem;
+  }
+}
+
+
+/*estilos carousel*/
+.carousel {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.carousel-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
