@@ -6,8 +6,8 @@ import Carousel from './components/Carousel';
 function App() {
   return (
     <div className="App">
-      <Navbar />
       <Carousel />
+      <Navbar />
       <header className="App-header">
         <p>
           Edit <code>src/App.js</code> and save to reload.

@@ -1,5 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@1,600&display=swap');
+
+
+.public-sans{
+  font-family: "Public Sans", sans-serif;
+  font-size: 5vw;
+  font-weight: 600;
+  font-style: italic;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
+  padding-top: 60px;
 }
 
 .App-logo {
@@ -69,6 +85,20 @@
 }
 
 /* Estilo base del menú */
+.navbar {
+  position: fixed; 
+  top: 0; 
+  left: 0;
+  width: 100%; 
+  background-color: #F2F2F2; 
+  font-style: italic;
+  z-index: 1000; 
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
 .menu {
   list-style-type: none;
   margin: 0;
@@ -130,7 +160,6 @@
 /*estilos carousel*/
 .carousel {
   width: 100%;
-  max-width: 1200px;
   margin: 0 auto;
   overflow: hidden;
 }
