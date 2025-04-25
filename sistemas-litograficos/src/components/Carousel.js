@@ -7,7 +7,7 @@ import 'slick-carousel/slick/slick-theme.css';
 
 function Carousel() {
   const banners = [
-    require('../assets/banner1.jpeg'),
+    require('../assets/banner1.jpg'),
     require('../assets/banner2.jpeg'),
     require('../assets/banner3.jpeg'),
   ];
@@ -18,8 +18,8 @@ function Carousel() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 5000,
+    autoplay: false,
+    autoplaySpeed: 8000,
   };
 
   return (

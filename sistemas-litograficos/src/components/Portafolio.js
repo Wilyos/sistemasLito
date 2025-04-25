@@ -1,5 +1,8 @@
 import React from 'react';
+import Slider from 'react-slick';
 import '../App.css';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 function Portafolio() {
 
@@ -12,17 +15,46 @@ function Portafolio() {
         { id: 6, name: 'Material P.O.P', image: require('../assets/popPortafolio.jpg') }
     ];
 
+    const settings = {
+        dots: false,
+        infinite: true,
+        centerPadding: "60px",
+        speed: 500,
+        slidesToShow: 3,
+        waitForAnimate: false,
+        autoplay: true,
+        autoplaySpeed: 2500,
+        responsive: [
+            {
+              breakpoint: 1474,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+              }
+            },
+            {
+              breakpoint: 980,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
+      };
+      
+
     return (
         <div className="portafolio">
-            <h2>Portafolio</h2>
-            <div className="portafolio-grid">
+             <h2>Soluciones</h2>
+            <Slider {...settings}>
                 {products.map(product => (
                     <div key={product.id} className="portafolio-card">
                         <img src={product.image} alt={product.name} className="portafolio-image" />
                         <h3>{product.name}</h3>
                     </div>
                 ))}
-            </div>
+            </Slider>
+       
         </div>
     );
 }

@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <nav className="navbar">
         <div className="logo">
-            <img src={require('../assets/logo.png')} alt="Logo" className="nlogo" />
+            <img src={require('../assets/Sis.png')} alt="Logo" className="nlogo" />
         </div>
         <button className="menu-toggle" onClick={toggleMenu}>
         ☰

@@ -8,9 +8,17 @@
   font-style: italic;
 }
 
-body {
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 .App {
@@ -82,11 +90,12 @@ body {
 
 /* Estilo base del menú */
 .navbar {
-  position: t; 
+  
   top: 0; 
   left: 0;
   width: 100%; 
-  background-color: #F2F2F2; 
+  margin: 0 auto;
+  background-color: black; 
   font-style: italic;
   z-index: 1000; 
   padding: 20px;
@@ -115,7 +124,7 @@ body {
 
 .menu a {
   text-decoration: none;
-  color: #282c34;
+  color: white;
   font-weight: bold;
   font-size: 1.2rem;
 }
@@ -131,9 +140,9 @@ body {
   }
 
   .menu {
-    display: none; 
+    display:none; 
     flex-direction: column; 
-    background-color: #61dafb;
+    background-color: black;
     position: absolute;
     top: 60px; 
     right: 20px;
@@ -175,7 +184,7 @@ body {
 .footer {
   background-color: black;
   color: white;
-  padding: 20px;
+  padding: 30px;
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
@@ -215,12 +224,49 @@ body {
 .social-icons a {
   display: inline-block;
   margin-right: 10px;
+  margin-top: 10px;
   color: #0ABF04;
   text-decoration: none;
 }
 
 .social-icons a:hover {
   text-decoration: underline;
+}
+
+.logo-footer {
+  width: 25px;
+  height: auto;;
+  margin: 0;
+  padding: 0;
+  height: 25px;
+  transition: 2s;
+}
+.logo-footer:hover {
+  transform: scale(1.2);
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5px;
+  margin: 0 auto;
+  padding: 5px;
+}
+.footer-contact a {
+  color: #0ABF04;
+  text-decoration: none;
+}
+.footer-contact a:hover {
+  text-decoration: underline;
+}
+
+.logo-footer-sis{
+  width: 100px;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  height: auto;
 }
 
 /* Portafolio */
@@ -277,4 +323,32 @@ body {
   .portafolio-grid {
     grid-template-columns: 1fr;
   }
+}
+
+
+/* boton flotante */
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  width: 60px; 
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  background-color:#2CBF36; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whatsapp-float img {
+  width: 40px; 
+  height: 40px;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
 }
