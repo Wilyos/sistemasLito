@@ -1,12 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@1,600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Public+Sans:ital,wght@1,600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-.public-sans{
-  font-family: "Public Sans", sans-serif;
-  font-size: 5vw;
-  font-weight: 600;
-  font-style: italic;
-}
 
 * {
   margin: 0;
@@ -19,41 +14,22 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  background-color: black;
+}
+h1, h2, h3{
+  font-family: "Anton", sans-serif;
+  font-weight: 100;
+  font-style:normal;
+  font-size: auto;
 }
 
 .App {
   text-align: center;
 }
 
-
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 /* navbar */
 .banner {
-  background-color: white;
+  background-color: black;
  color: white;
   padding: 5px;
   text-align: center;
@@ -96,13 +72,19 @@ body {
   width: 100%; 
   margin: 0 auto;
   background-color: black; 
-  font-style: italic;
   z-index: 1000; 
   padding: 20px;
   display: flex;
   justify-content:space-around;
   align-items: center;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.navbar a{
+  font-family: "Anton", sans-serif;
+  font-weight: 100;
+  font-style:normal;
+  font-size: auto;
 }
 .menu {
   list-style-type: none;
@@ -149,6 +131,7 @@ body {
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
   }
   .menu.open {
     display: flex; 
@@ -189,6 +172,9 @@ body {
   justify-content: space-around;
   align-items: flex-start;
   flex-wrap: wrap;
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
 }
 
 .footer-section {
@@ -272,14 +258,14 @@ body {
 /* Portafolio */
 .portafolio {
   padding: 40px 20px;
-  background-color: #f9f9f9;
+  background-color: black;
   text-align: center;
 }
 
 .portafolio h2 {
   font-size: 2rem;
   margin-bottom: 20px;
-  color: #282c34;
+  color: #f9f9f9;
 }
 
 .portafolio-grid {
@@ -290,10 +276,10 @@ body {
 }
 
 .portafolio-card {
-  background-color: white;
-  border: 1px none #ddd;
+  background-color: black;
+  border: 1px solid #ddd;
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba(201, 197, 197, 0.1);
   overflow: hidden;
   text-align: center;
   width: 100%; 
@@ -309,7 +295,7 @@ body {
 .portafolio-card h3 {
   font-size: 1rem; 
   margin: 10px 0;
-  color: #282c34;
+  color: #f9f9f9;
 }
 
 /* Responsive para pantallas pequeñas */
