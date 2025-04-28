@@ -18,7 +18,6 @@ function Portafolio() {
     const settings = {
         dots: false,
         infinite: true,
-        centerPadding: "60px",
         speed: 500,
         slidesToShow: 3,
         waitForAnimate: false,

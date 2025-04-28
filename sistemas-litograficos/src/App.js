@@ -28,6 +28,7 @@ function App() {
           {/* Ruta para la página de contacto */}
           <Route path="/contacto" element={<Contacto />} />
         </Routes>
+        
         <Footer />
       </div>
     </Router>

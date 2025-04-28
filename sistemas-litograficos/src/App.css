@@ -27,6 +27,12 @@ h1, h2, h3{
   text-align: center;
 }
 
+.banner-inf{
+  width: 50%;
+  height: px;
+  margin: 0 auto;
+  padding: 0;
+}
 /* navbar */
 .banner {
   background-color: black;
@@ -277,7 +283,7 @@ h1, h2, h3{
 
 .portafolio-card {
   background-color: black;
-  border: 1px solid #ddd;
+  border: 1px none #ddd;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(201, 197, 197, 0.1);
   overflow: hidden;
