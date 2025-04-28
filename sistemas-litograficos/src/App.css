@@ -338,3 +338,93 @@ h1, h2, h3{
   transform: scale(1.1);
   transition: transform 0.2s ease-in-out;
 }
+
+/* Estilos para el formulario de contacto */
+.contacto {
+  padding: 40px 20px;
+  background-image: radial-gradient(#0D0D0D, black);
+  text-align: center;
+}
+
+.contacto-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: black;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px #034001;
+}
+
+.contacto-container h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: whitesmoke;
+}
+
+.contacto-container p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: whitesmoke;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #0ABF04;
+}
+
+.contact-form textarea {
+  resize: none;
+  height: 120px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #0ABF04;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #089c03;
+}
+
+.statusform {
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #0ABF04;
+}
+/* Responsivo para pantallas pequeñas */
+@media (max-width: 768px) {
+  .contacto-container {
+    padding: 15px;
+  }
+
+  .contacto-container h1 {
+    font-size: 1.5rem;
+  }
+
+  .contact-form button {
+    font-size: 0.9rem;
+  }
+}

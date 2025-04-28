@@ -17,10 +17,10 @@ function Navbar() {
         ☰
         </button>
         <ul className={`menu ${isMenuOpen ? 'open' : ''}`}>
-            <li><a href="#home">Inicio</a></li>
+            <li><a href="/">Inicio</a></li>
             <li><a href="#about">Quienes Somos</a></li>
             <li><a href="#services">Portafolio</a></li>
-            <li><a href="#contact">Contactanos</a></li>
+            <li><a href="/contacto">Contactanos</a></li>
             <li><a href="#contact">Cotización</a></li>
         </ul>
     </nav>

@@ -1,21 +1,36 @@
 import React from 'react';
 import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Carousel from './components/Carousel';
 import Footer from './components/Footer';
 import Portafolio from './components/Portafolio';
 import WhatsApp from './components/whatsapp';
-
+import Contacto from "./components/pages/Contacto";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Carousel />
-      <WhatsApp />
-      <Portafolio />
-      <Footer />
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Routes>
+          {/* Ruta para la página principal */}
+          <Route
+            path="/"
+            element={
+              <>
+                <Carousel />
+                <WhatsApp />
+                <Portafolio />
+              </>
+            }
+          />
+          {/* Ruta para la página de contacto */}
+          <Route path="/contacto" element={<Contacto />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
