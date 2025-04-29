@@ -601,7 +601,7 @@ h1, h2, h3{
 .nosotros-banner {
   width: 100%;
   height: 300px;
-  background-image: url('./assets/banner_Cont.png'); /* Ruta de la imagen */
+  background-image: url('./assets/banner-nos.jpg'); /* Ruta de la imagen */
   background-size: cover;
   background-position: center;
   display: flex;
@@ -629,47 +629,85 @@ h1, h2, h3{
 }
 
 .nosotros-banner-text h1 {
-  font-size: 3rem;
+  font-size: 5rem;
   font-weight: bold;
+  font-family: 'Beba Neue', sans-serif;
+  font-style: italic;
 }
 
 /* Contenedor principal */
 .nosotros-container {
+  display: flex;
   padding: 40px 20px;
   max-width: 1200px;
   margin: 0 auto;
+  flex-direction: column
 }
 
 .nosotros-descripcion,
 .nosotros-valores {
   margin-bottom: 40px;
+  padding: 15px;
+  display: flex ;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.nosotros-descripcion div,
+.nosotros-valores div {
+  flex: 1;
+}
+
+.img-nosotros{
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-left: 50px;
+  padding: 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .nosotros-descripcion h2,
 .nosotros-valores h2 {
   font-size: 2rem;
-  color: #0ABF04;
+  color: whitesmoke;
   margin-bottom: 20px;
 }
 
-.nosotros-descripcion p {
+.nosotros-descripcion p,
+.nosotros-valores ul {
   font-size: 1.2rem;
   line-height: 1.6;
-  color: #333;
+  color: #4e4e4e;
+  text-align: justify;
 }
 
 .nosotros-valores ul {
-  list-style: none;
+  list-style: circle;
   padding: 0;
 }
 
 .nosotros-valores li {
-  font-size: 1.2rem;
-  line-height: 1.6;
   margin-bottom: 10px;
-  color: #333;
 }
 
 .nosotros-valores li strong {
   color: #0ABF04;
+}
+
+/* Responsivo para pantallas pequeñas */
+@media (max-width: 768px) {
+  .nosotros-descripcion,
+  .nosotros-valores {
+    flex-direction: column;
+    align-items: center; 
+  }
+
+  .img-nosotros {
+    max-width: 100%;
+    margin-bottom: 20px; 
+  }
 }
