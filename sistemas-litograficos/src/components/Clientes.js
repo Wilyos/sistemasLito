@@ -50,6 +50,7 @@ function Clientes() {
     return (
         <div className="clientes">
             <h2>Clientes</h2>
+            <p>Estamos orgullosos de sumar a los proyectos de nuestros clientes y fortalecer la confianza con ellos.</p>
             <Slider {...settings}>
                 {clientes.map(cliente => (
                     <div key={cliente.id} className="clientes-card">

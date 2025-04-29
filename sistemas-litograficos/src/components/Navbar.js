@@ -18,7 +18,7 @@ function Navbar() {
         </button>
         <ul className={`menu ${isMenuOpen ? 'open' : ''}`}>
             <li><a href="/">Inicio</a></li>
-            <li><a href="#about">Quienes Somos</a></li>
+            <li><a href="/nosotros">Quienes Somos</a></li>
             <li><a href="#services">Portafolio</a></li>
             <li><a href="/contacto">Contactanos</a></li>
             <li><a href="#contact">Cotización</a></li>

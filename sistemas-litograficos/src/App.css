@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@1,600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Public+Sans:ital,wght@1,600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Roboto+Condensed:ital,wght@0,300;1,300&display=swap');
 
 
 
@@ -87,7 +86,7 @@ h1, h2, h3{
 }
 
 .navbar a{
-  font-family: "Anton", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   font-weight: 100;
   font-style:normal;
   font-size: auto;
@@ -357,9 +356,9 @@ h1, h2, h3{
 }
 .contacto-banner {
   width: 100%;
-  height: 500px; 
-  background-image: url('./assets/banner_Cont.png'); /* Ruta de la imagen */
-  background-size: cover; /* Asegura que la imagen cubra todo el área */
+  height: 330px; 
+  background-image: url('./assets/banner_cont2.png'); 
+  background-size:cover; 
   background-position: center;
   display: flex;
   justify-content: center; 
@@ -503,9 +502,15 @@ h1, h2, h3{
 
 .clientes h2 {
   font-size: 2rem;
-  color: #333;
+  color: whitesmoke;
   margin-bottom: 20px;
   font-weight: bold;
+}
+.clientes p{
+  font-size: 1rem;
+  color: whitesmoke;
+  margin-bottom: 20px;
+  font-weight: normal;
 }
 
 /* Estilo para las tarjetas de clientes */
@@ -589,4 +594,82 @@ h1, h2, h3{
   .clientes-card h3 {
     font-size: 0.9rem;
   }
+}
+
+
+/* Banner de Nosotros */
+.nosotros-banner {
+  width: 100%;
+  height: 300px;
+  background-image: url('./assets/banner_Cont.png'); /* Ruta de la imagen */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.nosotros-banner::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Capa oscura */
+  z-index: 1;
+}
+
+.nosotros-banner-text {
+  position: relative;
+  z-index: 2;
+  color: #ffffff;
+  text-align: center;
+}
+
+.nosotros-banner-text h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+/* Contenedor principal */
+.nosotros-container {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nosotros-descripcion,
+.nosotros-valores {
+  margin-bottom: 40px;
+}
+
+.nosotros-descripcion h2,
+.nosotros-valores h2 {
+  font-size: 2rem;
+  color: #0ABF04;
+  margin-bottom: 20px;
+}
+
+.nosotros-descripcion p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.nosotros-valores ul {
+  list-style: none;
+  padding: 0;
+}
+
+.nosotros-valores li {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.nosotros-valores li strong {
+  color: #0ABF04;
 }

@@ -27,7 +27,7 @@ function Contacto() {
             'service_o4i1gjv', // ID del servicio
             'template_zqekdly', // ID de la plantilla
             formData,
-            'O8MlXFSPgUnJA7cbA'
+            'O8MlXFSPgUnJA7cbA' //ID Api usuario
           )
           .then(
             (result) => {
@@ -74,6 +74,7 @@ function Contacto() {
 </div>
             <div className="contacto-container">
                 <h1>Formulario de Contacto</h1>
+                <p>Contáctanos para cualquier pregunta, posibles proyectos y trabajos que quieras cotizar</p>
                 <form className="contact-form" onSubmit={handleSubmit}>
                     <input type="text" name='name' placeholder="Nombre" value={formData.name} onChange={handleChange} required />
                     <input type="email"name='email' placeholder="Correo Electrónico" value={formData.email} onChange={handleChange} required />

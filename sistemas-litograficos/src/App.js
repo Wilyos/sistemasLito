@@ -8,6 +8,7 @@ import Portafolio from './components/Portafolio';
 import WhatsApp from './components/whatsapp';
 import Contacto from "./components/pages/Contacto";
 import Clientes from './components/Clientes';
+import Nosotros from './components/pages/Nosotros';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           />
           {/* Ruta para la página de contacto */}
           <Route path="/contacto" element={<Contacto />} />
+          <Route path="/nosotros" element={<Nosotros />} />
         </Routes>
         
         <Footer />
