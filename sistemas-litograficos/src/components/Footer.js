@@ -4,14 +4,7 @@ import '../App.css';
 function Footer() {
   return (
     <footer className="footer">
-      <div className="footer-section">
-        <h3>Portafolio</h3>
-        <ul>
-          <li><a href="#project1">#</a></li>
-          <li><a href="#project2">#</a></li>
-          <li><a href="#project3">#</a></li>
-        </ul>
-      </div>
+      
       <div className="footer-section">
         <h3>Términos de Privacidad</h3>
         <ul>

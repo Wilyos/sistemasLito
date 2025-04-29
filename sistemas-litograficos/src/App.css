@@ -348,42 +348,97 @@ h1, h2, h3{
 /* Estilos para el formulario de contacto */
 .contacto {
   padding: 40px 20px;
-  background-image: radial-gradient(#0D0D0D, black);
+  background-color: black;
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.contacto-banner {
+  width: 100%;
+  height: 500px; 
+  background-image: url('./assets/banner_Cont.png'); /* Ruta de la imagen */
+  background-size: cover; /* Asegura que la imagen cubra todo el área */
+  background-position: center;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+  position: relative; 
+}
+
+
+.contacto-banner-text {
+  position: relative;
+  z-index: 2;
+  color: #0ABF04;
+  font-family: "Anton", sans-serif; 
+}
+
+.contacto-banner-text h1 {
+  font-size: 3rem; 
+  font-weight: bold;
+  margin: 0;
+}
+
+.contacto-banner-text p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #ffffff;
+}
+.contacto-info {
+  margin-top: 20px;
+  margin: auto;
+  font-size: 1.2rem;
+  color: #0ABF04;
+  padding: 20px;
+  justify-content: center;
+  justify-items: center;
+}
+.map-container {
+  margin-top: 20px;
+  border: 2px solid #0ABF04; /* Borde verde */
+  border-radius: 8px;
+  overflow: hidden; /* Asegura que el iframe no sobresalga */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para el mapa */
 }
 
 .contacto-container {
   max-width: 600px;
+  margin: 0;
+  width: 100%;
   margin: 0 auto;
   background-color: black;
-  padding: 20px;
+  padding: 30px;
   border-radius: 8px;
   box-shadow: 0 4px 8px #034001;
 }
 
 .contacto-container h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-bottom: 20px;
   color: whitesmoke;
 }
 
 .contacto-container p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-bottom: 20px;
   color: whitesmoke;
+  
 }
 
 .contact-form {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 20px;
 }
 
 .contact-form input,
 .contact-form textarea {
   width: 100%;
-  padding: 10px;
-  font-size: 1rem;
+  padding: 15px;
+  font-size: 1.2rem;
   border: 1px solid #ddd;
   border-radius: 4px;
   outline: none;
@@ -397,12 +452,12 @@ h1, h2, h3{
 
 .contact-form textarea {
   resize: none;
-  height: 120px;
+  height: 150px;
 }
 
 .contact-form button {
-  padding: 10px 20px;
-  font-size: 1rem;
+  padding: 15px 20px;
+  font-size: 1.2rem;
   color: white;
   background-color: #0ABF04;
   border: none;
@@ -417,12 +472,14 @@ h1, h2, h3{
 
 .statusform {
   margin-top: 20px;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #0ABF04;
 }
+
 /* Responsivo para pantallas pequeñas */
 @media (max-width: 768px) {
   .contacto-container {
+    flex-direction: column;
     padding: 15px;
   }
 
@@ -431,6 +488,105 @@ h1, h2, h3{
   }
 
   .contact-form button {
+    font-size: 0.9rem;
+  }
+}
+
+/* Contenedor principal del componente */
+.clientes {
+  padding: 40px 20px;
+  background-color: black;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.clientes h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Estilo para las tarjetas de clientes */
+.clientes-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: black;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.clientes-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Imagen de los clientes */
+.clientes-image {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 10px;
+  align-self: center;
+  justify-self: center;
+  display: block; 
+  margin: 0 auto; 
+}
+
+/* Nombre del cliente */
+.clientes-card h3 {
+  font-size: 1rem;
+  color: #555;
+  margin: 0;
+}
+
+/* Ajustes para el carrusel */
+.slick-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-prev,
+.slick-next {
+  z-index: 1;
+  color: #333;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  color: #0ABF04;
+}
+
+.slick-dots li button:before {
+  color: #333;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #0ABF04;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .clientes h2 {
+    font-size: 1.5rem;
+  }
+
+  .clientes-card {
+    padding: 8px;
+  }
+
+  .clientes-image {
+    width: 80px;
+    height: 80px;
+  }
+
+  .clientes-card h3 {
     font-size: 0.9rem;
   }
 }

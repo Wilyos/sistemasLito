@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import Portafolio from './components/Portafolio';
 import WhatsApp from './components/whatsapp';
 import Contacto from "./components/pages/Contacto";
+import Clientes from './components/Clientes';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
                 <Carousel />
                 <WhatsApp />
                 <Portafolio />
+                <Clientes />
               </>
             }
           />
