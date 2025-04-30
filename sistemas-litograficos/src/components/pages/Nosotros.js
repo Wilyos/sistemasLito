@@ -31,7 +31,6 @@ function Nosotros() {
                 <img className="img-nosotros" alt="masde20" src={require('../../assets/masde20a.png')} />
             </div>
         </div>
-
         <div className="nosotros-valores">
           <div>
             <img className="img-nosotros" alt="valores" src={require('../../assets/valores.png')} />
@@ -44,10 +43,24 @@ function Nosotros() {
               <li>Garantizamos productos y servicios de la más alta calidad.</li>
               <li>Nos preocupamos por el medio ambiente y promovemos prácticas responsables.</li>
             </ul>
+          </div> 
+        </div>
+        <div className="nosotros-mision-vision">
+          <div>
+            <h2>Misión</h2>
+            <p>
+              Somos un empresa dedicada al diseño y producción de impresos, orientada a satisfacer todas las necesidades de nuestros clientes, en todo lo referente a la papelería comercial, a través de un servicio oportuno cuyo desempeño involucra diversos estándares de calidad y cumplimiento.
+            </p>
           </div>
-          
+          <div>
+            <h2>Visión</h2>
+            <p>
+              <strong>SISTEMAS LITOGRÁFICOS </strong> se está consolidando como una de las mejores empresas del sector gráfico a nivel nacional, ya que contamos con los recursos técnicos y humanos, necesarios para suplir las necesidades del área en diversos municipios de nuestro país.
+            </p>
+          </div>
         </div>
       </div>
+
     </>
   );
 }

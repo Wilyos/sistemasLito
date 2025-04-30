@@ -21,6 +21,12 @@ h1, h2, h3{
   font-style:normal;
   font-size: auto;
 }
+.p{
+  font-family: 'Beba Neue', sans-serif;
+  font-weight: 100;
+  font-style:normal;
+  font-size: auto;
+}
 
 .App {
   text-align: center;
@@ -631,7 +637,6 @@ h1, h2, h3{
 .nosotros-banner-text h1 {
   font-size: 5rem;
   font-weight: bold;
-  font-family: 'Beba Neue', sans-serif;
   font-style: italic;
 }
 
@@ -645,7 +650,8 @@ h1, h2, h3{
 }
 
 .nosotros-descripcion,
-.nosotros-valores {
+.nosotros-valores,
+.nosotros-mision-vision {
   margin-bottom: 40px;
   padding: 15px;
   display: flex ;
@@ -656,7 +662,8 @@ h1, h2, h3{
 }
 
 .nosotros-descripcion div,
-.nosotros-valores div {
+.nosotros-valores div,
+.nosotros-mision-vision div {
   flex: 1;
 }
 
@@ -670,15 +677,33 @@ h1, h2, h3{
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
+/* Nuevo contenedor para la imagen adicional */
+.nosotros-imagen-extra {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.nosotros-imagen-extra img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
 .nosotros-descripcion h2,
-.nosotros-valores h2 {
+.nosotros-valores h2,
+.nosotros-mision-vision h2 {
   font-size: 2rem;
   color: whitesmoke;
   margin-bottom: 20px;
 }
 
 .nosotros-descripcion p,
-.nosotros-valores ul {
+.nosotros-valores ul,
+.nosotros-mision-vision p {
   font-size: 1.2rem;
   line-height: 1.6;
   color: #4e4e4e;
@@ -701,7 +726,8 @@ h1, h2, h3{
 /* Responsivo para pantallas pequeñas */
 @media (max-width: 768px) {
   .nosotros-descripcion,
-  .nosotros-valores {
+  .nosotros-valores,
+  .nosotros-mision-vision {
     flex-direction: column;
     align-items: center; 
   }
@@ -709,5 +735,8 @@ h1, h2, h3{
   .img-nosotros {
     max-width: 100%;
     margin-bottom: 20px; 
+  }
+  .nosotros-imagen-extra img {
+    max-width: 100%;
   }
 }
