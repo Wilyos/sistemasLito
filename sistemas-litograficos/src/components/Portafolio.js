@@ -8,7 +8,7 @@ function Portafolio() {
 
     const products = [
         { id: 1, name: 'Editorial', image: require('../assets/editorialPortafolio.jpg') },
-        { id: 2, name: 'Publicomerciales', image: require('../assets/afichePortafolio.jpg') },
+        { id: 2, name: 'Publicomerciales', image: require('../assets/afichePortafolio.png') },
         { id: 3, name: 'Packaging', image: require('../assets/packagingPortafolio.jpg') },
         { id: 4, name: 'Corporativa', image: require('../assets/corporativasPortafolio.jpg') },
         { id: 5, name: 'Publicidad Exterior', image: require('../assets/exterioresPortafolio.png') },
