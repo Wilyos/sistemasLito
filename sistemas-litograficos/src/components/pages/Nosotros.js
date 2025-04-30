@@ -45,6 +45,7 @@ function Nosotros() {
             </ul>
           </div> 
         </div>
+        <span className="nosotros-linea"></span>
         <div className="nosotros-mision-vision">
           <div>
             <h2>Misión</h2>

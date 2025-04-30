@@ -21,7 +21,7 @@ function Navbar() {
             <li><a href="/nosotros">Quiénes Somos</a></li>
             <li><a href="#services">Portafolio</a></li>
             <li><a href="/contacto">Contáctanos</a></li>
-            <li><a href="#contact">Cotización</a></li>
+            <li><a href="/cotizacion">Cotización</a></li>
         </ul>
     </nav>
   );

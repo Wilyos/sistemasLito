@@ -9,6 +9,7 @@ import WhatsApp from './components/whatsapp';
 import Contacto from "./components/pages/Contacto";
 import Clientes from './components/Clientes';
 import Nosotros from './components/pages/Nosotros';
+import Cotizacion from './components/pages/Cotizacion';
 
 function App() {
   return (
@@ -31,6 +32,8 @@ function App() {
           {/* Ruta para la página de contacto */}
           <Route path="/contacto" element={<Contacto />} />
           <Route path="/nosotros" element={<Nosotros />} />
+          <Route path='/cotizacion' element={<Cotizacion />} />
+
         </Routes>
         
         <Footer />
