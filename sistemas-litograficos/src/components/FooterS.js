@@ -8,10 +8,10 @@ function FooterS() {
              <div className="wrapper-footer">
                 <div className="footer-widget">
                     <a href="#">
-                        <img src={require('../assets/Sis.png')} alt="logo-footer"/>
+                        <img src={require('../assets/logoSis.png')} alt="logo-footer" className="logo-footers"/>
                     </a>
                     <p className="desc">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi facere delectus a necessitatibus reiciendis!
+                        su proyecto es muy importante para nosotros
                     </p>
                     <ul className="socials-footers">
                         <li>
@@ -72,29 +72,36 @@ function FooterS() {
                     </ul>
                 </div>
                 <div className="footer-widget">
-                    <h6> Accesos Rapidos</h6>
+                    <h6>Soporte</h6>
                     <ul className="links-footers">
-                        <li>
-                            <a>Inicio</a>
-                        </li>
-                        <li>
-                            <a>Quiénes somos</a>
-                        </li>
-                        <li>
-                            <a>Soluciones</a>
-                        </li>
                         <li>
                             <a>Contactanos</a>
                         </li>
                         <li>
                             <a>Cotizaciones</a>
                         </li>
+                        <li>
+                            <a>Politicas de Cookies</a>
+                        </li>
+                        <li>
+                            <a>Politicas de privacidad</a>
+                        </li>
                     </ul>
+                </div>
+                <div className="copyright-warpper">
+                    <h6> Accesos Rapidos</h6>
+                        <p>
+                            Desing and Developed by
+                            <a href="#" target="blank"> Varakness</a>
+                        </p>
+                        <p>todos los derechos reservados Sistemas Litográficos 2025 &copy;</p>
                 </div>
              </div>
             </div>
         </footer>
             
             
-                )
+                );
 }
+
+export default FooterS;
