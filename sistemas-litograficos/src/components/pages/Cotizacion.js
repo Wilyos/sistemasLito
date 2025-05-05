@@ -103,9 +103,41 @@ function Cotizacion() {
             required
           >
             <option value="">Selecciona una opción</option>
-            <option value="etiquetas">Etiquetas</option>
-            <option value="empaques">Empaques</option>
-            <option value="materiales">Materiales promocionales</option>
+            <option value="varios">VARIOS PRODUCTOS</option>
+            <option value="tarjetas">Tarjetas personales</option>
+            <option value="volante">Volante</option>
+            <option value="brochure">Brochure / Plegable</option>
+            <option value="caja">Caja / Empaque</option>
+            <option value="etiqueta Adhesiva">Etiqueta Adhesiva</option>
+            <option value="afiche">Afiche</option>
+            <option value="agenda">Agenda</option>
+            <option value="calendario">Almanaque / Calendario</option>
+            <option value="block de notas">Block de notas</option>
+            <option value="boletas">Boletas</option>
+            <option value="bolsa">Bolsa</option>
+            <option value="carpeta">Carpeta</option>
+            <option value="cartilla">Cartilla / Catálogo</option>
+            <option value="dangler">Dangler</option>
+            <option value="display">Display</option>
+            <option value="etiqueta">Etiqueta</option>
+            <option value="exhibidor">Exhibidor</option>
+            <option value="floorgraphic">Floorgraphic</option>
+            <option value="libro">Libro</option>
+            <option value="membrete">Membrete</option>
+            <option value="carta">Menú Carta</option>
+            <option value="microperforado">Microperforado</option>
+            <option value="pendon">Pendón</option>
+            <option value="periodico">Periódico</option>
+            <option value="revista">Revista</option>
+            <option value="rompetrafico">Rompetráfico</option>
+            <option value="sello">Sello</option>
+            <option value="señalizacion">Señalización</option>
+            <option value="sobre">Sobre</option>
+            <option value="souvenir">Souvenir</option>
+            <option value="talonario">Talonario</option>
+            <option value="tope">Tope de góndola</option>
+            <option value="valla">Valla</option>
+            <option value="vinilo">Vinilo Adhesivo / Plotter</option>
           </select>
         </div>
         <div className="form-group">
