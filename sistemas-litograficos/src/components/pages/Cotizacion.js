@@ -1,8 +1,10 @@
 import React, { useState } from "react";
+import { useNavigate } from 'react-router-dom';
 import emailjs from "emailjs-com";
 import "../../App.css";
 
 function Cotizacion() {
+  const navigate = useNavigate();
   const [formData, setFormData] = useState({
     nombre: "",
     email: "",
@@ -41,6 +43,7 @@ function Cotizacion() {
             cantidad: "",
             mensaje: "",
           });
+          navigate('/confirmacion');
         },
         (error) => {
           console.error("Error al enviar la cotización:", error.text);
