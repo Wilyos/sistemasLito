@@ -3,14 +3,13 @@ import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Carousel from './components/Carousel';
-
+import Footer from './components/Footer';
 import Portafolio from './components/Portafolio';
 import WhatsApp from './components/whatsapp';
 import Contacto from "./components/pages/Contacto";
 import Clientes from './components/Clientes';
 import Nosotros from './components/pages/Nosotros';
 import Cotizacion from './components/pages/Cotizacion';
-import FooterS from './components/FooterS';
 import Soluciones from './components/pages/Soluciones';
 
 function App() {
@@ -37,7 +36,7 @@ function App() {
           <Route path='/cotizacion' element={<Cotizacion />} />
           <Route path='/soluciones' element={<Soluciones />} />
         </Routes>
-        <FooterS />
+        <Footer />
         
       </div>
     </Router>

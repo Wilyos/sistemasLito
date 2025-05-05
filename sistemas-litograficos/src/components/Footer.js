@@ -3,39 +3,96 @@ import '../App.css';
 
 function Footer() {
   return (
-    <footer className="footer">
-      
-      <div className="footer-section">
-        <h3>Términos de Privacidad</h3>
-        <ul>
-          <li><a href="#terms">Política de Privacidad</a></li>
-          <li><a href="#cookies">Política de Cookies</a></li>
-          <li><a href="#legal">Aviso Legal</a></li>
-        </ul>
-      </div>
-      <div className="footer-section">
-        <h3>Contacto y Redes Sociales</h3>
-        <div className='footer-contact'>
-          <img src='../assets/email.png' alt='email' className='logo-footer'/>
-          <p>: contacto@sistemaslitograficos.com</p>
-        </div>
-        <div className='footer-contact'>
-          <img src='../assets/telIcon.png' alt='telefono' className='logo-footer'/>
-          <p>: +57(604) 448 37 13  Ext 100</p>
-        </div>
-        <div className='footer-contact'>
-          <img src='../assets/whatsapp.png' alt='Whatsapp' className='logo-footer'/>
-          <a href='https://api.whatsapp.com/send/?phone=573018567334&text&type=phone_number&app_absent=0'target="_blank" rel="noopener noreferrer">
-            <p>: +57 301 856 7334</p>
-          </a>
-        </div>
-        <div className="social-icons">
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"> 
-            <img src='../assets/instagram.png' alt='Instagram-logo' className='logo-footer' />
-          </a>
-        </div>
-      </div>   
-    </footer>
+    <footer className="footers">
+            <div className="container-sfoooter">
+             <div className="wrapper-footer">
+                <div className="footer-widget">
+                    <a href="#">
+                        <img src={require('../assets/logoSis.png')} alt="logo-footer" className="logo-footers"/>
+                    </a>
+                    <p className="desc">
+                        su proyecto es muy importante para nosotros
+                    </p>
+                    <ul className="socials-footers">
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </li> 
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li> 
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-tiktok"></i>
+                            </a>
+                        </li> 
+                    </ul>
+                </div>
+                <div className="footer-widget">
+                    <h6> Accesos Rapidos</h6>
+                    <ul className="links-footers">
+                        <li>
+                            <a>Inicio</a>
+                        </li>
+                        <li>
+                            <a>Quiénes somos</a>
+                        </li>
+                        <li>
+                            <a>Soluciones</a>
+                        </li>
+                    </ul>
+                </div>
+                <div className="footer-widget">
+                    <h6>Servicios</h6>
+                    <ul className="links-footers">
+                        <li>
+                            <a>Editoriales</a>
+                        </li>
+                        <li>
+                            <a>Empaques</a>
+                        </li>
+                        <li>
+                            <a>Publicidad</a>
+                        </li>
+                        <li>
+                            <a>Corporativo</a>
+                        </li>
+                        <li>
+                            <a>Exteriores</a>
+                        </li>
+                    </ul>
+                </div>
+                <div className="footer-widget">
+                    <h6>Soporte</h6>
+                    <ul className="links-footers">
+                        <li>
+                            <a>Contactanos</a>
+                        </li>
+                        <li>
+                            <a>Cotizaciones</a>
+                        </li>
+                        <li>
+                            <a>Politicas de Cookies</a>
+                        </li>
+                        <li>
+                            <a>Politicas de privacidad</a>
+                        </li>
+                    </ul>
+                </div>
+                <div className="copyright-warpper">
+                    <h6> Accesos Rapidos</h6>
+                        <p>
+                            Desing and Developed by
+                            <a href="#" target="blank"> Wilyos</a>
+                        </p>
+                        <p>todos los derechos reservados Sistemas Litográficos 2025 &copy;</p>
+                </div>
+             </div>
+            </div>
+        </footer>
     
   );
 }
