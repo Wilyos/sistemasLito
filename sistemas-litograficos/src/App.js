@@ -11,6 +11,7 @@ import Clientes from './components/Clientes';
 import Nosotros from './components/pages/Nosotros';
 import Cotizacion from './components/pages/Cotizacion';
 import Soluciones from './components/pages/Soluciones';
+import Confirmacion from './components/pages/Confirmacion';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
           <Route path="/nosotros" element={<Nosotros />} />
           <Route path='/cotizacion' element={<Cotizacion />} />
           <Route path='/soluciones' element={<Soluciones />} />
+          <Route path="/confirmacion" element={<Confirmacion />} />
         </Routes>
         <Footer />
         

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import '../../App.css';
 import emailjs from 'emailjs-com';
 
@@ -6,6 +7,7 @@ import emailjs from 'emailjs-com';
 
 
 function Contacto() {
+    const navigate = useNavigate();
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -24,10 +26,10 @@ function Contacto() {
     
         emailjs
           .send(
-            'service_o4i1gjv', // ID del servicio
-            'template_zqekdly', // ID de la plantilla
+            'service_ektrht6', // ID del servicio
+            'template_tnbp67s', // ID de la plantilla
             formData,
-            'O8MlXFSPgUnJA7cbA' //ID Api usuario
+            'RE-ejFaqAtCzb1kUX' //ID Api usuario
           )
           .then(
             (result) => {
@@ -38,6 +40,7 @@ function Contacto() {
                 email: '',
                 message: '',
               });
+              navigate('/confirmacion');
             },
             (error) => {
               console.error('Error al enviar el correo:', error.text);

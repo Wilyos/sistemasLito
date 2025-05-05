@@ -664,6 +664,8 @@ p{
 .cotizacion-container {
   max-width: 800px;
   margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   padding: 20px;
   background-color: #f9f9f9;
   border-radius: 8px;
@@ -1008,4 +1010,26 @@ aside{
 }
 .producto-titulo{
   font-size: 1rem;
+}
+
+/* confirmacion */ 
+.confirmacion-container {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 1rem;
+  margin: 2rem auto;
+  max-width: 600px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.confirmacion-container h1 {
+  color: #0abf04;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.confirmacion-container p {
+  color: #333;
+  font-size: 1.2rem;
 }
