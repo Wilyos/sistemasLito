@@ -450,7 +450,7 @@ p{
 /* Imagen de los clientes */
 .clientes-image {
   width: 150px;
-  height: 0px;
+  height: 150px;
   object-fit: contain;
   margin-bottom: 10px;
   align-self: center;
