@@ -7,7 +7,7 @@ function Footer() {
             <div className="container-sfoooter">
              <div className="wrapper-footer">
                 <div className="footer-widget">
-                    <a href="#">
+                    <a href="/">
                         <img src={require('../assets/logoSis.png')} alt="logo-footer" className="logo-footers"/>
                     </a>
                     <p className="desc">
@@ -15,17 +15,17 @@ function Footer() {
                     </p>
                     <ul className="socials-footers">
                         <li>
-                            <a href="#">
+                            <a href="https://www.facebook.com/sistemaslitograficos2021">
                                 <i class="fa-brands fa-facebook-f"></i>
                             </a>
                         </li> 
                         <li>
-                            <a href="#">
+                            <a href="https://www.instagram.com/sistemaslitograficossas/">
                                 <i class="fa-brands fa-instagram"></i>
                             </a>
                         </li> 
                         <li>
-                            <a href="#">
+                            <a href="https://www.tiktok.com/@sistemaslitograficos">
                                 <i class="fa-brands fa-tiktok"></i>
                             </a>
                         </li> 
@@ -35,13 +35,13 @@ function Footer() {
                     <h6> Accesos Rapidos</h6>
                     <ul className="links-footers">
                         <li>
-                            <a>Inicio</a>
+                            <a href='/'>Inicio</a>
                         </li>
                         <li>
-                            <a>Quiénes somos</a>
+                            <a href='/nosotros'>Quiénes somos</a>
                         </li>
                         <li>
-                            <a>Soluciones</a>
+                            <a href='/soluciones'>Soluciones</a>
                         </li>
                     </ul>
                 </div>
@@ -49,19 +49,19 @@ function Footer() {
                     <h6>Servicios</h6>
                     <ul className="links-footers">
                         <li>
-                            <a>Editoriales</a>
+                            <a href='/soluciones'>Editoriales</a>
                         </li>
                         <li>
-                            <a>Empaques</a>
+                            <a href='/soluciones'>Empaques</a>
                         </li>
                         <li>
-                            <a>Publicidad</a>
+                            <a href='/soluciones'>Publicidad</a>
                         </li>
                         <li>
-                            <a>Corporativo</a>
+                            <a href='/soluciones'>Corporativo</a>
                         </li>
                         <li>
-                            <a>Exteriores</a>
+                            <a href='/soluciones'>Exteriores</a>
                         </li>
                     </ul>
                 </div>
@@ -69,16 +69,16 @@ function Footer() {
                     <h6>Soporte</h6>
                     <ul className="links-footers">
                         <li>
-                            <a>Contactanos</a>
+                            <a href='/contacto'>Contactanos</a>
                         </li>
                         <li>
-                            <a>Cotizaciones</a>
+                            <a href='/cotizacion'>Cotizaciones</a>
                         </li>
                         <li>
-                            <a>Politicas de Cookies</a>
+                            <a href='/'>Politicas de Cookies</a>
                         </li>
                         <li>
-                            <a>Politicas de privacidad</a>
+                            <a href='/'>Politicas de privacidad</a>
                         </li>
                     </ul>
                 </div>
@@ -86,7 +86,7 @@ function Footer() {
                     <h6> Accesos Rapidos</h6>
                         <p>
                             Desing and Developed by
-                            <a href="#" target="blank"> Wilyos</a>
+                            <a href="https://github.com/Wilyos" target="blank"> Wilyos</a>
                         </p>
                         <p>todos los derechos reservados Sistemas Litográficos 2025 &copy;</p>
                 </div>

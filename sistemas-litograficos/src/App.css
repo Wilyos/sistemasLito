@@ -305,7 +305,7 @@ p{
   margin-top: 20px;
   margin: auto;
   font-size: 1.2rem;
-  color: #0ABF04;
+  color: whitesmoke;
   padding: 20px;
   justify-content: center;
   justify-items: center;
@@ -354,6 +354,7 @@ p{
   padding: 15px;
   font-size: 1.2rem;
   border: 1px solid #ddd;
+  background-color: #ccc;
   border-radius: 4px;
   outline: none;
   transition: border-color 0.3s ease;
@@ -448,8 +449,8 @@ p{
 
 /* Imagen de los clientes */
 .clientes-image {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 0px;
   object-fit: contain;
   margin-bottom: 10px;
   align-self: center;

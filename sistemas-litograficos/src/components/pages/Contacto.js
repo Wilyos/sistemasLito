@@ -10,6 +10,7 @@ function Contacto() {
     const navigate = useNavigate();
     const [formData, setFormData] = useState({
         name: '',
+        phone: '',
         email: '',
         message: '',
       });
@@ -37,6 +38,7 @@ function Contacto() {
               setStatus('Correo enviado exitosamente, nos contactaremos muy pronto.');
               setFormData({
                 name: '',
+                phone: '',
                 email: '',
                 message: '',
               });
@@ -80,8 +82,9 @@ function Contacto() {
                 <p>Contáctanos para cualquier pregunta, posibles proyectos y trabajos que quieras cotizar</p>
                 <form className="contact-form" onSubmit={handleSubmit}>
                     <input type="text" name='name' placeholder="Nombre" value={formData.name} onChange={handleChange} required />
+                    <input type="text" name='phone' placeholder='Telefono' value={formData.phone} onChange={handleChange} required></input>
                     <input type="email"name='email' placeholder="Correo Electrónico" value={formData.email} onChange={handleChange} required />
-                    <textarea name="message" placeholder="Mensaje" value={formData.message} onChange={handleChange} required></textarea>
+                    <textarea name="message" placeholder="información adicional, comentarios...." value={formData.message} onChange={handleChange} required></textarea>
                     <button type="submit">Enviar</button>
                 </form>
                 {status && <p className='statusform'>{status}</p>}
