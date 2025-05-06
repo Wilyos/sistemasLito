@@ -7,8 +7,8 @@ import 'slick-carousel/slick/slick-theme.css';
 
 function Carousel() {
   const banners = [
-    require('../assets/banner1.jpg'),
-    require('../assets/banner2.png'),
+    require('../assets/banner1.webp'),
+    require('../assets/banner2.webp'),
   ];
 
   const settings = {

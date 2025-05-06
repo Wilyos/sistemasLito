@@ -15,7 +15,7 @@ const PrivacyPolicy = () => {
       <h4>Octubre 01 2016</h4>
       <h3>Contenido</h3>
       <ul>
-        <li onClick={() => toggleSection('INTRODUCCIÓN')}>
+        <li className='li-privacy-in' onClick={() => toggleSection('INTRODUCCIÓN')}>
         INTRODUCCIÓN
           {expandedSection === 'INTRODUCCIÓN' && (
             <p>
@@ -31,7 +31,7 @@ const PrivacyPolicy = () => {
             </p>
           )}
         </li>
-        <li onClick={() => toggleSection('disposicionesGenerales')}>
+        <li className='li-privacy-in' onClick={() => toggleSection('disposicionesGenerales')}>
           PARTE I. DISPOSICIONES GENERALES
           {expandedSection === 'disposicionesGenerales' && (
             <ul>
@@ -91,7 +91,7 @@ const PrivacyPolicy = () => {
             </ul>
           )}
         </li>
-        <li onClick={() => toggleSection('derechosYDeberes')}> 
+        <li className='li-privacy-in' onClick={() => toggleSection('derechosYDeberes')}> 
           PARTE II. DERECHOS Y DEBERES
           {expandedSection === 'derechosYDeberes' && (
               <ul>
@@ -126,7 +126,7 @@ const PrivacyPolicy = () => {
                       ARTÍCULO 7. DEBERES DEL RESPONSABLE DE LA INFORMACIÓN:
                     </h4>
                     <p>
-                    En calidad de Responsable del Tratamiento de los datos personales, y de conformidad con lo establecido en la Ley 1581 de 2012, sistemas litográficos., se compromete a cumplir con los siguientes deberes, en lo relacionado con el tratamiento de datos personales:
+                      En calidad de Responsable del Tratamiento de los datos personales, y de conformidad con lo establecido en la Ley 1581 de 2012, sistemas litográficos., se compromete a cumplir con los siguientes deberes, en lo relacionado con el tratamiento de datos personales:
                     </p>
                     <ul>
                       <li>
@@ -170,7 +170,7 @@ const PrivacyPolicy = () => {
               </ul>
           )}
         </li>
-        <li onClick={() => toggleSection('autorizacionYFinalidad')}>
+        <li className='li-privacy-in' onClick={() => toggleSection('autorizacionYFinalidad')}>
           PARTE III. AUTORIZACIÓN Y FINALIDAD
           {expandedSection === 'autorizacionYFinalidad' && (
            <ul>
@@ -207,7 +207,7 @@ const PrivacyPolicy = () => {
            </ul>
           )}
         </li>
-        <li onClick={() => toggleSection('procedimiento')}>
+        <li className='li-privacy-in' onClick={() => toggleSection('procedimiento')}>
           PARTE IV. PROCEDIMIENTO PARA EL EJERCICIO DE LOS DERECHOS DEL TITULAR DE LA INFORMACIÓN
           {expandedSection === 'procedimiento' && (
             <ul>
@@ -225,7 +225,7 @@ const PrivacyPolicy = () => {
             
           )}
         </li>
-        <li onClick={() => toggleSection('seguridadYConfidencialidad')}>
+        <li className='li-privacy-in' onClick={() => toggleSection('seguridadYConfidencialidad')}>
           PARTE V. SEGURIDAD Y CONFIDENCIALIDAD DE LA INFORMACIÓN
           {expandedSection === 'seguridadYConfidencialidad' && (
             <div>
@@ -238,7 +238,7 @@ const PrivacyPolicy = () => {
             </div>
           )}
         </li>
-        <li onClick={() => toggleSection('disposicionesFinales')}>
+        <li className='li-privacy-in' onClick={() => toggleSection('disposicionesFinales')}>
           PARTE VI. DISPOSICIONES FINALES
           {expandedSection === 'disposicionesFinales' && (
             <div>
@@ -253,12 +253,66 @@ const PrivacyPolicy = () => {
             </div>
           )}
         </li>
-        <li onClick={() => toggleSection('anexos')}>
+        <li className='li-privacy-in' onClick={() => toggleSection('anexos')}>
           ANEXOS
           {expandedSection === 'anexos' && (
             <div>
               <h4>ANEXO 1</h4>
+              <h5> AUTORIZACIÓN TRATAMIENTO DE DATOS PERSONALES</h5>
+                <p>
+                  De conformidad con lo dispuesto en la Ley 1581 de 2012 y el Decreto 1377 de 2013, declaro que entrego de forma libre y voluntaria los siguientes datos personales: Nombres y apellidos, documento de identificación, género, dirección, ciudad, departamento, teléfonos, celular, fecha de nacimiento, correo electrónico (en adelante los “Datos Personales”) a nombre de la empresa(en adelante el “Sistemas litográficos.,”). En los términos de las definiciones de la Ley 1581 de 2012, Sistemas litográficos.,  actúa como responsable y encargado del tratamiento de mis Datos Personales. Doy mi autorización expresa para que Sistemas litográficos.,  recolecte y de cualquier otra manera trate mis Datos Personales para las siguientes finalidades: Medir niveles de satisfacción, Informar sobre Campañas de Servicio, Comunicar Campañas promocionales, Realizar Encuestas, Realizar Recordatorio para Mantenimientos, Ejecutar Campañas de Fidelización, Enviar Invitaciones a eventos, Realizar actualización de datos, Invitar a pruebas de vehículos, ofrecimiento de productos y servicios, comunicar noticias de la marca Sistemas litográficos.,  y de la red de ventas y servicios, comunicar información relacionada con productos para la financiación en la adquisición de nuestros bienes y servicios..
+
+                  Con la firma de este documento autorizo a que mis Datos Personales sean recolectados y tratados de conformidad con la política de privacidad o política de tratamiento de la información de Sistemas litográficas., A, la cual está disponible en la página web www.sistemaslitograficos.com
+
+                  En relación con los Datos Personales recolectados y tratados y de acuerdo con la Ley 1581 de 2012 y el Decreto 1377 de 2013, he sido informado que tengo los siguientes derechos:
+                </p>
+                <ul>
+                  <li>
+                    Conocer, actualizar y corregir mis Datos Personales. Puedo ejercer este derecho, entre otros, en relación con la información, parcial, inexacta, incompleta, dividida, información engañosa o cuyo tratamiento sea prohibido o no autorizado.
+                  </li>
+                  <li>
+                    Requerir prueba del consentimiento otorgado para la recolección y el tratamiento de mis Datos Personales.
+                  </li>
+                  <li>
+                    Ser informado por Sistemas litográficas., del uso que se le han dado a mis Datos Personales.
+                  </li>
+                  <li>
+                    Presentar quejas ante la Superintendencia de Industria y Comercio en el caso en que haya una violación por parte de Sistemas litográficos., de las disposiciones de la Ley 1581 de 2012, el Decreto 1377 de 2013 y otras normas que los modifiquen, adicionen o complementen, de conformidad con las disposiciones sobre el requisito de procedibilidad establecido en el artículo 16 Ley 1581 de 2012.
+                  </li>
+                  <li>
+                    Revocar la autorización otorgada para el tratamiento de mis Datos Personales.
+                  </li>
+                  <li>
+                    Solicitar ser eliminado de su base de datos.
+                  </li>
+                  <li>
+                    Tener acceso a mis Datos Personales que Sistemas litográficos., haya recolectado y tratado.
+                  </li>
+                </ul>
+                <p>
+                  Con el fin de ejercer los derechos anteriormente descritos, realizar consultas o reclamos relacionados con mis Datos Personales, puedo contactar al Centro de Acompañamiento al Cliente en www.sistemaslitograficos.como a los teléfonos +574 448 17 88
+
+                  Firma del cliente:
+
+                  Nombre:
+
+                  CC:
+
+                  Fecha:
+
+                  Si el titular de los datos es menor de edad, la autorización debe ser firmada por su Representante Legal.
+                </p>
               <h4>ANEXO 2</h4>
+              <h5>AVISO DE PRIVACIDAD</h5>
+                <p>
+                  Responsable: sistemas litográficos identificada con NIT. 890.922.323-1
+
+                  De conformidad con lo dispuesto en la ley 1581 de 2012, le informamos que los datos personales que usted nos ha entregado, como cliente o prestador de bienes y servicios, harán parte de nuestra base de datos para ser usados con la siguiente finalidad: Medir niveles de satisfacción, Informar sobre Campañas de Servicio, Comunicar Campañas promocionales, Realizar Encuestas, Realizar Recordatorio para Mantenimientos, Ejecutar Campañas de Fidelización, Enviar Invitaciones a eventos, Realizar actualización de datos, Invitar a pruebas de vehículos, ofrecimiento de productos y servicios, comunicar noticias de la marca Sistemas litográficos y de la red de ventas y servicios, comunicar información relacionada con productos para la financiación en la adquisición de nuestros bienes y servicios.
+
+                  El manejo de dichos datos se hará de acuerdo a lo establecido en el “Manual de Políticas y Procedimientos para el Tratamiento de Datos Personales”, que contiene las políticas establecidas por nuestra Compañía para el tratamiento de datos, los mecanismos para la efectividad de los derechos del Titular de la información a conocer, actualizar, rectificar, suprimir los datos que reposan en nuestra base de datos, así como a reclamar al responsable y revocar la autorización para su uso. Dicho manual puede ser consultado en la página web: www.sistemaslitograficos.com
+
+ 
+                </p>
             </div>
           )}
         </li>

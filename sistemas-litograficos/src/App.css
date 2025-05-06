@@ -1060,21 +1060,24 @@ aside{
   margin-bottom: 1rem;
 }
 
-.container-privacy ul {
-  padding-left: 1.5rem;
-}
 
-.container-privacy li {
+
+.container-privacy .li-privacy-in {
   color:#ccc;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   list-style: none;
   cursor: pointer; 
   transition: all 0.3s ease;
 }
+.container-privacy > li{
+  list-style: none;
+}
 
-.container-privacy ul li:hover {
+.container-privacy ul .li-privacy-in :hover {
   color: #0abf04; 
-  transform: scale(1.05); 
+  transform: scale(1.025); 
+  background-color: black;
+  border-radius: 50% solid #0abf04;
 }
 
 
