@@ -8,6 +8,8 @@ import '../../App.css';
 function Soluciones(){
 
     const [selectedCategory, setSelectedCategory] = useState("todos");
+    const  [menuVisible,setMenuVisible] = useState(false)
+    
 
     const products = [
         { id: 1, name: 'Editorial', image: require('../../assets/editorialPortafolio.jpg'), categoria: 'Editorial' },
@@ -25,14 +27,27 @@ function Soluciones(){
     return (
         <>
             <div className="wrapper-solucion">
-                <aside>
+                <header className="movil">
+                    <button className="open-menu" id="open-menu" onClick={()=> setMenuVisible(true)}>
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </header>
+                <aside className={menuVisible ? "aside-visible": ""}>
+                    <button className="close-menu" id="close-menu" onClick={()=> setMenuVisible(false)}>
+                        <i class="fa-solid fa-x"></i>
+                    </button>
                     <navbar>
+
                         <ul className="menu-aside">
+                        
                             <li>
                                 <button
                                     id="todos"
                                     className={`boton-categoria ${selectedCategory === "todos" ? "active" : ""}`}
-                                    onClick={() => setSelectedCategory("todos")}
+                                    onClick={() => {setSelectedCategory("todos");
+                                        setMenuVisible(false);
+                                        }
+                                    }
                                 >
                                     <i className="fa-solid fa-hand-point-right"></i> Todos los productos
                                 </button>

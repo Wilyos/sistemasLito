@@ -208,8 +208,10 @@ p{
 
 .portafolio-image {
   width: 100%;
-  height: 480px;
-  object-fit: cover;
+  height: 300px;
+  object-fit: contain;
+  border-radius: 8px;
+  background-color: #f9f9f9;
 }
 
 .portafolio-card h3 {
@@ -223,11 +225,37 @@ p{
   .portafolio-grid {
     grid-template-columns: repeat(2, 1fr); 
   }
+
+  .portafolio-card {
+    max-width: 100%;
+    width: 90%; 
+    margin: 0 auto; 
+  }
+  .portafolio-image {
+    height: 200px; 
+    object-fit: contain;
+  }
+
+  .portafolio-card h3 {
+    font-size: 0.9rem;
+  }
 }
 
 @media (max-width: 480px) {
   .portafolio-grid {
     grid-template-columns: 1fr;
+  }
+
+  .portafolio-card {
+    width: 100%; 
+  }
+
+  .portafolio-image {
+    height: 150px; 
+  }
+
+  .portafolio-card h3 {
+    font-size: 0.8rem;
   }
 }
 
@@ -1012,6 +1040,82 @@ aside{
 .producto-titulo{
   font-size: 1rem;
 }
+
+.movil{
+  display: none;
+}
+
+.close-menu{
+  display: none;
+}
+/*media query */
+@media screen and (max-width: 600px) {
+  .wrapper-solucion{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  aside{
+    position: fixed;
+    z-index: 9;
+    background-color: black;
+    left: 0;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.75);
+    transform: translateX(-100%);
+    opacity: 0;
+    visibility: hidden;
+    transition: .2s;
+  }
+  .aside-visible{
+    transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
+
+  }
+  .boton-categoria.active::before,
+  .boton-categoria.active::after{
+    display: none;
+  }
+
+  .main-soluciones {
+    margin: 1rem;
+    padding: 2rem;
+  }
+  
+  .contenedor-soluciones {
+    grid-template-columns: 1fr 1fr;
+
+  }
+  .movil{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  .open-menu, .close-menu{
+    background-color: transparent;
+    color: #ccc;
+    border: 0;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+
+  .close-menu{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: block;
+  }
+}
+
+
+
+
+
+
+
+
 
 /* confirmacion */ 
 .confirmacion-container {
