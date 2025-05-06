@@ -5,8 +5,7 @@ import emailjs from 'emailjs-com';
 
 
 
-
-function Contacto() {
+const Contacto =() => {
     const navigate = useNavigate();
     const [formData, setFormData] = useState({
         name: '',

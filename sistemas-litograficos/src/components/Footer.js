@@ -78,7 +78,7 @@ function Footer() {
                             <a href='/'>Politicas de Cookies</a>
                         </li>
                         <li>
-                            <a href='/'>Politicas de privacidad</a>
+                            <a href='/privacy'>Politicas de privacidad</a>
                         </li>
                     </ul>
                 </div>

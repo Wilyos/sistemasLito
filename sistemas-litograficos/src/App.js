@@ -12,6 +12,7 @@ import Nosotros from './components/pages/Nosotros';
 import Cotizacion from './components/pages/Cotizacion';
 import Soluciones from './components/pages/Soluciones';
 import Confirmacion from './components/pages/Confirmacion';
+import PrivacyPolicy from './components/pages/PrivacyPolicy';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
           <Route path='/cotizacion' element={<Cotizacion />} />
           <Route path='/soluciones' element={<Soluciones />} />
           <Route path="/confirmacion" element={<Confirmacion />} />
+          <Route path='/privacy' element={<PrivacyPolicy />} />
         </Routes>
         <Footer />
         

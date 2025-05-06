@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import emailjs from "emailjs-com";
 import "../../App.css";
 
-function Cotizacion() {
+const Cotizacion = () => {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
     nombre: "",

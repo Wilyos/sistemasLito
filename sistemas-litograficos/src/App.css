@@ -1034,3 +1034,48 @@ aside{
   color: #333;
   font-size: 1.2rem;
 }
+
+/*  politicas de privacidad */
+
+
+.container-privacy {
+  margin: 20px auto;
+  line-height: 1.6;
+  padding:  2rem;
+  max-width: 1200px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+  
+}
+
+.container-privacy h1, h2, h3, h4 {
+  color: #4e4e4e;
+  margin-bottom: .5rem;
+}
+.container-privacy p{
+  font-size: 14px;
+  text-align: justify;
+  color: #4e4e4e;
+  margin-bottom: 1rem;
+}
+
+.container-privacy ul {
+  padding-left: 1.5rem;
+}
+
+.container-privacy li {
+  color:#ccc;
+  margin-bottom: 2rem;
+  list-style: none;
+  cursor: pointer; 
+  transition: all 0.3s ease;
+}
+
+.container-privacy ul li:hover {
+  color: #0abf04; 
+  transform: scale(1.05); 
+}
+
+
+

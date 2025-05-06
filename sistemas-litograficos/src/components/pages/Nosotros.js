@@ -1,7 +1,7 @@
 import React from "react";
 import "../../App.css";
 
-function Nosotros() {
+const Nosotros = () => {
   return (
     <>
       {/* Banner */}
