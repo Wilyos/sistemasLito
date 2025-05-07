@@ -4,14 +4,14 @@ import "../../App.css";
 const Nosotros = () => {
   return (
     <>
-      {/* Banner */}
+   
       <div className="nosotros-banner">
         <div className="nosotros-banner-text">
           <h1>¿Quiénes Somos?</h1>
         </div>
       </div>
-
-      {/* Contenido principal */}
+      <div className="nosotros-parallax">
+      </div>
       <div className="nosotros-container">
         <div className="nosotros-descripcion">
             <div>

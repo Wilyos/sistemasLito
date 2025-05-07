@@ -28,7 +28,12 @@ function Footer() {
                             <a href="https://www.tiktok.com/@sistemaslitograficos">
                                 <i class="fa-brands fa-tiktok"></i>
                             </a>
-                        </li> 
+                        </li>
+                        <li>
+                            <a href="https://api.whatsapp.com/send/?phone=573018567334&text&type=phone_number&app_absent=0">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div className="footer-widget">
@@ -74,9 +79,9 @@ function Footer() {
                         <li>
                             <a href='/cotizacion'>Cotizaciones</a>
                         </li>
-                        <li>
+                       { /*<li>
                             <a href='/'>Politicas de Cookies</a>
-                        </li>
+                        </li> */}
                         <li>
                             <a href='/privacy'>Politicas de privacidad</a>
                         </li>

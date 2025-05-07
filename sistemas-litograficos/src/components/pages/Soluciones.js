@@ -56,7 +56,10 @@ function Soluciones(){
                                 <button
                                     id="Editorial"
                                     className={`boton-categoria ${selectedCategory === "Editorial" ? "active" : ""}`}
-                                    onClick={() => setSelectedCategory("Editorial")}
+                                    onClick={() => {setSelectedCategory("Editorial");
+                                        setMenuVisible(false);
+                                        }
+                                    }
                                 >
                                     <i className="fa-regular fa-hand-point-right"></i> Editoriales
                                 </button>
@@ -65,7 +68,10 @@ function Soluciones(){
                                 <button
                                     id="Publicidad"
                                     className={`boton-categoria ${selectedCategory === "Publicidad" ? "active" : ""}`}
-                                    onClick={() => setSelectedCategory("Publicidad")}
+                                    onClick={() => {setSelectedCategory("Publicidad");
+                                        setMenuVisible(false);
+                                        }
+                                    }
                                 >
                                     <i className="fa-regular fa-hand-point-right"></i> Publicidad
                                 </button>
@@ -74,7 +80,10 @@ function Soluciones(){
                                 <button
                                     id="Empaque"
                                     className={`boton-categoria ${selectedCategory === "Empaque" ? "active" : ""}`}
-                                    onClick={() => setSelectedCategory("Empaque")}
+                                    onClick={() => {setSelectedCategory("Empaque");
+                                        setMenuVisible(false);
+                                        }
+                                    }
                                 >
                                     <i className="fa-regular fa-hand-point-right"></i> Empaques
                                 </button>
@@ -83,7 +92,10 @@ function Soluciones(){
                                 <button
                                     id="Corporativo"
                                     className={`boton-categoria ${selectedCategory === "Corporativo" ? "active" : ""}`}
-                                    onClick={() => setSelectedCategory("Corporativo")}
+                                    onClick={() => {setSelectedCategory("Corporativo");
+                                        setMenuVisible(false);
+                                        }
+                                    }
                                 >
                                     <i className="fa-regular fa-hand-point-right"></i> Corporativo
                                 </button>
@@ -92,7 +104,10 @@ function Soluciones(){
                                 <button
                                     id="PublicidadEx"
                                     className={`boton-categoria ${selectedCategory === "PublicidadEx" ? "active" : ""}`}
-                                    onClick={() => setSelectedCategory("PublicidadEx")}
+                                    onClick={() => {setSelectedCategory("PublicidadEx");
+                                        setMenuVisible(false);
+                                        }
+                                    }
                                 >
                                     <i className="fa-regular fa-hand-point-right"></i> Publicidad Exterior
                                 </button>
@@ -101,7 +116,10 @@ function Soluciones(){
                                 <button
                                     id="MaterialPop"
                                     className={`boton-categoria ${selectedCategory === "MaterialPop" ? "active" : ""}`}
-                                    onClick={() => setSelectedCategory("MaterialPop")}
+                                    onClick={() => {setSelectedCategory("MaterialPop");
+                                        setMenuVisible(false);
+                                        }
+                                    }
                                 >
                                     <i className="fa-regular fa-hand-point-right"></i> Material P.O.P
                                 </button>

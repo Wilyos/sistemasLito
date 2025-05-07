@@ -26,7 +26,6 @@ function App() {
             element={
               <>
                 <Carousel />
-                <WhatsApp />
                 <Portafolio />
                 <Clientes />
               </>
@@ -40,6 +39,7 @@ function App() {
           <Route path="/confirmacion" element={<Confirmacion />} />
           <Route path='/privacy' element={<PrivacyPolicy />} />
         </Routes>
+        <WhatsApp />
         <Footer />
         
       </div>
