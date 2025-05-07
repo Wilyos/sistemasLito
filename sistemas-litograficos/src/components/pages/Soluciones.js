@@ -29,7 +29,7 @@ function Soluciones(){
             <div className="wrapper-solucion">
                 <header className="movil">
                     <button className="open-menu" id="open-menu" onClick={()=> setMenuVisible(true)}>
-                        <i class="fa-solid fa-bars"></i>
+                        <i class="fa-solid fa-bars"></i>Menú
                     </button>
                 </header>
                 <aside className={menuVisible ? "aside-visible": ""}>

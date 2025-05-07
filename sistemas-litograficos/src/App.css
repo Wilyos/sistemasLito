@@ -444,6 +444,29 @@ p{
   color: #0ABF04;
 }
 
+/* Ajustes para pantallas medianas */
+@media (max-width: 1024px) {
+  .contacto {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .contacto-info {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .contacto-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .map-container iframe {
+    height: 250px;
+  }
+}
+
+
 /* Responsivo para pantallas pequeñas */
 @media (max-width: 768px) {
   .contacto-container {
@@ -457,6 +480,32 @@ p{
 
   .contact-form button {
     font-size: 0.9rem;
+  }
+}
+
+/* Ajustes para pantallas muy pequeñas */
+@media (max-width: 480px) {
+  .contacto-info {
+    font-size: 0.9rem;
+  }
+
+  .contacto-container h1 {
+    font-size: 1.5rem;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+
+  .contact-form button {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+
+  .map-container iframe {
+    height: 150px;
   }
 }
 
