@@ -446,6 +446,23 @@ p{
 
 /* Ajustes para pantallas medianas */
 @media (max-width: 1024px) {
+  
+  @media (max-width: 1024px) {
+    .contacto-banner {
+      height: 250px; 
+      background-position: center;
+      background-size: cover;
+    }
+
+    .contacto-banner-text h1 {
+      font-size: 2.5rem;
+    }
+  
+    .contacto-banner-text p {
+      font-size: 1rem; 
+    }
+  }
+  
   .contacto {
     flex-direction: column;
     padding: 20px;
@@ -469,6 +486,19 @@ p{
 
 /* Responsivo para pantallas pequeñas */
 @media (max-width: 768px) {
+  .contacto-banner {
+    height: 200px; /* Reduce aún más la altura del banner */
+    padding: 10px;
+  }
+
+  .contacto-banner-text h1 {
+    font-size: 2rem; /* Reduce el tamaño del título */
+  }
+
+  .contacto-banner-text p {
+    font-size: 0.9rem; /* Reduce el tamaño del subtítulo */
+  }
+
   .contacto-container {
     flex-direction: column;
     padding: 15px;
@@ -485,6 +515,20 @@ p{
 
 /* Ajustes para pantallas muy pequeñas */
 @media (max-width: 480px) {
+
+  .contacto-banner {
+    height: 150px; /* Altura mínima para móviles */
+    padding: 5px;
+  }
+
+  .contacto-banner-text h1 {
+    font-size: 1.5rem; /* Texto más pequeño para móviles */
+  }
+
+  .contacto-banner-text p {
+    font-size: 0.8rem; /* Subtítulo más pequeño */
+  }
+  
   .contacto-info {
     font-size: 0.9rem;
   }
