@@ -5,7 +5,7 @@ import '../App.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-function Carousel() {
+const Carousel=()=> {
   const banners = [
     require('../assets/banner1.webp'),
     require('../assets/banner2.webp'),

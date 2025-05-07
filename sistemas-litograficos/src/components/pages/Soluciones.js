@@ -5,7 +5,7 @@ import '../../App.css';
 
 
 
-function Soluciones(){
+const Soluciones=()=>{
 
     const [selectedCategory, setSelectedCategory] = useState("todos");
     const  [menuVisible,setMenuVisible] = useState(false)

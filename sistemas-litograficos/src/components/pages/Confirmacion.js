@@ -1,7 +1,7 @@
  /* import React, { useEffect } from "react"; */
 import "../../App.css";
 
-function Confirmacion() {
+const Confirmacion =()=> {
   /*useEffect(() => {
     const script = document.createElement("script");
     script.innerHTML = `

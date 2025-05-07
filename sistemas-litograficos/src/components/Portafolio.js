@@ -4,7 +4,7 @@ import '../App.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-function Portafolio() {
+const Portafolio=()=> {
 
     const products = [
         { id: 1, name: 'Editorial', image: require('../assets/editorialPortafolio.jpg') },

@@ -3,7 +3,7 @@ import '../App.css';
 
 
 
-function WhatsApp() {
+const WhatsApp=()=> {
     return (
       <div className="Whatsapp-container">
         <a

@@ -6,7 +6,7 @@ import 'slick-carousel/slick/slick-theme.css';
 
 
 
-function Clientes() {
+const Clientes= ()=> {
     
     const clientes = [
         { id: 1, name: 'Arrendamientos', image: require('../assets/Arremdamientos_Promobienes.png') },
