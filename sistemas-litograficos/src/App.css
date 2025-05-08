@@ -1077,6 +1077,7 @@ aside{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  z-index: 1000;
 }
 .menu-aside{
   margin-top: 2rem;

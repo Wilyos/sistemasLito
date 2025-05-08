@@ -78,7 +78,7 @@ const Soluciones=()=>{
                     <button className="close-menu" id="close-menu" onClick={()=> setMenuVisible(false)}>
                         <i class="fa-solid fa-x"></i>
                     </button>
-                    <navbar>
+                    <nav>
                         <ul className="menu-aside">
                             <li>
                                 <button
@@ -165,7 +165,7 @@ const Soluciones=()=>{
                                 </button>
                             </li>
                         </ul>
-                    </navbar>
+                    </nav>
                 </aside>
                 <main className="main-soluciones">
                     <h2 className="titulo-soluciones">
@@ -175,8 +175,8 @@ const Soluciones=()=>{
                         {filteredProducts.map(product => (
                             <div key={product.id} className="productos">
                                 <img className="producto-imagen-soluciones" src={product.image} alt={product.name} />
-                                <div class="overlay">
-                                    <div class="text">{product.descripcion}</div>
+                                <div className="overlay">
+                                    <div className="text">{product.descripcion}</div>
                                 </div>
                                 <div className="producto-detalles">
                                     <h3 className="produto-titulo">{product.name}</h3>
