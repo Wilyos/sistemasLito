@@ -1,8 +1,8 @@
- /* import React, { useEffect } from "react"; */
+import React, { useEffect } from "react"; 
 import "../../App.css";
 
 const Confirmacion =()=> {
-  /*useEffect(() => {
+  useEffect(() => {
     const script = document.createElement("script");
     script.innerHTML = `
       gtag('event', 'conversion', {
@@ -15,7 +15,7 @@ const Confirmacion =()=> {
     return () => {
       document.body.removeChild(script);
     };
-  }, []); */
+  }, []); 
 
   return (
     <div className="confirmacion-container">

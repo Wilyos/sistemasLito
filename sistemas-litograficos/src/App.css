@@ -1061,11 +1061,18 @@ color: #0abf04;
 
 /* portafolio / soluciones */
 
-.wrapper-solucion{
-  display:grid;
+ /*.wrapper-solucion{
+  display:flex;  
   grid-template-columns: 1fr 4fr;
   background-color: black;
+} */
+
+.wrapper-solucion{
+display: flex;
+align-items: center;
+align-content: center;
 }
+
 
 aside{
   padding: 2rem;
@@ -1358,3 +1365,21 @@ aside{
 
 
 
+/* construccion */
+
+.imagen-construccion-contenedor {
+    display:inline-flex;
+    justify-content:space-around;
+    align-items:center;
+    height: 100%; /* Ajusta según el espacio que quieras ocupar */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-left: 15rem;
+}
+
+.imagen-construccion-contenedor .construccion {
+    max-width: 50%; /* Ajusta el tamaño de la imagen */
+    height: auto; /* Mantén la proporción de la imagen */
+    object-fit: contain;
+}

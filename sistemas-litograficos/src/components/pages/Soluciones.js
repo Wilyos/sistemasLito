@@ -233,7 +233,8 @@ const Soluciones=()=>{
     return (
         <>
             <div className="wrapper-solucion">
-                <header className="movil">
+
+               { /* <header className="movil">
                     <button className="open-menu" id="open-menu" onClick={()=> setMenuVisible(true)}>
                         <i class="fa-solid fa-bars"></i>Menú
                     </button>
@@ -348,7 +349,10 @@ const Soluciones=()=>{
                             </div>
                         ))}
                     </div>
-                </main>
+                </main> */}
+                <div className="imagen-construccion-contenedor">
+                    <img className="construccion" src={require('../../assets/construccion.png')} alt="En construcción" />
+                </div>
             </div>
         </>
     );
