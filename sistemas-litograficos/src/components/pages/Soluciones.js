@@ -14,7 +14,7 @@ const Soluciones=()=>{
     const products = [
         { id: 1,
              name: 'Editorial',
-             image: require('../../assets/editorialPortafolio.jpg'),
+             image: require('../../assets/cartilla.webp'),
               categoria: ['Editorial'],
                descripcion: '' },
         { id: 2,
@@ -44,33 +44,33 @@ const Soluciones=()=>{
                descripcion: '' },
         { id: 7,
              name: 'Agenda',
-             image: require('../../assets/editorialPortafolio.jpg'),
+             image: require('../../assets/agenda.webp'),
               categoria: ['Editorial', 'Corporativo'],
                descripcion: 'Además de ser útil durante todo el año, las agendas personalizadas son una fuerte presencia de marca.' },
         { id: 8,
              name: 'Brochure/Plegable',
-             image: require('../../assets/editorialPortafolio.jpg'),
+             image: require('../../assets/plegable.webp'),
               categoria: ['Editorial','Publicidad'],
                 
               descripcion: 'exponga todo su portafolio de manera llamativa y con informacion detallada.' },
         { id: 9,
              name: 'Cartilla/Catalogo',
-             image: require('../../assets/editorialPortafolio.jpg'),
+             image: require('../../assets/cartilla.webp'),
               categoria: ['Editorial'],
                descripcion: 'Detalle todas las especificaciones correspondientes a cada uno de sus productos o servicios.' },
         { id: 10,
              name: 'Libro',
-             image: require('../../assets/editorialPortafolio.jpg'),
+             image: require('../../assets/libro.webp'),
               categoria: ['Editorial'],
                descripcion: 'Publique sus libros con la calidad necesaria. Hay quienes si juzgan los libros por su portada.' },
         { id: 11,
              name: 'Periódico',
-             image: require('../../assets/editorialPortafolio.jpg'),
+             image: require('../../assets/periodico.webp'),
               categoria: ['Editorial','Publicidad'], 
               descripcion: 'Publique sus grandes comunicaciones de manera periódica a un bajo costo.' },
         { id: 12,
              name: 'Revista',
-             image: require('../../assets/editorialPortafolio.jpg'),
+             image: require('../../assets/revista.webp'),
               categoria: ['Editorial'], 
               descripcion: 'Materialice su contenido editorial en imapactantes revistas, conservando la uniformidad entre cada edición. Calidad e impacto' },
         { id: 13,
@@ -227,7 +227,7 @@ const Soluciones=()=>{
     ];
 
     const filteredProducts = selectedCategory === "todos"
-    ? products
+    ? products.filter(product => product.id > 6)
     : products.filter(product => product.categoria.includes(selectedCategory));
 
     return (
@@ -339,9 +339,9 @@ const Soluciones=()=>{
                         {filteredProducts.map(product => (
                             <div key={product.id} className="productos">
                                 <img className="producto-imagen-soluciones" src={product.image} alt={product.name} />
-                               { /* <div className="overlay">
+                                <div className="overlay">
                                     <div className="text">{product.descripcion}</div>
-                                </div> */}
+                                </div>
                                 <div className="producto-detalles">
                                     <h3 className="produto-titulo">{product.name}</h3>
                                 </div>
