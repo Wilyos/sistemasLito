@@ -1061,18 +1061,19 @@ color: #0abf04;
 
 /* portafolio / soluciones */
 
- /*.wrapper-solucion{
-  display:flex;  
+ .wrapper-solucion{
+  display:grid;  
   grid-template-columns: 1fr 4fr;
   background-color: black;
-} */
+} 
 
+/*
 .wrapper-solucion{
 display: flex;
 align-items: center;
 align-content: center;
 }
-
+*/
 
 aside{
   padding: 2rem;

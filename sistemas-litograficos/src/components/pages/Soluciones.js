@@ -19,7 +19,7 @@ const Soluciones=()=>{
                descripcion: '' },
         { id: 2,
              name: 'Publicomerciales',
-             image: require('../../assets/afichePortafolio.png'),
+             image: require('../../assets/afiche.webp'),
               categoria: ['Publicidad'],
                descripcion: '' },
         { id: 3,
@@ -29,7 +29,7 @@ const Soluciones=()=>{
                descripcion: '' },
         { id: 4,
              name: 'Corporativa',
-             image: require('../../assets/corporativasPortafolio.jpg'),
+             image: require('../../assets/corporativo.webp'),
               categoria: ['Corporativo'],
                descripcion: '' },
         { id: 5,
@@ -75,7 +75,7 @@ const Soluciones=()=>{
               descripcion: 'Materialice su contenido editorial en imapactantes revistas, conservando la uniformidad entre cada edición. Calidad e impacto' },
         { id: 13,
              name: 'Afiches',
-             image: require('../../assets/popPortafolio.jpg'),
+             image: require('../../assets/afiche.webp'),
               categoria: ['Publicidad', 'MaterialPop'], 
               descripcion: '' },
         { id: 14,
@@ -234,7 +234,7 @@ const Soluciones=()=>{
         <>
             <div className="wrapper-solucion">
 
-               { /* <header className="movil">
+                <header className="movil">
                     <button className="open-menu" id="open-menu" onClick={()=> setMenuVisible(true)}>
                         <i class="fa-solid fa-bars"></i>Menú
                     </button>
@@ -349,10 +349,10 @@ const Soluciones=()=>{
                             </div>
                         ))}
                     </div>
-                </main> */}
-                <div className="imagen-construccion-contenedor">
+                </main> 
+              {/*   <div className="imagen-construccion-contenedor">
                     <img className="construccion" src={require('../../assets/construccion.png')} alt="En construcción" />
-                </div>
+                </div> */}
             </div>
         </>
     );
