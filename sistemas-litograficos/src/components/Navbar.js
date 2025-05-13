@@ -21,7 +21,7 @@ const Navbar= ()=> {
             <li><a href="/nosotros">Quiénes Somos</a></li>
             <li><a href="/soluciones">Portafolio</a></li>
             <li><a href="/contacto">Contáctanos</a></li>
-            <li><a href="/cotizacion">Cotización</a></li>
+            <li className="highlight"><a href="/cotizacion">Cotización</a></li>
         </ul>
     </nav>
   );

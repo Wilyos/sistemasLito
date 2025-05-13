@@ -24,7 +24,7 @@ const Soluciones=()=>{
                descripcion: '' },
         { id: 3,
              name: 'Packaging',
-             image: require('../../assets/packagingPortafolio.jpg'),
+             image: require('../../assets/empaques.webp'),
               categoria: ['Empaque'],
                descripcion: '' },
         { id: 4,

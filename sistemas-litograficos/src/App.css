@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Roboto+Condensed:ital,wght@0,300;1,300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&display=swap" rel="stylesheet"');
 
 
 * {
@@ -20,6 +21,11 @@ h1, h2, h3{
   font-weight: 100;
   font-style:normal;
   font-size: auto;
+  text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
 }
 p{
   font-family: 'Beba Neue', sans-serif;
@@ -93,9 +99,9 @@ p{
 
 .navbar a{
   font-family: "Bebas Neue", sans-serif;
-  font-weight: 100;
+  font-weight: 400;
   font-style:normal;
-  font-size: auto;
+  font-size: 36px;
 }
 .menu {
   list-style-type: none;
@@ -124,6 +130,39 @@ p{
 
 .menu a:hover {
   text-decoration: underline;
+}
+
+.highlight a {
+  color:#0ABF04; 
+  font-weight: normal; 
+  background-color: #ddd; 
+  padding: 10px 10px;
+  border-radius: 10px; 
+  text-decoration: none;
+  box-shadow: 0 0 10px #0ABF04;
+  animation: glow 1.5s infinite alternate;
+ 
+  
+ 
+}
+
+@keyframes glow {
+
+  0%{
+    box-shadow: 0 0 10px #0ABF04;
+  }
+
+  100%{
+    box-shadow: #77e67e;
+  }
+}
+
+.highlight a:hover {
+  background-color: #0ABF04; 
+  color: whitesmoke;
+  text-decoration: none;
+  
+
 }
 
 /* Estilos para pantallas pequeñas */
@@ -1290,13 +1329,6 @@ aside{
 }
 
 
-
-
-
-
-
-
-
 /* confirmacion */ 
 .confirmacion-container {
   text-align: center;
@@ -1383,4 +1415,51 @@ aside{
     max-width: 50%; /* Ajusta el tamaño de la imagen */
     height: auto; /* Mantén la proporción de la imagen */
     object-fit: contain;
+}
+
+
+/* aside */
+
+
+.social-aside {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #333;
+  padding: 10px 0;
+  border-radius: 0 10px 10px 0;
+  z-index: 1000;
+}
+
+.social-aside ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social-aside ul li {
+  margin: 10px 0;
+}
+
+.social-aside ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  background-color: #555;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.social-aside ul li a:hover {
+  background-color: #ff5722; /* Cambia el color al pasar el mouse */
+  color: #fff;
+}
+
+.social-aside ul li a i {
+  font-size: 18px;
 }

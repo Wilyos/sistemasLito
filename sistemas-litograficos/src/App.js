@@ -13,6 +13,7 @@ import Cotizacion from './components/pages/Cotizacion';
 import Soluciones from './components/pages/Soluciones';
 import Confirmacion from './components/pages/Confirmacion';
 import PrivacyPolicy from './components/pages/PrivacyPolicy';
+import Opcional from './components/pages/Opcional';
 
 const App =()=> {
   return (
@@ -38,6 +39,7 @@ const App =()=> {
           <Route path='/soluciones' element={<Soluciones />} />
           <Route path="/confirmacion" element={<Confirmacion />} />
           <Route path='/privacy' element={<PrivacyPolicy />} />
+          <Route path='/opcional' element={<Opcional />} />
         </Routes>
         <WhatsApp />
         <Footer />
