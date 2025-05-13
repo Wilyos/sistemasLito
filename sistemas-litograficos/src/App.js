@@ -14,6 +14,7 @@ import Soluciones from './components/pages/Soluciones';
 import Confirmacion from './components/pages/Confirmacion';
 import PrivacyPolicy from './components/pages/PrivacyPolicy';
 import Opcional from './components/pages/Opcional';
+import Aside from './components/Aside';
 
 const App =()=> {
   return (
@@ -27,6 +28,7 @@ const App =()=> {
             element={
               <>
                 <Carousel />
+                <Aside />
                 <Portafolio />
                 <Clientes />
               </>

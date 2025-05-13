@@ -6,23 +6,18 @@ const Aside = () => {
     <aside className="social-aside">
       <ul>
         <li>
-          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.facebook.com/sistemaslitograficos2021" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-facebook-f"></i>
           </a>
         </li>
         <li>
-          <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-twitter"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/sistemaslitograficossas/" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-instagram"></i>
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-linkedin-in"></i>
+          <a href="https://www.tiktok.com/@sistemaslitograficos" target="_blank" rel="noopener noreferrer">
+           <i class="fa-brands fa-tiktok"></i>
           </a>
         </li>
       </ul>

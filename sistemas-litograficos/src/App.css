@@ -1426,10 +1426,14 @@ aside{
   left: 0;
   top: 50%;
   transform: translateY(-50%);
-  background-color: #333;
+  background-color: transparent;
   padding: 10px 0;
-  border-radius: 0 10px 10px 0;
+  margin-left: 1rem;
+  border: solid 1px #0ABF04;
+  border-radius: 25px 25px 25px 25px;
   z-index: 1000;
+  width: auto; /* Ancho del aside */
+  height: 25%;
 }
 
 .social-aside ul {
@@ -1449,15 +1453,15 @@ aside{
   width: 40px;
   height: 40px;
   color: #fff;
-  background-color: #555;
+  background-color: #0ABF04;
   border-radius: 50%;
   text-decoration: none;
   transition: all 0.3s ease;
 }
 
 .social-aside ul li a:hover {
-  background-color: #ff5722; /* Cambia el color al pasar el mouse */
-  color: #fff;
+  background-color: white; /* Cambia el color al pasar el mouse */
+  color: #0abf04;
 }
 
 .social-aside ul li a i {
