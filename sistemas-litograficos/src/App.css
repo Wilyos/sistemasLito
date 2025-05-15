@@ -126,10 +126,23 @@ p{
   color: white;
   font-weight: bold;
   font-size: 1.2rem;
+  border-radius: 10px;
+  padding: 10px 20px;
+   transition: 
+    background-color 0.3s,
+    color 0.3s,
+    padding 0.3s,
+    box-shadow 0.3s;
+    display: inline-block;
 }
 
 .menu a:hover {
-  text-decoration: underline;
+  background-color: #0ABF04;
+  color: black;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-shadow: 0 0 15px #0ABF04;
+  text-decoration: none;
 }
 
 .highlight a {
@@ -817,7 +830,7 @@ p{
 .nosotros-mision-vision p {
   font-size: 1.2rem;
   line-height: 1.6;
-  color: #4e4e4e;
+  color: rgba(245, 245, 245, 0.781);
   text-align: justify;
 }
 
@@ -1191,7 +1204,7 @@ aside{
 }
 
 .titulo-soluciones{
-  color:black;
+  color:rgb(56, 56, 56);
   margin-bottom: 2rem;
 }
 
@@ -1347,7 +1360,7 @@ aside{
 }
 
 .confirmacion-container p {
-  color: #333;
+  color: #636262;
   font-size: 1.2rem;
 }
 
@@ -1366,13 +1379,13 @@ aside{
 }
 
 .container-privacy h1, h2, h3, h4 {
-  color: #4e4e4e;
+  color: #636262;
   margin-bottom: .5rem;
 }
 .container-privacy p{
   font-size: 14px;
   text-align: justify;
-  color: #4e4e4e;
+  color: #636262;
   margin-bottom: 1rem;
 }
 
