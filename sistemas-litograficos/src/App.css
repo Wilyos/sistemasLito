@@ -1204,9 +1204,12 @@ aside{
 }
 
 .titulo-soluciones{
-  color:rgb(56, 56, 56);
+  color:rgb(221, 220, 220);
   margin-bottom: 2rem;
+  font-size: 3rem;
 }
+
+
 
 .contenedor-soluciones{
   display: grid;

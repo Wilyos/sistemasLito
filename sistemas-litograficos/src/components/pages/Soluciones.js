@@ -48,7 +48,7 @@ const Soluciones=()=>{
             id: 5,
             name: 'Publicidad Exterior',
             image: require('../../assets/exterioresPortafolio.png'),
-            categoria: ['PublicidadEx'],
+            categoria: ['Publicidad Exterior'],
             descripcion: 'Atrae miradas con formatos grandes y resistentes. Ideal para calles y eventos.',
             whatsapp: true
         },
@@ -140,142 +140,220 @@ const Soluciones=()=>{
             descripcion: 'Promociona de forma directa y efectiva. Volantes con diseño estratégico y gran impacto.',
             whatsapp: true
         },
-        { id: 17,
-             name: 'Bolsas',
-             image: require('../../assets/popPortafolio.jpg'),
-              categoria: ['Empaque', 'MaterialPop'], 
-              descripcion: '' },
-        { id: 18,
-             name: 'Caja / Empaque',
-             image: require('../../assets/popPortafolio.jpg'),
-              categoria: ['Empaque'], 
-              descripcion: '' },
-        { id: 19,
-             name: 'Etiqueta Adhesiva',
-             image: require('../../assets/popPortafolio.jpg'),
-              categoria: ['Empaque'], 
-              descripcion: '' },
-        { id: 20,
-             name: 'Etiquetas',
-             image: require('../../assets/popPortafolio.jpg'),
-              categoria: ['Empaque', 'MaterialPop'], 
-              descripcion: '' },
-        { id: 21,
-             name: 'Block de notas',
-             image: require('../../assets/popPortafolio.jpg'),
-              categoria: ['Corporativo'], 
-              descripcion: '' },
-        { id: 22,
-             name: 'Bolsa Corporativa',
-             image: require('../../assets/popPortafolio.jpg'),
-              categoria: ['Corporativo'], 
-              descripcion: '' },
-        { id: 23,
-             name: 'Almanaque / Calendario',
-             image: require('../../assets/popPortafolio.jpg'),
-              categoria: ['Corporativo'], 
-              descripcion: '' },
-        { id: 24,
-             name: 'Carpetas',
-             image: require('../../assets/popPortafolio.jpg'),
-              categoria: ['Corporativo'], 
-              descripcion: '' },
-        { id: 25,
-             name: 'Membrete',
-             image: require('../../assets/popPortafolio.jpg'),
-              categoria: ['Corporativo'], 
-              descripcion: '' },
-        { id: 26,
-             name: 'Sellos',
-             image: require('../../assets/popPortafolio.jpg'),
-              categoria: ['Corporativo'], 
-              descripcion: '' },
-        { id: 27,
-             name: 'Señalización',
-             image: require('../../assets/popPortafolio.jpg'),
-              categoria: ['Corporativo'], 
-              descripcion: '' },
-        { id: 28,
-             name: 'Sobres',
-             image: require('../../assets/popPortafolio.jpg'),
-              categoria: ['Corporativo'], 
-              descripcion: '' },
-        { id: 29,
-             name: 'Souvenirs',
-             image: require('../../assets/popPortafolio.jpg'),
-              categoria: ['Corporativo', 'MaterialPop'], 
-              descripcion: '' },
-        { id: 30,
-             name: 'Talonarios',
-             image: require('../../assets/popPortafolio.jpg'),
-              categoria: ['Corporativo'], 
-              descripcion: '' },
-        { id: 31,
-             name: 'Tarjetas',
-             image: require('../../assets/popPortafolio.jpg'),
-              categoria: ['Corporativo'], 
-              descripcion: '' },
-        { id: 32,
-             name: 'Vinilo / Plotter',
-             image: require('../../assets/popPortafolio.jpg'),
-              categoria: ['Corporativo','PublicidadEx','MaterialPop'], 
-              descripcion: '' },
-        { id: 33,
-             name: 'Floorgrap',
-             image: require('../../assets/popPortafolio.jpg'),
-              categoria: ['PublicidadEx', 'MaterialPop'], 
-              descripcion: '' },
-        { id: 34,
-             name: 'Microperforado',
-             image: require('../../assets/popPortafolio.jpg'),
-              categoria: ['PublicidadEx'], 
-              descripcion: '' },
-        { id: 35,
-             name: 'Pendón',
-             image: require('../../assets/popPortafolio.jpg'),
-              categoria: ['PublicidadEx', 'MaterialPop'], 
-              descripcion: '' },
-        { id: 36,
-             name: 'Rompe Tráfico',
-             image: require('../../assets/popPortafolio.jpg'),
-              categoria: ['PublicidadEx', 'MaterialPop'], 
-              descripcion: '' },
-        { id: 38,
-             name: 'Valla publicitaria',
-             image: require('../../assets/popPortafolio.jpg'),
-              categoria: ['PublicidadEx',], 
-              descripcion: '' },
-        { id: 39,
-             name: 'vinilo laminado',
-             image: require('../../assets/popPortafolio.jpg'),
-              categoria: ['PublicidadEx'], 
-              descripcion: '' },
-        { id: 40,
-             name: 'Dangler',
-             image: require('../../assets/popPortafolio.jpg'),
-              categoria: ['MaterialPop'], 
-              descripcion: '' },
-        { id: 41,
-             name: 'Display / Movil',
-             image: require('../../assets/popPortafolio.jpg'),
-              categoria: ['MaterialPop'], 
-              descripcion: '' },
-        { id: 42,
-             name: 'Exhibidor',
-             image: require('../../assets/popPortafolio.jpg'),
-              categoria: ['MaterialPop'], 
-              descripcion: '' },
-        { id: 43,
-             name: 'Góndola',
-             image: require('../../assets/popPortafolio.jpg'),
-             categoria: ['MaterialPop'],
-             descripcion: '' },
+        {
+            id: 17,
+            name: 'Bolsas',
+            image: require('../../assets/popPortafolio.jpg'),
+            categoria: ['Empaque', 'MaterialPop'],
+            descripcion: 'Empaca con estilo y funcionalidad. Las bolsas personalizadas son ideales para entregar productos y reforzar tu marca.',
+            whatsapp: true
+        },
+         {
+            id: 18,
+            name: 'Caja / Empaque',
+            image: require('../../assets/popPortafolio.jpg'),
+            categoria: ['Empaque'],
+            descripcion: 'Cajas personalizadas que protegen y promocionan tus productos. Perfectas para retail o envíos.',
+            whatsapp: true
+            },
+        {
+            id: 19,
+            name: 'Etiqueta Adhesiva',
+            image: require('../../assets/popPortafolio.jpg'),
+            categoria: ['Empaque'],
+            descripcion: 'Etiqueta tus productos con estilo. Adhesivos personalizados para destacar tu marca en cada detalle.',
+            whatsapp: true
+        },
+        {
+            id: 20,
+            name: 'Etiquetas',
+            image: require('../../assets/popPortafolio.jpg'),
+            categoria: ['Empaque', 'MaterialPop'],
+            descripcion: 'Soluciones versátiles para clasificar y promocionar. Etiquetas impresas a la medida de tus necesidades.',
+            whatsapp: true
+        },
+        {
+            id: 21,
+            name: 'Block de notas',
+            image: require('../../assets/popPortafolio.jpg'),
+            categoria: ['Corporativo'],
+            descripcion: 'Funcionales y promocionales. Ideal como regalo corporativo o herramienta de trabajo diaria.',
+            whatsapp: true
+        },
+        {
+            id: 22,
+            name: 'Bolsa Corporativa',
+            image: require('../../assets/popPortafolio.jpg'),
+            categoria: ['Corporativo'],
+            descripcion: 'Refuerza tu imagen de marca con bolsas institucionales elegantes y resistentes.',
+            whatsapp: true
+        },
+         {
+            id: 23,
+            name: 'Almanaque / Calendario',
+            image: require('../../assets/popPortafolio.jpg'),
+            categoria: ['Corporativo'],
+            descripcion: 'Marca presencia todo el año con calendarios personalizados que combinan funcionalidad y diseño.',
+            whatsapp: true
+        },
+        {
+            id: 24,
+            name: 'Carpetas',
+            image: require('../../assets/popPortafolio.jpg'),
+            categoria: ['Corporativo'],
+            descripcion: 'Organización y presentación profesional. Carpetas corporativas ideales para propuestas y eventos.',
+            whatsapp: true
+        },
+        {
+            id: 25,
+            name: 'Membrete',
+            image: require('../../assets/popPortafolio.jpg'),
+            categoria: ['Corporativo'],
+            descripcion: 'Comunica formalidad y coherencia con membretes que refuerzan tu identidad de marca.',
+            whatsapp: true
+        },
+        {
+            id: 26,
+            name: 'Sellos',
+            image: require('../../assets/popPortafolio.jpg'),
+            categoria: ['Corporativo'],
+            descripcion: 'Agiliza procesos y añade profesionalismo con sellos personalizados de alta calidad.',
+            whatsapp: true
+        },
+        {
+            id: 27,
+            name: 'Señalización',
+            image: require('../../assets/popPortafolio.jpg'),
+            categoria: ['Corporativo'],
+            descripcion: 'Orienta, informa y refuerza la imagen de tu empresa con señalización personalizada y funcional.',
+            whatsapp: true
+        },
+       {
+            id: 28,
+            name: 'Sobres',
+            image: require('../../assets/popPortafolio.jpg'),
+            categoria: ['Corporativo'],
+            descripcion: 'Dale un toque profesional a tu correspondencia. Sobres personalizados para todo tipo de comunicación empresarial.',
+            whatsapp: true
+        },
+        {
+            id: 29,
+            name: 'Souvenirs',
+            image: require('../../assets/popPortafolio.jpg'),
+            categoria: ['Corporativo', 'MaterialPop'],
+            descripcion: 'Regalos promocionales que dejan huella. Souvenirs ideales para fidelizar y sorprender a tus clientes.',
+            whatsapp: true
+        },
+        {
+            id: 30,
+            name: 'Talonarios',
+            image: require('../../assets/popPortafolio.jpg'),
+            categoria: ['Corporativo'],
+            descripcion: 'Control y organización en cada hoja. Talonarios personalizados para facturas, pedidos y más.',
+            whatsapp: true
+        },
+        {
+            id: 31,
+            name: 'Tarjetas',
+            image: require('../../assets/popPortafolio.jpg'),
+            categoria: ['Corporativo'],
+            descripcion: 'Primera impresión con impacto. Tarjetas de presentación profesionales y memorables.',
+            whatsapp: true
+        },
+        {
+            id: 32,
+            name: 'Vinilo / Plotter',
+            image: require('../../assets/popPortafolio.jpg'),
+            categoria: ['Corporativo','Publicidad Exterior','MaterialPop'],
+            descripcion: 'Ideal para decorar espacios o señalizar con estilo. Vinilos resistentes y personalizados.',
+            whatsapp: true
+        },
+        {
+            id: 33,
+            name: 'Floorgrap',
+            image: require('../../assets/popPortafolio.jpg'),
+            categoria: ['Publicidad Exterior', 'MaterialPop'],
+            descripcion: 'Publicidad en el piso con impacto visual. Floorgraps para señalización o promociones llamativas.',
+            whatsapp: true
+        },
+        {
+            id: 34,
+            name: 'Microperforado',
+            image: require('../../assets/popPortafolio.jpg'),
+            categoria: ['Publicidad Exterior'],
+            descripcion: 'Vinilo microperforado ideal para ventanas. Visibilidad desde el interior y publicidad desde el exterior.',
+            whatsapp: true
+        },
+        {
+            id: 35,
+            name: 'Pendón',
+            image: require('../../assets/popPortafolio.jpg'),
+            categoria: ['Publicidad Exterior', 'MaterialPop'],
+            descripcion: 'Impacto visual en eventos o puntos de venta. Pendones resistentes y personalizados.',
+            whatsapp: true
+        },
+         {
+            id: 36,
+            name: 'Rompe Tráfico',
+            image: require('../../assets/popPortafolio.jpg'),
+            categoria: ['Publicidad Exterior', 'MaterialPop'],
+            descripcion: 'Diseños resistentes para captar atención en zonas de alto tránsito. Publicidad directa y efectiva.',
+            whatsapp: true
+        },
+        {
+            id: 38,
+            name: 'Valla publicitaria',
+            image: require('../../assets/popPortafolio.jpg'),
+            categoria: ['Publicidad Exterior'],
+            descripcion: 'Impacto masivo y alta visibilidad. Las vallas publicitarias son ideales para campañas de gran alcance.',
+            whatsapp: true
+        },
+        {
+            id: 39,
+            name: 'Vinilo laminado',
+            image: require('../../assets/popPortafolio.jpg'),
+            categoria: ['Publicidad Exterior'],
+            descripcion: 'Durabilidad y protección extra. Perfecto para exteriores o superficies expuestas.',
+            whatsapp: true
+        },
+        {
+            id: 40,
+            name: 'Dangler',
+            image: require('../../assets/popPortafolio.jpg'),
+            categoria: ['MaterialPop'],
+            descripcion: 'Promociona con creatividad desde el techo. Llamativos, versátiles y fáciles de instalar.',
+            whatsapp: true
+        },
+        {
+            id: 41,
+            name: 'Display / Móvil',
+            image: require('../../assets/popPortafolio.jpg'),
+            categoria: ['MaterialPop'],
+            descripcion: 'Soluciones visuales que elevan tus productos en el punto de venta. Diseños atractivos y funcionales.',
+            whatsapp: true
+        },
+        {
+            id: 42,
+            name: 'Exhibidor',
+            image: require('../../assets/popPortafolio.jpg'),
+            categoria: ['MaterialPop'],
+            descripcion: 'Resalta tus productos con exhibidores personalizados. Funcionalidad y marca en un solo elemento.',
+            whatsapp: true
+        },
+        {
+            id: 43,
+            name: 'Góndola',
+            image: require('../../assets/popPortafolio.jpg'),
+            categoria: ['MaterialPop'],
+            descripcion: 'Optimiza espacios de venta y aumenta la visibilidad de tus productos con góndolas personalizadas.',
+            whatsapp: true
+        }
        
     ];
 
     const filteredProducts = selectedCategory === "todos"
     ? products.filter(product => product.id > 6)
-    : products.filter(product => product.categoria.includes(selectedCategory));
+    : products.filter(product => product.id > 6 && product.categoria.includes(selectedCategory));
 
     return (
         <>
@@ -354,9 +432,9 @@ const Soluciones=()=>{
                             </li>
                             <li>
                                 <button
-                                    id="PublicidadEx"
-                                    className={`boton-categoria ${selectedCategory === "PublicidadEx" ? "active" : ""}`}
-                                    onClick={() => {setSelectedCategory("PublicidadEx");
+                                    id="Publicidad Exterior"
+                                    className={`boton-categoria ${selectedCategory === "Publicidad Exterior" ? "active" : ""}`}
+                                    onClick={() => {setSelectedCategory("Publicidad Exterior");
                                         setMenuVisible(false);
                                         }
                                     }
