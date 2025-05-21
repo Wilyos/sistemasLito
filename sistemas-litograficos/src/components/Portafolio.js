@@ -7,12 +7,12 @@ import 'slick-carousel/slick/slick-theme.css';
 const Portafolio=()=> {
 
     const products = [
-        { id: 1, name: 'Editorial', image: require('../assets/cartilla.webp') },
-        { id: 2, name: 'Publicomerciales', image: require('../assets/afiche.webp') },
-        { id: 3, name: 'Packaging', image: require('../assets/empaques.webp') },
-        { id: 4, name: 'Corporativa', image: require('../assets/corporativo.webp') },
-        { id: 5, name: 'Publicidad Exterior', image: require('../assets/publicidadEx.webp') },
-        { id: 6, name: 'Material P.O.P', image: require('../assets/souvenirs.webp') }
+        { id: 1, name: 'Editorial', image: require('../assets/standar-banner-editorial.png') },
+        { id: 2, name: 'Publicomerciales', image: require('../assets/standar-banner-publicidad.png') },
+        { id: 3, name: 'Packaging', image: require('../assets/standar-banner-empaques.png') },
+        { id: 4, name: 'Corporativa', image: require('../assets/corporativasPortafolio.jpg') },
+        { id: 5, name: 'Publicidad Exterior', image: require('../assets/standar-banner-valla.png')},
+        { id: 6, name: 'Material P.O.P', image: require('../assets/popPortafolio.jpg') }
     ];
 
     const settings = {
