@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../../App.css';
 import emailjs from 'emailjs-com';
+import { Helmet } from "react-helmet";
 
 
 
@@ -51,6 +52,10 @@ const Contacto =() => {
       };
     return (
       <>  
+        <Helmet>
+          <title>Contáctanos | Sistemas Litográficos</title>
+          <meta name="description" content="Comunícate con nosotros para cotizaciones, diseño e impresión profesional." />
+        </Helmet>
         <div className="contacto-banner">
             <div className="contacto-banner-text">
             </div>

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from 'react-router-dom';
 import emailjs from "emailjs-com";
 import "../../App.css";
+import { Helmet } from "react-helmet";
 
 const Cotizacion = () => {
   const navigate = useNavigate();
@@ -54,6 +55,10 @@ const Cotizacion = () => {
 
   return (
     <div className="cotizacion-container">
+      <Helmet>
+        <title>Cotización | Sistemas Litográficos</title>
+        <meta name="description" content="Comunícate con nosotros para cotizaciones, diseño e impresión profesional." />
+      </Helmet>
       <h1 className="cotizacion-title">Cotización</h1>
       <p className="cotizacion-subtitle">Los campos marcados con * son obligatorios</p>
       <form className="cotizacion-form" onSubmit={handleSubmit}>

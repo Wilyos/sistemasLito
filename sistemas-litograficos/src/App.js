@@ -14,6 +14,7 @@ import Soluciones from './components/pages/Soluciones';
 import Confirmacion from './components/pages/Confirmacion';
 import PrivacyPolicy from './components/pages/PrivacyPolicy';
 
+
 const App =()=> {
   return (
     <Router>

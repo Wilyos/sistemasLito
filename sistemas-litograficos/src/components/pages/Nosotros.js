@@ -1,9 +1,13 @@
 import React from "react";
 import "../../App.css";
-
+import { Helmet } from "react-helmet";
 const Nosotros = () => {
   return (
     <>
+      <Helmet>
+        <title>Sobre Nosotros | Sistemas Litográficos</title>
+        <meta name="description" content="Aprende un poco mas de nosotros y nuestro objetivo." />
+      </Helmet>
    
       <div className="nosotros-banner">
         <div className="nosotros-banner-text">
