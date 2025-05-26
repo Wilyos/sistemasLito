@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import '../../App.css';
-
+import { useTranslation } from 'react-i18next';
+import '../../i18next'; 
 
 
 
@@ -355,13 +356,15 @@ const Soluciones=()=>{
     ? products.filter(product => product.id > 6)
     : products.filter(product => product.id > 6 && product.categoria.includes(selectedCategory));
 
+    const { t, i18n } = useTranslation();
+
     return (
         <>
             <div className="wrapper-solucion">
 
                 <header className="movil">
                     <button className="open-menu" id="open-menu" onClick={()=> setMenuVisible(true)}>
-                        <i class="fa-solid fa-bars"></i>Menú
+                        <i class="fa-solid fa-bars"></i>{t('menu')}
                     </button>
                 </header>
                 <aside className={menuVisible ? "aside-visible": ""}>
@@ -379,7 +382,7 @@ const Soluciones=()=>{
                                         }
                                     }
                                 >
-                                    <i className="fa-solid fa-hand-point-right"></i> Todos los productos
+                                    <i className="fa-solid fa-hand-point-right"></i> {t('all_products')}
                                 </button>
                             </li>
                             <li>
@@ -391,7 +394,7 @@ const Soluciones=()=>{
                                         }
                                     }
                                 >
-                                    <i className="fa-regular fa-hand-point-right"></i> Editoriales
+                                    <i className="fa-regular fa-hand-point-right"></i> {t(`categories.Editorial`)}
                                 </button>
                             </li>
                             <li>

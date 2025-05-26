@@ -1,0 +1,13 @@
+
+{
+  "menu": "Menu",
+  "all_products": "All products",
+  "categories": {
+    "Editorial": "Editorial",
+    "Publicidad": "Advertising",
+    "Empaque": "Packaging",
+    "Corporativo": "Corporate",
+    "Publicidad Exterior": "Outdoor Advertising",
+    "MaterialPop": "P.O.P Material"
+  }
+}

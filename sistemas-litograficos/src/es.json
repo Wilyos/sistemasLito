@@ -1,0 +1,12 @@
+{
+    "menu": "Menú",
+    "all_products": "Todos los productos",
+    "categories": {
+        "Editorial": "Editoriales",
+        "Publicidad": "Publicidad",
+        "Empaque": "Empaques",
+        "Corporativo": "Corporativo",
+        "Publicidad Exterior": "Publicidad Exterior",
+        "MaterialPop": "Material P.O.P"
+  }
+}
