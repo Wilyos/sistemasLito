@@ -7,7 +7,7 @@ const WhatsApp=()=> {
     return (
       <div className="Whatsapp-container">
         <a
-          href="https://api.whatsapp.com/send/?phone=573018567334&text&type=phone_number&app_absent=0" 
+          href="https://wa.me/message/JHWMGEF6WKHDI1" 
           className="whatsapp-float"
           target="_blank"
           rel="noopener noreferrer"

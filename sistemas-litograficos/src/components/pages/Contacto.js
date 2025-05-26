@@ -63,7 +63,7 @@ const Contacto =() => {
         <div className="contacto">
         <div className="contacto-info">
           <h2>Información de Contacto</h2>
-          <p><strong>Teléfono:</strong> +57(604) 448 37 13  Ext 100</p>
+          <p><strong>Teléfono:</strong> 604 322 0830</p>
           <p><strong>Correo Electrónico:</strong> contacto@sistemaslitograficos</p>
           <p><strong>Dirección:</strong> Calle 54 # 54 - 43 Medellín - Colombia</p>
           

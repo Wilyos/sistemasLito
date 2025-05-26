@@ -30,7 +30,7 @@ const Footer =()=> {
                             </a>
                         </li>
                         <li>
-                            <a href="https://api.whatsapp.com/send/?phone=573018567334&text&type=phone_number&app_absent=0">
+                            <a href="https://wa.me/message/JHWMGEF6WKHDI1">
                                 <i class="fa-brands fa-whatsapp"></i>
                             </a>
                         </li>
