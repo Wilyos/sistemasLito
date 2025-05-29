@@ -8,5 +8,141 @@
         "Corporativo": "Corporativo",
         "Publicidad Exterior": "Publicidad Exterior",
         "MaterialPop": "Material P.O.P"
+  },
+   "navbar": {
+        "home": "Inicio",
+        "about": "Quiénes Somos",
+        "portfolio": "Portafolio",
+        "contact": "Contáctanos",
+        "quote": "Cotización"
+    },
+     "portfolio": {
+        "title": "Soluciones",
+        "Editorial": "Editorial",
+        "Publicidad": "Publicidad",
+        "Empaques": "Empaques",
+        "Corporativa": "Corporativo",
+        "Publicidad Exterior": "Publicidad Exterior",
+        "Material P.O.P": "Material P.O.P"
+  },
+  "clientes": {
+    "title": "Clientes",
+    "descripcion": "Estamos orgullosos de sumar a los proyectos de nuestros clientes y fortalecer la confianza con ellos."
+  },
+  "footer": {
+  "desc": "su proyecto es muy importante para nosotros",
+  "quick_access": "Accesos Rápidos",
+  "services": "Servicios",
+  "support": "Soporte",
+  "home": "Inicio",
+  "about": "Quiénes somos",
+  "solutions": "Soluciones",
+  "editorial": "Editoriales",
+  "packaging": "Empaques",
+  "advertising": "Publicidad",
+  "corporate": "Corporativo",
+  "outdoor": "Exteriores",
+  "contact": "Contáctanos",
+  "quote": "Cotizaciones",
+  "privacy": "Políticas de privacidad",
+  "developed": "Desarrollado por",
+  "rights": "Todos los derechos reservados Sistemas Litográficos 2025 ©"
+},
+
+"confirmation":{
+  "title": "¡Mensaje enviado con éxito!",
+  "content":"Gracias por contactarnos. Nos comunicaremos contigo lo más pronto posible."
+
+},
+
+"contact": {
+  "info_title": "Información de Contacto",
+  "phone": "Teléfono",
+  "email": "Correo Electrónico",
+  "address": "Dirección",
+  "form_title": "Formulario de Contacto",
+  "form_desc": "Contáctanos para cualquier pregunta, posibles proyectos y trabajos que quieras cotizar",
+  "name": "Nombre",
+  "phone_placeholder": "Teléfono",
+  "email_placeholder": "Correo Electrónico",
+  "message_placeholder": "Información adicional, comentarios....",
+  "send": "Enviar",
+  "success": "Correo enviado exitosamente, nos contactaremos muy pronto.",
+  "error": "Error al enviar el correo"
+},
+
+"quote": {
+  "title": "Cotización",
+  "subtitle": "Los campos marcados con * son obligatorios",
+  "name": "Nombre",
+  "email": "Correo electrónico",
+  "phone": "Teléfono",
+  "product": "Selecciona un producto",
+  "quantity": "Cantidad",
+  "message": "Mensaje",
+  "send": "Enviar",
+  "success": "Cotización enviada exitosamente.",
+  "error": "Error al enviar la cotización.",
+  "placeholder_name": "Ingresa tu nombre",
+  "placeholder_email": "Ingresa tu correo",
+  "placeholder_phone": "Ingresa tu teléfono",
+  "placeholder_quantity": "Ingresa la cantidad",
+  "placeholder_message": "Escribe tu mensaje aquí",
+  "select_option": "Selecciona una opción",
+  "products": {
+    "varios": "VARIOS PRODUCTOS",
+    "tarjetas": "Tarjetas personales",
+    "volante": "Volante",
+    "brochure": "Brochure / Plegable",
+    "caja": "Caja / Empaque",
+    "etiqueta Adhesiva": "Etiqueta Adhesiva",
+    "afiche": "Afiche",
+    "agenda": "Agenda",
+    "calendario": "Almanaque / Calendario",
+    "block de notas": "Block de notas",
+    "boletas": "Boletas",
+    "bolsa": "Bolsa",
+    "carpeta": "Carpeta",
+    "cartilla": "Cartilla / Catálogo",
+    "dangler": "Dangler",
+    "display": "Display",
+    "etiqueta": "Etiqueta",
+    "exhibidor": "Exhibidor",
+    "floorgraphic": "Floorgraphic",
+    "libro": "Libro",
+    "membrete": "Membrete",
+    "carta": "Menú Carta",
+    "microperforado": "Microperforado",
+    "pendon": "Pendón",
+    "periodico": "Periódico",
+    "revista": "Revista",
+    "rompetrafico": "Rompetráfico",
+    "sello": "Sello",
+    "señalizacion": "Señalización",
+    "sobre": "Sobre",
+    "souvenir": "Souvenir",
+    "talonario": "Talonario",
+    "tope": "Tope de góndola",
+    "valla": "Valla",
+    "vinilo": "Vinilo Adhesivo / Plotter"
   }
+},
+
+"about": {
+  "title": "¿Quiénes Somos?",
+  "description_1": "Somos una empresa con más de 20 años de experiencia en el sector de las artes gráficas, comprometidos con ofrecer soluciones de alta calidad en impresión y diseño. Nuestro objetivo es satisfacer las necesidades de nuestros clientes con innovación, tecnología y excelencia.",
+  "description_2": "En Sistemas Litográficos, nos especializamos en la producción de etiquetas, empaques y materiales promocionales. Contamos con un equipo de profesionales altamente capacitados y tecnología de vanguardia para garantizar resultados excepcionales en cada proyecto.",
+  "values_title": "Nuestros Valores",
+  "values": [
+    "Trabajamos con dedicación para cumplir con las expectativas de nuestros clientes.",
+    "Incorporamos tecnología de punta en todos nuestros procesos.",
+    "Garantizamos productos y servicios de la más alta calidad.",
+    "Nos preocupamos por el medio ambiente y promovemos prácticas responsables."
+  ],
+  "mission_title": "Misión",
+  "mission": "Somos un empresa dedicada al diseño y producción de impresos, orientada a satisfacer todas las necesidades de nuestros clientes, en todo lo referente a la papelería comercial, a través de un servicio oportuno cuyo desempeño involucra diversos estándares de calidad y cumplimiento.",
+  "vision_title": "Visión",
+  "vision": "<strong>SISTEMAS LITOGRÁFICOS</strong> se está consolidando como una de las mejores empresas del sector gráfico a nivel nacional, ya que contamos con los recursos técnicos y humanos, necesarios para suplir las necesidades del área en diversos municipios de nuestro país."
+}
+  
 }

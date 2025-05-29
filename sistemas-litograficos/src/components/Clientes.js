@@ -1,13 +1,15 @@
 import React from "react";
 import '../App.css';
 import Slider from 'react-slick';
+import { useTranslation } from 'react-i18next'; 
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 
 
 const Clientes= ()=> {
-    
+    const { t } = useTranslation();
+
     const clientes = [
         { id: 1, name: 'Arrendamientos', image: require('../assets/Arremdamientos_Promobienes.png') },
         { id: 2, name: 'Comfenalco', image: require('../assets/Comfenalco.png') },
@@ -49,8 +51,8 @@ const Clientes= ()=> {
 
     return (
         <div className="clientes">
-            <h2>Clientes</h2>
-            <p>Estamos orgullosos de sumar a los proyectos de nuestros clientes y fortalecer la confianza con ellos.</p>
+            <h2>{t('clientes.title')}</h2>
+            <p>{t('clientes.descripcion')}</p>
             <Slider {...settings}>
                 {clientes.map(cliente => (
                     <div key={cliente.id} className="clientes-card">

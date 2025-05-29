@@ -16,7 +16,7 @@ import PrivacyPolicy from './components/pages/PrivacyPolicy';
 import Opcional from './components/pages/Opcional';
 import Aside from './components/Aside';
 import { useTranslation } from 'react-i18next';
-import './i18next';
+import './i18n';
 
 const App =()=> {
   const {t, i18next} = useTranslation();

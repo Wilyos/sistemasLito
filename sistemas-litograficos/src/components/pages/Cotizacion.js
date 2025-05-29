@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import { useNavigate } from 'react-router-dom';
+import { useTranslation } from "react-i18next";
 import emailjs from "emailjs-com";
 import "../../App.css";
 
 const Cotizacion = () => {
+  const { t } = useTranslation();
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
     nombre: "",
@@ -26,15 +28,14 @@ const Cotizacion = () => {
 
     emailjs
       .send(
-        "service_ektrht6", // ID del servicio
-        "template_9bk3f0p", // ID de la plantilla
+        "service_ektrht6",
+        "template_9bk3f0p",
         formData,
-        "RE-ejFaqAtCzb1kUX" // ID de usuario de EmailJS
+        "RE-ejFaqAtCzb1kUX"
       )
       .then(
         (result) => {
-          console.log("Correo enviado:", result.text);
-          setStatus("Cotización enviada exitosamente.");
+          setStatus(t("quote.success"));
           setFormData({
             nombre: "",
             email: "",
@@ -46,55 +47,63 @@ const Cotizacion = () => {
           navigate('/confirmacion');
         },
         (error) => {
-          console.error("Error al enviar la cotización:", error.text);
-          setStatus("Error al enviar la cotización.");
+          setStatus(t("quote.error"));
         }
       );
   };
 
+  // Lista de productos traducidos
+  const productos = [
+    "varios", "tarjetas", "volante", "brochure", "caja", "etiqueta Adhesiva", "afiche", "agenda",
+    "calendario", "block de notas", "boletas", "bolsa", "carpeta", "cartilla", "dangler", "display",
+    "etiqueta", "exhibidor", "floorgraphic", "libro", "membrete", "carta", "microperforado", "pendon",
+    "periodico", "revista", "rompetrafico", "sello", "señalizacion", "sobre", "souvenir", "talonario",
+    "tope", "valla", "vinilo"
+  ];
+
   return (
     <div className="cotizacion-container">
-      <h1 className="cotizacion-title">Cotización</h1>
-      <p className="cotizacion-subtitle">Los campos marcados con * son obligatorios</p>
+      <h1 className="cotizacion-title">{t("quote.title")}</h1>
+      <p className="cotizacion-subtitle">{t("quote.subtitle")}</p>
       <form className="cotizacion-form" onSubmit={handleSubmit}>
         <div className="form-group">
-          <label htmlFor="nombre">Nombre *</label>
+          <label htmlFor="nombre">{t("quote.name")} *</label>
           <input
             type="text"
             id="nombre"
             name="nombre"
-            placeholder="Ingresa tu nombre"
+            placeholder={t("quote.placeholder_name")}
             value={formData.nombre}
             onChange={handleChange}
             required
           />
         </div>
         <div className="form-group">
-          <label htmlFor="email">Correo electrónico *</label>
+          <label htmlFor="email">{t("quote.email")} *</label>
           <input
             type="email"
             id="email"
             name="email"
-            placeholder="Ingresa tu correo"
+            placeholder={t("quote.placeholder_email")}
             value={formData.email}
             onChange={handleChange}
             required
           />
         </div>
         <div className="form-group">
-          <label htmlFor="telefono">Teléfono *</label>
+          <label htmlFor="telefono">{t("quote.phone")} *</label>
           <input
             type="tel"
             id="telefono"
             name="telefono"
-            placeholder="Ingresa tu teléfono"
+            placeholder={t("quote.placeholder_phone")}
             value={formData.telefono}
             onChange={handleChange}
             required
           />
         </div>
         <div className="form-group">
-          <label htmlFor="producto">Selecciona un producto *</label>
+          <label htmlFor="producto">{t("quote.product")} *</label>
           <select
             id="producto"
             name="producto"
@@ -102,69 +111,39 @@ const Cotizacion = () => {
             onChange={handleChange}
             required
           >
-            <option value="">Selecciona una opción</option>
-            <option value="varios">VARIOS PRODUCTOS</option>
-            <option value="tarjetas">Tarjetas personales</option>
-            <option value="volante">Volante</option>
-            <option value="brochure">Brochure / Plegable</option>
-            <option value="caja">Caja / Empaque</option>
-            <option value="etiqueta Adhesiva">Etiqueta Adhesiva</option>
-            <option value="afiche">Afiche</option>
-            <option value="agenda">Agenda</option>
-            <option value="calendario">Almanaque / Calendario</option>
-            <option value="block de notas">Block de notas</option>
-            <option value="boletas">Boletas</option>
-            <option value="bolsa">Bolsa</option>
-            <option value="carpeta">Carpeta</option>
-            <option value="cartilla">Cartilla / Catálogo</option>
-            <option value="dangler">Dangler</option>
-            <option value="display">Display</option>
-            <option value="etiqueta">Etiqueta</option>
-            <option value="exhibidor">Exhibidor</option>
-            <option value="floorgraphic">Floorgraphic</option>
-            <option value="libro">Libro</option>
-            <option value="membrete">Membrete</option>
-            <option value="carta">Menú Carta</option>
-            <option value="microperforado">Microperforado</option>
-            <option value="pendon">Pendón</option>
-            <option value="periodico">Periódico</option>
-            <option value="revista">Revista</option>
-            <option value="rompetrafico">Rompetráfico</option>
-            <option value="sello">Sello</option>
-            <option value="señalizacion">Señalización</option>
-            <option value="sobre">Sobre</option>
-            <option value="souvenir">Souvenir</option>
-            <option value="talonario">Talonario</option>
-            <option value="tope">Tope de góndola</option>
-            <option value="valla">Valla</option>
-            <option value="vinilo">Vinilo Adhesivo / Plotter</option>
+            <option value="">{t("quote.select_option")}</option>
+            {productos.map((prod) => (
+              <option key={prod} value={prod}>
+                {t(`quote.products.${prod}`)}
+              </option>
+            ))}
           </select>
         </div>
         <div className="form-group">
-          <label htmlFor="cantidad">Cantidad *</label>
+          <label htmlFor="cantidad">{t("quote.quantity")} *</label>
           <input
             type="number"
             id="cantidad"
             name="cantidad"
-            placeholder="Ingresa la cantidad"
+            placeholder={t("quote.placeholder_quantity")}
             value={formData.cantidad}
             onChange={handleChange}
             required
           />
         </div>
         <div className="form-group">
-          <label htmlFor="mensaje">Mensaje *</label>
+          <label htmlFor="mensaje">{t("quote.message")} *</label>
           <textarea
             id="mensaje"
             name="mensaje"
-            placeholder="Escribe tu mensaje aquí"
+            placeholder={t("quote.placeholder_message")}
             rows="5"
             value={formData.mensaje}
             onChange={handleChange}
             required
           ></textarea>
         </div>
-        <button type="submit" className="cotizacion-button">Enviar</button>
+        <button type="submit" className="cotizacion-button">{t("quote.send")}</button>
       </form>
       {status && <p className="statusform">{status}</p>}
     </div>

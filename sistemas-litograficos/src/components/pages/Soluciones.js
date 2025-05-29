@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import '../../App.css';
 import { useTranslation } from 'react-i18next';
-import '../../i18next'; 
+import '../../i18n'; 
 
 
 
@@ -356,7 +356,7 @@ const Soluciones=()=>{
     ? products.filter(product => product.id > 6)
     : products.filter(product => product.id > 6 && product.categoria.includes(selectedCategory));
 
-    const { t, i18n } = useTranslation();
+    const { t } = useTranslation();
 
     return (
         <>

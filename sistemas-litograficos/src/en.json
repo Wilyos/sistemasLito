@@ -9,5 +9,140 @@
     "Corporativo": "Corporate",
     "Publicidad Exterior": "Outdoor Advertising",
     "MaterialPop": "P.O.P Material"
+  },
+   "navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "portfolio": "Portfolio",
+    "contact": "Contact Us",
+    "quote": "Quote"
+  },
+  "portfolio": {
+    "title": "Solutions",
+    "Editorial": "Editorial",
+    "Publicidad": "Advertising",
+    "Empaques": "Packaging",
+    "Corporativa": "Corporate",
+    "Publicidad Exterior": "Outdoor Advertising",
+    "Material P.O.P": "P.O.P Material"
+  },
+   "clientes": {
+    "title": "Clients",
+    "descripcion": "We are proud to add to our clients' projects and strengthen trust with them."
+  },
+  "footer": {
+  "desc": "Your project is very important to us",
+  "quick_access": "Quick Access",
+  "services": "Services",
+  "support": "Support",
+  "home": "Home",
+  "about": "About Us",
+  "solutions": "Solutions",
+  "editorial": "Editorial",
+  "packaging": "Packaging",
+  "advertising": "Advertising",
+  "corporate": "Corporate",
+  "outdoor": "Outdoor",
+  "contact": "Contact Us",
+  "quote": "Quotes",
+  "privacy": "Privacy Policy",
+  "developed": "Designed and Developed by",
+  "rights": "All rights reserved Sistemas Litográficos 2025 ©"
+},
+
+"confirmation":{
+  "title": " Message sent successfully!",
+  "content":"Thank you for contacting us. We will get in touch with you as soon as possible."
+
+},
+
+"contact": {
+  "info_title": "Contact Information",
+  "phone": "Phone",
+  "email": "Email",
+  "address": "Address",
+  "form_title": "Contact Form",
+  "form_desc": "Contact us for any questions, possible projects, or quotes you need.",
+  "name": "Name",
+  "phone_placeholder": "Phone",
+  "email_placeholder": "Email",
+  "message_placeholder": "Additional information, comments....",
+  "send": "Send",
+  "success": "Email sent successfully, we will contact you soon.",
+  "error": "Error sending email"
+},
+
+"quote": {
+  "title": "Quote",
+  "subtitle": "Fields marked with * are required",
+  "name": "Name",
+  "email": "Email",
+  "phone": "Phone",
+  "product": "Select a product",
+  "quantity": "Quantity",
+  "message": "Message",
+  "send": "Send",
+  "success": "Quote sent successfully.",
+  "error": "Error sending quote.",
+  "placeholder_name": "Enter your name",
+  "placeholder_email": "Enter your email",
+  "placeholder_phone": "Enter your phone",
+  "placeholder_quantity": "Enter the quantity",
+  "placeholder_message": "Write your message here",
+  "select_option": "Select an option",
+  "products": {
+    "varios": "VARIOUS PRODUCTS",
+    "tarjetas": "Business cards",
+    "volante": "Flyer",
+    "brochure": "Brochure / Folded",
+    "caja": "Box / Packaging",
+    "etiqueta Adhesiva": "Adhesive Label",
+    "afiche": "Poster",
+    "agenda": "Diary",
+    "calendario": "Almanac / Calendar",
+    "block de notas": "Notepad",
+    "boletas": "Tickets",
+    "bolsa": "Bag",
+    "carpeta": "Folder",
+    "cartilla": "Booklet / Catalog",
+    "dangler": "Dangler",
+    "display": "Display",
+    "etiqueta": "Label",
+    "exhibidor": "Exhibitor",
+    "floorgraphic": "Floorgraphic",
+    "libro": "Book",
+    "membrete": "Letterhead",
+    "carta": "Menu",
+    "microperforado": "Microperforated",
+    "pendon": "Banner",
+    "periodico": "Newspaper",
+    "revista": "Magazine",
+    "rompetrafico": "Traffic Stopper",
+    "sello": "Stamp",
+    "señalizacion": "Signage",
+    "sobre": "Envelope",
+    "souvenir": "Souvenir",
+    "talonario": "Receipt Book",
+    "tope": "Shelf Stopper",
+    "valla": "Billboard",
+    "vinilo": "Adhesive Vinyl / Plotter"
+  }
+},
+
+  "about": {
+    "title": "Who Are We?",
+    "description_1": "We are a company with more than 20 years of experience in the graphic arts sector, committed to offering high-quality printing and design solutions. Our goal is to meet our clients' needs with innovation, technology, and excellence.",
+    "description_2": "At Sistemas Litográficos, we specialize in the production of labels, packaging, and promotional materials. We have a highly trained team and cutting-edge technology to ensure exceptional results in every project.",
+    "values_title": "Our Values",
+    "values": [
+      "We work with dedication to meet our clients' expectations.",
+      "We incorporate state-of-the-art technology in all our processes.",
+      "We guarantee the highest quality products and services.",
+      "We care about the environment and promote responsible practices."
+    ],
+    "mission_title": "Mission",
+    "mission": "We are a company dedicated to the design and production of printed materials, focused on meeting all our clients' needs regarding commercial stationery, through timely service and various quality and compliance standards.",
+    "vision_title": "Vision",
+    "vision": "<strong>SISTEMAS LITOGRÁFICOS</strong> is consolidating itself as one of the best companies in the graphic sector nationwide, as we have the technical and human resources necessary to meet the needs of the area in various municipalities of our country."
   }
 }

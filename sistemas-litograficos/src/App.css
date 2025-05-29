@@ -154,10 +154,47 @@ p{
   text-decoration: none;
   box-shadow: 0 0 10px #0ABF04;
   animation: glow 1.5s infinite alternate;
- 
-  
- 
 }
+
+.btn-lng{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 0.8rem;
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: transparent;
+   transition: 
+    background-color 0.3s,
+    color 0.3s,
+    padding 0.3s,
+    box-shadow 0.3s;
+    display: inline-block;
+  }
+.btn-lng:hover{
+  font-weight: normal; 
+  background-color: #0ABF04; 
+  padding: 10px 20px;
+  border-radius: 10px; 
+  text-decoration: none;
+  box-shadow: 0 0 10px #0ABF04;
+  animation: glow 1.5s infinite alternate;
+}
+.activebtn{
+  font-weight: normal; 
+  background-color: #0ABF04; 
+  padding: 10px 20px;
+  border-radius: 10px; 
+  text-decoration: none;
+  box-shadow: 0 0 10px #0ABF04;
+  animation: glow 1.5s infinite alternate;
+}
+  
+ .icon-lng{
+  font-size: 2rem;
+  color:#0ABF04
+ }
+
 
 @keyframes glow {
 
