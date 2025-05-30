@@ -26,12 +26,6 @@ const Navbar= ()=> {
             <li className="highlight"><a href="/cotizacion">{t('navbar.quote')}</a></li>
         </ul>
         <div>
-          <div className='icon-lng'>
-            <i class="fa-solid fa-globe"></i>
-          </div>
-
-
-          
           <button className={`btn-lng ${i18n.language === 'es' ? ' activebtn' : ''}`} onClick={() => i18n.changeLanguage('es')}>ES</button>
           <button className={`btn-lng ${i18n.language === 'en' ? ' activebtn' : ''}`} onClick={() => i18n.changeLanguage('en')}>EN</button>
         </div>

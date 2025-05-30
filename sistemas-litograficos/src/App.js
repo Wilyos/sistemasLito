@@ -13,13 +13,10 @@ import Cotizacion from './components/pages/Cotizacion';
 import Soluciones from './components/pages/Soluciones';
 import Confirmacion from './components/pages/Confirmacion';
 import PrivacyPolicy from './components/pages/PrivacyPolicy';
-import Opcional from './components/pages/Opcional';
 import Aside from './components/Aside';
-import { useTranslation } from 'react-i18next';
 import './i18n';
 
 const App =()=> {
-  const {t, i18next} = useTranslation();
   return (
     <Router>
       <div className="App">
@@ -37,14 +34,13 @@ const App =()=> {
               </>
             }
           />
-          {/* Ruta para la página de contacto */}
+          {/* Ruta para las demas paginas */}
           <Route path="/contacto" element={<Contacto />} />
           <Route path="/nosotros" element={<Nosotros />} />
           <Route path='/cotizacion' element={<Cotizacion />} />
           <Route path='/soluciones' element={<Soluciones />} />
           <Route path="/confirmacion" element={<Confirmacion />} />
           <Route path='/privacy' element={<PrivacyPolicy />} />
-          <Route path='/opcional' element={<Opcional />} />
         </Routes>
         <WhatsApp />
         <Footer />

@@ -56,7 +56,7 @@ const Contacto =() => {
         <div className="contacto">
         <div className="contacto-info">
           <h2>{t('contact.info_title')}</h2>
-          <p><strong>{t('contact.phone')}:</strong> +57 301 508 8598</p>
+          <p><strong>{t('contact.phone')}:</strong> 604 322 0830</p>
           <p><strong>{t('contact.email')}:</strong> contacto@sistemaslitograficos</p>
           <p><strong>{t('contact.address')}:</strong> Calle 54 # 54 - 43 Medellín - Colombia</p>
           <div className="map-container">

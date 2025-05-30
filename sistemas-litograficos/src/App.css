@@ -156,38 +156,42 @@ p{
   animation: glow 1.5s infinite alternate;
 }
 
-.btn-lng{
-  text-decoration: none;
-  color: white;
+.btn-lng {
+  color: #0ABF04;
+  background: #222;
+  border: 2px solid #0ABF04;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  margin: 0 5px;
   font-weight: bold;
-  font-size: 0.8rem;
-  border-radius: 10px;
-  padding: 10px 20px;
-  background-color: transparent;
-   transition: 
-    background-color 0.3s,
+  font-size: 1rem;
+  box-shadow: 0 2px 8px rgba(10,191,4,0.15);
+  transition: 
+    background 0.3s,
     color 0.3s,
-    padding 0.3s,
+    transform 0.2s,
     box-shadow 0.3s;
-    display: inline-block;
-  }
-.btn-lng:hover{
-  font-weight: normal; 
-  background-color: #0ABF04; 
-  padding: 10px 20px;
-  border-radius: 10px; 
-  text-decoration: none;
-  box-shadow: 0 0 10px #0ABF04;
-  animation: glow 1.5s infinite alternate;
+  outline: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
-.activebtn{
-  font-weight: normal; 
-  background-color: #0ABF04; 
-  padding: 10px 20px;
-  border-radius: 10px; 
-  text-decoration: none;
-  box-shadow: 0 0 10px #0ABF04;
-  animation: glow 1.5s infinite alternate;
+
+.btn-lng:hover {
+  background: #0ABF04;
+  color: white;
+  transform: scale(1.1);
+  box-shadow: 0 0 16px #0ABF04;
+}
+
+.btn-lng.activebtn {
+  background: #0ABF04;
+  color: #fff;
+  border-color: #0ABF04;
+  box-shadow: 0 0 16px #0ABF04;
+  transform: scale(1.15);
 }
   
  .icon-lng{
