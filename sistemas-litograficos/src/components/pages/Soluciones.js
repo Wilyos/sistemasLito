@@ -48,7 +48,7 @@ const Soluciones=()=>{
         {
             id: 5,
             name: 'Publicidad Exterior',
-            image: require('../../assets/exterioresPortafolio.png'),
+            image: require('../../assets/publicidadEx.webp'),
             categoria: ['Publicidad Exterior'],
             descripcion: 'Atrae miradas con formatos grandes y resistentes. Ideal para calles y eventos.',
             whatsapp: true
@@ -176,7 +176,7 @@ const Soluciones=()=>{
         {
             id: 21,
             name: 'Block de notas',
-            image: require('../../assets/popPortafolio.jpg'),
+            image: require('../../assets/blockdenotas.webp'),
             categoria: ['Corporativo'],
             descripcion: 'Funcionales y promocionales. Ideal como regalo corporativo o herramienta de trabajo diaria.',
             whatsapp: true
@@ -184,7 +184,7 @@ const Soluciones=()=>{
         {
             id: 22,
             name: 'Bolsa Corporativa',
-            image: require('../../assets/popPortafolio.jpg'),
+            image: require('../../assets/bolsas.webp'),
             categoria: ['Corporativo'],
             descripcion: 'Refuerza tu imagen de marca con bolsas institucionales elegantes y resistentes.',
             whatsapp: true
@@ -192,7 +192,7 @@ const Soluciones=()=>{
          {
             id: 23,
             name: 'Almanaque / Calendario',
-            image: require('../../assets/popPortafolio.jpg'),
+            image: require('../../assets/calendario.webp'),
             categoria: ['Corporativo'],
             descripcion: 'Marca presencia todo el año con calendarios personalizados que combinan funcionalidad y diseño.',
             whatsapp: true
@@ -200,7 +200,7 @@ const Soluciones=()=>{
         {
             id: 24,
             name: 'Carpetas',
-            image: require('../../assets/popPortafolio.jpg'),
+            image: require('../../assets/carpeta.webp'),
             categoria: ['Corporativo'],
             descripcion: 'Organización y presentación profesional. Carpetas corporativas ideales para propuestas y eventos.',
             whatsapp: true
