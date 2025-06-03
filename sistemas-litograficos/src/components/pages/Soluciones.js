@@ -16,7 +16,7 @@ const Soluciones=()=>{
         {
             id: 1,
             name: 'Editorial',
-            image: require('../../assets/cartilla.webp'),
+            image: require('../../assets/revistaA.jpg'),
             categoria: ['Editorial'],
             descripcion: 'Transformamos ideas en publicaciones memorables. Ideal para libros, revistas y más.',
             whatsapp: true
@@ -32,7 +32,7 @@ const Soluciones=()=>{
         {
             id: 3,
             name: 'Packaging',
-            image: require('../../assets/empaques.webp'),
+            image: require('../../assets/caja.webp'),
             categoria: ['Empaque'],
             descripcion: 'Crea una experiencia de marca desde el primer contacto. Empaques que destacan.',
             whatsapp: true
@@ -120,7 +120,7 @@ const Soluciones=()=>{
         {
             id: 14,
             name: 'Boletas',
-            image: require('../../assets/popPortafolio.jpg'),
+            image: require('../../assets/boletas.webp'),
             categoria: ['Publicidad'],
             descripcion: 'Entradas personalizadas con alta calidad de impresión. Seguridad y diseño para tu evento.',
             whatsapp: true
@@ -128,7 +128,7 @@ const Soluciones=()=>{
         {
             id: 15,
             name: 'Menú',
-            image: require('../../assets/popPortafolio.jpg'),
+            image: require('../../assets/menu.webp'),
             categoria: ['Publicidad'],
             descripcion: 'Diseñamos menús que reflejan el estilo de tu restaurante. Claros, duraderos y atractivos.',
             whatsapp: true
@@ -136,7 +136,7 @@ const Soluciones=()=>{
         {
             id: 16,
             name: 'Volantes',
-            image: require('../../assets/popPortafolio.jpg'),
+            image: require('../../assets/volantes.webp'),
             categoria: ['Publicidad'],
             descripcion: 'Promociona de forma directa y efectiva. Volantes con diseño estratégico y gran impacto.',
             whatsapp: true
@@ -144,7 +144,7 @@ const Soluciones=()=>{
         {
             id: 17,
             name: 'Bolsas',
-            image: require('../../assets/popPortafolio.jpg'),
+            image: require('../../assets/bolsa.webp'),
             categoria: ['Empaque', 'MaterialPop'],
             descripcion: 'Empaca con estilo y funcionalidad. Las bolsas personalizadas son ideales para entregar productos y reforzar tu marca.',
             whatsapp: true
@@ -152,7 +152,7 @@ const Soluciones=()=>{
          {
             id: 18,
             name: 'Caja / Empaque',
-            image: require('../../assets/popPortafolio.jpg'),
+            image: require('../../assets/caja.webp'),
             categoria: ['Empaque'],
             descripcion: 'Cajas personalizadas que protegen y promocionan tus productos. Perfectas para retail o envíos.',
             whatsapp: true
@@ -168,7 +168,7 @@ const Soluciones=()=>{
         {
             id: 20,
             name: 'Etiquetas',
-            image: require('../../assets/popPortafolio.jpg'),
+            image: require('../../assets/etiqueta.png'),
             categoria: ['Empaque', 'MaterialPop'],
             descripcion: 'Soluciones versátiles para clasificar y promocionar. Etiquetas impresas a la medida de tus necesidades.',
             whatsapp: true

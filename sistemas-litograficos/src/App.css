@@ -301,9 +301,9 @@ p{
 
 .portafolio-image {
   width: 100%;
-  height: 300px;
-  object-fit: contain;
-  border-radius: 8px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10%;
   background-color: transparent;
 }
 

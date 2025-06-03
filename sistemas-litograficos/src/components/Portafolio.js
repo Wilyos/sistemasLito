@@ -9,12 +9,12 @@ const Portafolio=()=> {
   const { t } = useTranslation();
 
     const products = [
-        { id: 1, name: 'Editorial', image: require('../assets/standar-banner-editorial.png') },
-        { id: 2, name: 'Publicidad', image: require('../assets/standar-banner-publicidad.png') },
-        { id: 3, name: 'Empaques', image: require('../assets/standar-banner-empaques.png') },
-        { id: 4, name: 'Corporativa', image: require('../assets/corporativasPortafolio.jpg') },
-        { id: 5, name: 'Publicidad Exterior', image: require('../assets/standar-banner-valla.png')},
-        { id: 6, name: 'Material P.O.P', image: require('../assets/popPortafolio.jpg') }
+        { id: 1, name: 'Editorial', image: require('../assets/agenda.webp') },
+        { id: 2, name: 'Publicidad', image: require('../assets/afiche.webp') },
+        { id: 3, name: 'Empaques', image: require('../assets/caja.webp') },
+        { id: 4, name: 'Corporativa', image: require('../assets/corporativo.webp') },
+        { id: 5, name: 'Publicidad Exterior', image: require('../assets/publicidadEx.webp')},
+        { id: 6, name: 'Material P.O.P', image: require('../assets/tazaSouvenir.webp') }
     ];
 
     const settings = {
