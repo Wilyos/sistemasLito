@@ -216,7 +216,7 @@ const Soluciones=()=>{
         {
             id: 26,
             name: 'Sellos',
-            image: require('../../assets/popPortafolio.jpg'),
+            image: require('../../assets/sello.webp'),
             categoria: ['Corporativo'],
             descripcion: 'Agiliza procesos y añade profesionalismo con sellos personalizados de alta calidad.',
             whatsapp: true
@@ -320,7 +320,7 @@ const Soluciones=()=>{
         {
             id: 40,
             name: 'Dangler',
-            image: require('../../assets/dangler.webp'),
+            image: require('../../assets/dangler2.webp'),
             categoria: ['MaterialPop'],
             descripcion: 'Promociona con creatividad desde el techo. Llamativos, versátiles y fáciles de instalar.',
             whatsapp: true
