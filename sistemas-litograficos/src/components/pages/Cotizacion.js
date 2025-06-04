@@ -64,6 +64,10 @@ const Cotizacion = () => {
 
   return (
     <div className="cotizacion-container">
+       <Helmet>
+        <title>Cotización | Sistemas Litográficos</title>
+        <meta name="description" content="Comunícate con nosotros para cotizaciones, diseño e impresión profesional." />
+      </Helmet>
       <h1 className="cotizacion-title">{t("quote.title")}</h1>
       <p className="cotizacion-subtitle">{t("quote.subtitle")}</p>
       <form className="cotizacion-form" onSubmit={handleSubmit}>

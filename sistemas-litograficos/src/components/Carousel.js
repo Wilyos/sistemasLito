@@ -28,7 +28,7 @@ const Carousel=()=> {
 
   const bannersMobile = [
     require('../assets/banner-movil.jpg'),
-    require('../assets/banner-movil.jpg'),
+    require('../assets/banner-movil2.png'),
   ];
 
   const banners = width < 768 ? bannersMobile : bannersDesktop
