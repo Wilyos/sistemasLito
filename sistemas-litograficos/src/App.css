@@ -315,8 +315,9 @@ p{
 
 /* Responsive para pantallas pequeñas */
 @media (max-width: 768px) {
-  .portafolio-grid {
-    grid-template-columns: repeat(2, 1fr); 
+
+  .contenedor-soluciones {
+    grid-template-columns: 1fr;
   }
 
   .portafolio-card {
@@ -334,10 +335,14 @@ p{
   }
 }
 
-@media (max-width: 480px) {
-  .portafolio-grid {
-    grid-template-columns: 1fr;
+@media screen and (max-width: 600px) {
+  .contenedor-soluciones {
+    grid-template-columns: 1fr; /* Solo una columna */
   }
+}
+
+@media (max-width: 480px) {
+
 
   .portafolio-card {
     width: 100%; 
@@ -1359,7 +1364,7 @@ aside{
   }
   
   .contenedor-soluciones {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
 
   }
   .movil{
