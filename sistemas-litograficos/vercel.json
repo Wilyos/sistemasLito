@@ -6,9 +6,13 @@
     { "source": "/contacto-antiguo", "destination": "/contacto", "permanent": true },
     { "source": "/editoriales", "destination": "/", "permanent": true },
     { "source": "/packaging-2", "destination": "/", "permanent": true },
-     { "source": "/wp-content/uploads/2022/09/PORTAFOLIO-SEBASTIAN-SANCHEZ-2022-1-1-comprimido.pdf", "destination": "/", "permanent": true },
-      { "source": "/cn/", "destination": "/", "permanent": true },
-       { "source": "politicas-de-datos-personales/", "destination": "/privacy", "permanent": true }
-
-  ]
+    { "source": "/wp-content/uploads/2022/09/PORTAFOLIO-SEBASTIAN-SANCHEZ-2022-1-1-comprimido.pdf", "destination": "/", "permanent": true },
+    { "source": "/cn/", "destination": "/", "permanent": true },
+    { "source": "politicas-de-datos-personales/", "destination": "/privacy", "permanent": true }
+  ],
+  "build": {
+    "env": {
+      "NPM_FLAGS": "--legacy-peer-deps"
+    }
+  }
 }
