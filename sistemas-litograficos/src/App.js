@@ -13,6 +13,8 @@ import Cotizacion from './components/pages/Cotizacion';
 import Soluciones from './components/pages/Soluciones';
 import Confirmacion from './components/pages/Confirmacion';
 import PrivacyPolicy from './components/pages/PrivacyPolicy';
+import Aside from './components/Aside';
+import './i18n';
 
 
 const App =()=> {
@@ -27,12 +29,13 @@ const App =()=> {
             element={
               <>
                 <Carousel />
+                <Aside />
                 <Portafolio />
                 <Clientes />
               </>
             }
           />
-          {/* Ruta para la página de contacto */}
+          {/* Ruta para las demas paginas */}
           <Route path="/contacto" element={<Contacto />} />
           <Route path="/nosotros" element={<Nosotros />} />
           <Route path='/cotizacion' element={<Cotizacion />} />

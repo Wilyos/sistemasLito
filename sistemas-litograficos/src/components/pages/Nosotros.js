@@ -1,7 +1,10 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import "../../App.css";
 import { Helmet } from "react-helmet";
 const Nosotros = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       <Helmet>
@@ -11,63 +14,47 @@ const Nosotros = () => {
    
       <div className="nosotros-banner">
         <div className="nosotros-banner-text">
-          <h1>¿Quiénes Somos?</h1>
+          <h1>{t("about.title")}</h1>
         </div>
       </div>
-      { /*<div className="nosotros-parallax">
-      </div> */}
       <div className="nosotros-container">
         <div className="nosotros-descripcion">
-            <div>
-                <p>
-                    Somos una empresa con más de 20 años de experiencia en el sector de las artes gráficas, comprometidos con ofrecer soluciones de alta calidad en impresión y diseño. Nuestro objetivo es satisfacer las necesidades de nuestros clientes con innovación, tecnología y excelencia.
-                </p>
-                <br/>
-                <p>
-                    En Sistemas Litográficos, nos especializamos en la producción de
-                    etiquetas, empaques y materiales promocionales. Contamos con un
-                    equipo de profesionales altamente capacitados y tecnología de
-                    vanguardia para garantizar resultados excepcionales en cada
-                    proyecto.
-                </p>
-            </div>
-            <div>
-                <img className="img-nosotros" alt="masde20" src={require('../../assets/masde20a.png')} />
-            </div>
+          <div>
+            <p>{t("about.description_1")}</p>
+            <br />
+            <p>{t("about.description_2")}</p>
+          </div>
+          <div>
+            <img className="img-nosotros" alt="masde20" src={require('../../assets/masde20a.png')} />
+          </div>
         </div>
         <div className="nosotros-valores">
           <div>
             <img className="img-nosotros" alt="valores" src={require('../../assets/valores.png')} />
           </div>
           <div>
-            <h2>Nuestros Valores</h2>
+            <h2>{t("about.values_title")}</h2>
             <ul>
-              <li>Trabajamos con dedicación para cumplir con las expectativas de nuestros clientes.</li>
-              <li>Incorporamos tecnología de punta en todos nuestros procesos.</li>
-              <li>Garantizamos productos y servicios de la más alta calidad.</li>
-              <li>Nos preocupamos por el medio ambiente y promovemos prácticas responsables.</li>
+              {t("about.values", { returnObjects: true }).map((valor, idx) => (
+                <li key={idx}>{valor}</li>
+              ))}
             </ul>
-          </div> 
+          </div>
         </div>
         <span className="nosotros-linea"></span>
         <div className="nosotros-mision-vision">
           <div>
-            <h2>Misión</h2>
-            <p>
-              Somos un empresa dedicada al diseño y producción de impresos, orientada a satisfacer todas las necesidades de nuestros clientes, en todo lo referente a la papelería comercial, a través de un servicio oportuno cuyo desempeño involucra diversos estándares de calidad y cumplimiento.
-            </p>
+            <h2>{t("about.mission_title")}</h2>
+            <p>{t("about.mission")}</p>
           </div>
           <div>
-            <h2>Visión</h2>
-            <p>
-              <strong>SISTEMAS LITOGRÁFICOS </strong> se está consolidando como una de las mejores empresas del sector gráfico a nivel nacional, ya que contamos con los recursos técnicos y humanos, necesarios para suplir las necesidades del área en diversos municipios de nuestro país.
-            </p>
+            <h2>{t("about.vision_title")}</h2>
+            <p dangerouslySetInnerHTML={{ __html: t("about.vision") }} />
           </div>
         </div>
       </div>
-
     </>
   );
-}
+};
 
 export default Nosotros;

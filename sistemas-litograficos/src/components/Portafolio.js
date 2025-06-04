@@ -1,18 +1,20 @@
 import React from 'react';
 import Slider from 'react-slick';
+import { useTranslation } from 'react-i18next';
 import '../App.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 const Portafolio=()=> {
+  const { t } = useTranslation();
 
     const products = [
-        { id: 1, name: 'Editorial', image: require('../assets/standar-banner-editorial.png') },
-        { id: 2, name: 'Publicomerciales', image: require('../assets/standar-banner-publicidad.png') },
-        { id: 3, name: 'Packaging', image: require('../assets/standar-banner-empaques.png') },
-        { id: 4, name: 'Corporativa', image: require('../assets/corporativasPortafolio.jpg') },
-        { id: 5, name: 'Publicidad Exterior', image: require('../assets/standar-banner-valla.png')},
-        { id: 6, name: 'Material P.O.P', image: require('../assets/popPortafolio.jpg') }
+        { id: 1, name: 'Editorial', image: require('../assets/agenda.webp') },
+        { id: 2, name: 'Publicidad', image: require('../assets/afiche.webp') },
+        { id: 3, name: 'Empaques', image: require('../assets/caja.webp') },
+        { id: 4, name: 'Corporativa', image: require('../assets/corporativo.webp') },
+        { id: 5, name: 'Publicidad Exterior', image: require('../assets/publicidadEx.webp')},
+        { id: 6, name: 'Material P.O.P', image: require('../assets/tazaSouvenir.webp') }
     ];
 
     const settings = {
@@ -44,12 +46,12 @@ const Portafolio=()=> {
 
     return (
         <div className="portafolio">
-             <h2>Soluciones</h2>
+             <h2>{t('portfolio.title')}</h2>
             <Slider {...settings}>
                 {products.map(product => (
                     <div key={product.id} className="portafolio-card">
                         <img src={product.image} alt={product.name} className="portafolio-image" />
-                        <h3>{product.name}</h3>
+                        <h3>{t(`portfolio.${product.name}`)}</h3>
                     </div>
                 ))}
             </Slider>

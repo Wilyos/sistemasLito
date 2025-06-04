@@ -1,7 +1,9 @@
 import React, { useEffect } from "react";
+import { useTranslation } from 'react-i18next'; 
 import "../../App.css";
 
-const Confirmacion = () => {
+const Confirmacion =()=> {
+  const {t} = useTranslation
   useEffect(() => {
     if (window.gtag) {
       window.gtag("event", "conversion", {
@@ -14,8 +16,8 @@ const Confirmacion = () => {
 
   return (
     <div className="confirmacion-container">
-      <h1>Mensaje enviado con éxito!</h1>
-      <p>Gracias por contactarnos. Nos comunicaremos contigo lo más pronto posible.</p>
+      <h1>{t('confirmation.title')}</h1>
+      <p>{t('confirmation.content')}</p>
     </div>
   );
 };

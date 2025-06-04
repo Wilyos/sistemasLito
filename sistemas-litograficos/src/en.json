@@ -1,0 +1,506 @@
+
+{
+  "menu": "Menu",
+  "all_products": "All products",
+  "categories": {
+    "Editorial": "Editorial",
+    "Publicidad": "Advertising",
+    "Empaque": "Packaging",
+    "Corporativo": "Corporate",
+    "Publicidad Exterior": "Outdoor Advertising",
+    "MaterialPop": "P.O.P Material"
+  },
+   "navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "portfolio": "Portfolio",
+    "contact": "Contact Us",
+    "quote": "Quote"
+  },
+  "portfolio": {
+    "title": "Solutions",
+    "Editorial": "Editorial",
+    "Publicidad": "Advertising",
+    "Empaques": "Packaging",
+    "Corporativa": "Corporate",
+    "Publicidad Exterior": "Outdoor Advertising",
+    "Material P.O.P": "P.O.P Material"
+  },
+   "clientes": {
+    "title": "Clients",
+    "descripcion": "We are proud to add to our clients' projects and strengthen trust with them."
+  },
+  "footer": {
+  "desc": "Your project is very important to us",
+  "quick_access": "Quick Access",
+  "services": "Services",
+  "support": "Support",
+  "home": "Home",
+  "about": "About Us",
+  "solutions": "Solutions",
+  "editorial": "Editorial",
+  "packaging": "Packaging",
+  "advertising": "Advertising",
+  "corporate": "Corporate",
+  "outdoor": "Outdoor",
+  "contact": "Contact Us",
+  "quote": "Quotes",
+  "privacy": "Privacy Policy",
+  "developed": "Designed and Developed by",
+  "rights": "All rights reserved Sistemas Litográficos 2025 ©"
+},
+
+"confirmation":{
+  "title": " Message sent successfully!",
+  "content":"Thank you for contacting us. We will get in touch with you as soon as possible."
+
+},
+
+"contact": {
+  "info_title": "Contact Information",
+  "phone": "Phone",
+  "email": "Email",
+  "address": "Address",
+  "form_title": "Contact Form",
+  "form_desc": "Contact us for any questions, possible projects, or quotes you need.",
+  "name": "Name",
+  "phone_placeholder": "Phone",
+  "email_placeholder": "Email",
+  "message_placeholder": "Additional information, comments....",
+  "send": "Send",
+  "success": "Email sent successfully, we will contact you soon.",
+  "error": "Error sending email"
+},
+
+"quote": {
+  "title": "Quote",
+  "subtitle": "Fields marked with * are required",
+  "name": "Name",
+  "email": "Email",
+  "phone": "Phone",
+  "product": "Select a product",
+  "quantity": "Quantity",
+  "message": "Message",
+  "send": "Send",
+  "success": "Quote sent successfully.",
+  "error": "Error sending quote.",
+  "placeholder_name": "Enter your name",
+  "placeholder_email": "Enter your email",
+  "placeholder_phone": "Enter your phone",
+  "placeholder_quantity": "Enter the quantity",
+  "placeholder_message": "Write your message here",
+  "select_option": "Select an option",
+  "products": {
+    "varios": "VARIOUS PRODUCTS",
+    "tarjetas": "Business cards",
+    "volante": "Flyer",
+    "brochure": "Brochure / Folded",
+    "caja": "Box / Packaging",
+    "etiqueta Adhesiva": "Adhesive Label",
+    "afiche": "Poster",
+    "agenda": "Diary",
+    "calendario": "Almanac / Calendar",
+    "block de notas": "Notepad",
+    "boletas": "Tickets",
+    "bolsa": "Bag",
+    "carpeta": "Folder",
+    "cartilla": "Booklet / Catalog",
+    "dangler": "Dangler",
+    "display": "Display",
+    "etiqueta": "Label",
+    "exhibidor": "Exhibitor",
+    "floorgraphic": "Floorgraphic",
+    "libro": "Book",
+    "membrete": "Letterhead",
+    "carta": "Menu",
+    "microperforado": "Microperforated",
+    "pendon": "Banner",
+    "periodico": "Newspaper",
+    "revista": "Magazine",
+    "rompetrafico": "Traffic Stopper",
+    "sello": "Stamp",
+    "señalizacion": "Signage",
+    "sobre": "Envelope",
+    "souvenir": "Souvenir",
+    "talonario": "Receipt Book",
+    "tope": "Shelf Stopper",
+    "valla": "Billboard",
+    "vinilo": "Adhesive Vinyl / Plotter"
+  }
+},
+
+  "about": {
+    "title": "Who Are We?",
+    "description_1": "We are a company with more than 20 years of experience in the graphic arts sector, committed to offering high-quality printing and design solutions. Our goal is to meet our clients' needs with innovation, technology, and excellence.",
+    "description_2": "At Sistemas Litográficos, we specialize in the production of labels, packaging, and promotional materials. We have a highly trained team and cutting-edge technology to ensure exceptional results in every project.",
+    "values_title": "Our Values",
+    "values": [
+      "We work with dedication to meet our clients' expectations.",
+      "We incorporate state-of-the-art technology in all our processes.",
+      "We guarantee the highest quality products and services.",
+      "We care about the environment and promote responsible practices."
+    ],
+    "mission_title": "Mission",
+    "mission": "We are a company dedicated to the design and production of printed materials, focused on meeting all our clients' needs regarding commercial stationery, through timely service and various quality and compliance standards.",
+    "vision_title": "Vision",
+    "vision": "<strong>SISTEMAS LITOGRÁFICOS</strong> is consolidating itself as one of the best companies in the graphic sector nationwide, as we have the technical and human resources necessary to meet the needs of the area in various municipalities of our country."
+  },
+  "privacy": {
+  "title": "POLICIES AND PROCEDURES MANUAL ON PERSONAL DATA PROTECTION",
+  "company": "SISTEMAS LITOGRÁFICOS",
+  "date": "Octuber 01 2016",
+  "content": "Content",
+  "intro_title": "INTRODUCTIÓN",
+  "intro_text": "Below are the Information Processing Policies that govern the activities carried out by Sistemas Litográficos and the management of its databases. This document has been developed in compliance with Law 1581 of 2012, 'By which general provisions for the protection of personal data are issued', which establishes that all public or private entities that handle personal data must adopt an internal manual of policies and procedures to ensure proper compliance with the law and, in particular, to guarantee the effective exercise of the rights of the data subjects.\n\nAll information received by Sistemas Litográficos through its different communication channels, whether digital or printed, and which forms part of our databases obtained from clients, suppliers, employees, contractors, and other data subjects, is governed by the following usage policies.\n\nIf your information appears in any of our databases, it is because you have had or currently maintain a commercial relationship with Sistemas Litográficos or our network of dealers, or because you voluntarily provided your data during events and activities organized by Sistemas Litográficos or directly at our offices.\n\nData Controller Information:\n\nSistemas Litográficos, identified with NIT: 890.922.323-1",
+  "part1": "PART I. GENERAL PROVISIONS",
+  "part1_articles": [
+    {
+      "title": "ARTICLE 1. APPLICABLE LEGISLATION.",
+      "text": "This manual was prepared in accordance with the provisions contained in Law 1581 of 2012, 'By which general provisions for the protection of personal data are issued,' and Decree 1377 of 2013, 'Which partially regulates Law 1581 of 2012.'."
+    },
+    {
+      "title": "ARTICLE 2. SCOPE OF APPLICATION.",
+      "text": "This manual shall apply to the processing of personal data collected and handled by Sistemas Litográficos."
+    },
+    {
+      "title": "ARTICLE 3. PURPOSE.",
+      "text": "To protect and guarantee, based on this manual, the fundamental right of habeas data regulated by Law 1581 of 2012, which governs the procedures for the collection, management, and processing of personal data carried out by Sistemas Litográficos."
+    },
+    {
+      "title": "ARTICLE 4. VALIDITY OF THE DATABASE",
+      "text": "Sistemas Litográficos shall apply the policies and procedures contained in this manual to the databases over which it has decision-making authority, for a period equal to the term statutorily established for the duration of the company."
+    },
+    {
+      "title": "ARTICLE 5. PRINCIPLES FOR THE PROCESSING OF PERSONAL DATA.",
+      "text": "In the development, interpretation, and application of this law, the following principles shall be applied in a harmonious and comprehensive manner:",
+      "text2": "a) Principle of Purpose: The processing of personal data collected by Sistemas Litográficos must be communicated to the Data Subject.",
+      "text3": "b) Principle of Freedom: Processing may only be carried out with the prior, express, and informed consent of the data subject. Personal data may not be obtained or disclosed without prior authorization, or in the absence of a legal or judicial mandate that waives the requirement for consent.",
+      "text4": "c) Principle of Truthfulness or Quality: Information subject to processing must be truthful, complete, accurate, up-to-date, verifiable, and understandable. The processing of partial, incomplete, fragmented, or misleading data is prohibited.",
+      "text5": "d) Principle of Transparency: In processing, the right of the Data Subject to obtain information from the Controller at any time and without restrictions regarding the existence of data concerning them must be guaranteed.",
+      "text6": "e) Principle of Restricted Access and Circulation: Personal data, except for public information, may not be available on the Internet or other mass communication or dissemination media unless access is technically controllable to provide restricted knowledge only to the data subjects or authorized third parties.",
+      "text7": " f) Principle of Security: Information subject to processing by the Controller must be handled with the necessary technical, human, and administrative measures to ensure the security of records, preventing alteration, loss, consultation, use, or unauthorized or fraudulent access.",
+      "text8": "g) Principle of Confidentiality: All persons involved in the processing of personal data that are not public in nature are obliged to guarantee the confidentiality of the information, even after their relationship with any of the tasks involved in the processing has ended."
+    }
+  ],
+  "part2": "PART II. RIGHTS AND DUTIES",
+  "part2_articles": [
+    {"title": "ARTICLE 6. RIGHTS OF THE DATA SUBJECTS",
+      "text": "To know, update, and correct their Personal Data. With the power to exercise this right, among others, in relation to partial, inaccurate, incomplete, fragmented, misleading information, or data whose processing is prohibited or unauthorized.",
+      "text2": "To require proof of the consent granted for the collection and processing of Personal Data.",
+      "text3": "To be informed by Sistemas Litográficos about the use given to the Personal Data.",
+      "text4": "To file complaints before the Superintendence of Industry and Commerce in case of violations by Sistemas Litográficos of the provisions of Law 1581 of 2012, Decree 1377 of 2013, and other regulations that modify, add to, or complement them, in accordance with the procedural requirement established in Article 16 of Law 1581 of 2012.",
+      "text5": "To revoke the authorization granted for the processing of Personal Data.",
+      "text6": "To request to be removed from their database. This suppression or deletion implies the total or partial removal of personal information according to the request made by the data subject in the Sistemas Litográficos databases. It is important to note that the right to deletion is not absolute, and the responsible party may deny its exercise when: the data subject has a legal and/or contractual obligation to remain in the database, the deletion hinders judicial or administrative proceedings or the investigation and prosecution of crimes, or when the data is necessary to comply with a legally acquired obligation of the data subject.",
+      "text7": "To have access to the Personal Data that the brand and/or Sistemas Litográficos have collected and processed."
+    },
+    {
+      "title": "ARTICLE 7. DUTIES OF THE DATA CONTROLLER:",
+      "text1": "As the Data Controller, and in accordance with the provisions of Law 1581 of 2012, Sistemas Litográficos undertakes to comply with the following duties regarding the processing of personal data:",
+      "text2": "Guarantee the data subject, at all times, the full and effective exercise of the right of habeas data.",
+      "text3": "Keep a copy of the respective authorization granted by the data subject.",
+      "text4": "Properly inform the data subject about the purpose of the data collection and the rights granted by virtue of the authorization provided.",
+      "text5": "Store the information under the necessary security conditions to prevent its alteration, loss, consultation, unauthorized or fraudulent use or access.",
+      "text6": "Process inquiries and claims submitted by the data subjects within the timeframes established by Articles 14 and 15 of Law 1581 of 2012.",
+  "text7": "Inform the data subject, upon request, about how their data has been used.",
+  "text8": "Report to the Superintendence of Industry and Commerce when security code breaches occur and there are risks in the management of the data subjects' information.",
+  "text9": "Comply with the instructions and requirements issued by the Superintendence of Industry and Commerce.",
+  "text10": "Insert the phrase “information under judicial discussion” in the database once notified by the competent authority about judicial proceedings related to the quality or details of the personal data.",
+  "text11": "Refrain from circulating information that is being contested by the data subject and whose blocking has been ordered by the Superintendence of Industry and Commerce.",
+  "text12": "Allow access to the information only to authorized individuals.",
+  "text13": "Inform through appropriate channels about new mechanisms implemented to enable data subjects to exercise their rights."
+    }
+
+  ],
+  
+  "part3": "PART III. AUTHORIZATION AND PURPOSE",
+  "part3_articles": [
+    {
+      "title": "ARTICLE 8. AUTHORIZATION.",
+      "text1": "Sistemas Litográficos, in its capacity as the Data Controller, has established the necessary mechanisms to obtain authorization from data subjects, ensuring in all cases that it is possible to verify the granting of such authorization."
+    },
+    {
+      "title": "ARTICLE 9. PURPOSE OF THE AUTHORIZATION.",
+      "text1": "The processing of personal data of the Data Subjects will be carried out by Sistemas Litográficos for the following purposes: Measuring satisfaction levels, informing about service campaigns, communicating promotional campaigns, conducting surveys, sending maintenance reminders, executing loyalty campaigns, sending event invitations, updating data, inviting to vehicle tests, offering products and services, sharing news about the Sistemas Litográficos brand and the sales and service network, and providing information related to financing products for the acquisition of our goods and services."
+    },
+    {
+      "title": "ARTICLE 10. METHOD AND MECHANISMS FOR GRANTING AUTHORIZATION.",
+      "text1": "Annex 1 of this document presents the authorization format defined by Sistemas Litográficos for the collection and processing of personal data. Authorization will be obtained through one of the following means: a. Quotes, b. Sales Invoices, c. Marketing Activities, d. Events, e. Owner Registration, f. Service Orders, g. Digital Media, h. Vehicle Delivery Certificate."
+    },
+   {
+      "title": "ARTICLE 11. PRIVACY NOTICE.",
+      "text1": "Annex 2 of this document presents the privacy notice format defined by Sistemas Litográficos."
+    }
+  ],
+  "part4": "PART IV. PROCEDURE FOR THE EXERCISE OF THE RIGHTS OF THE DATA SUBJECT",
+  "part4_articles": [
+    {
+      "title": "ARTICLE 12. PROCEDURE TO GUARANTEE THE RIGHT TO FILE CLAIMS AND EXERCISE RIGHTS.",
+      "text": "Data subjects may exercise their rights at any time and free of charge, upon verification of their identity. The request must be made through one of the following means: Email: www.sistemaslitograficos.com or by contacting the Customer Support Center in Medellín: 604 322 0830"
+    }
+  ],
+  "part5": "PART V. SECURITY AND CONFIDENTIALITY OF INFORMATION",
+  "part5_articles": [
+    {
+      "title": "ARTICLE 13. SECURITY AND CONFIDENTIALITY MEASURES",
+      "text": "For data storage, the Company uses a personal data encryption technique, and data transmission to data processors is done through password-protected files. System access is protected with a high level of authentication and authorization security. The databases are hosted in a Data Center that provides high levels of integrity, confidentiality, and availability."
+    }
+  ],
+  "part6": "PART VI. FINAL PROVISIONS",
+  "part6_articles": [
+    {
+      "title": "ARTICLE 14. DESIGNATION.",
+      "text": "Sistemas Litográficos designates the Customer Support Center, or its equivalent, to fulfill the function of personal data protection, as well as to handle requests from data subjects for the exercise of their rights as holders of the information."
+    },
+    {
+      "title": "ARTICLE 15. VALIDITY OF THE MANUAL.",
+      "text": "This manual has been in effect since October 2016."
+    }
+  ],
+  "annexes": "ANNEXES",
+  "annexes_parts": [
+    {
+      "title": "ANNEX 1",
+      "subtitle": "AUTHORIZATION FOR THE PROCESSING OF PERSONAL DATA",
+      "text": "In accordance with the provisions of Law 1581 of 2012 and Decree 1377 of 2013, I declare that I freely and voluntarily provide the following personal data: full name, identification document, gender, address, city, department, phone numbers, mobile number, date of birth, and email address (hereinafter the “Personal Data”) on behalf of the company (hereinafter referred to as “Sistemas Litográficos”). Under the definitions of Law 1581 of 2012, Sistemas Litográficos acts as both the controller and processor of my Personal Data. I expressly authorize Sistemas Litográficos to collect and otherwise process my Personal Data for the following purposes: measure satisfaction levels, inform about service campaigns, communicate promotional campaigns, conduct surveys, send maintenance reminders, run loyalty campaigns, send event invitations, update personal data, invite to vehicle test drives, offer products and services, communicate brand-related news from Sistemas Litográficos and its sales and service network, and provide information regarding products for financing the acquisition of our goods and services.\n\nBy signing this document, I authorize that my Personal Data be collected and processed in accordance with the privacy policy or personal data processing policy of Sistemas Litográficos, available at www.sistemaslitograficos.com.\n\nRegarding the Personal Data collected and processed, and in accordance with Law 1581 of 2012 and Decree 1377 of 2013, I have been informed that I have the following rights:",
+      "text2": "To know, update, and correct my Personal Data. I may exercise this right, among others, concerning partial, inaccurate, incomplete, or misleading information, or information whose processing is prohibited or not authorized.",
+      "text3": "To request proof of the consent granted for the collection and processing of my Personal Data.",
+      "text4": "To be informed by Sistemas Litográficos of how my Personal Data has been used.",
+      "text5": "To file complaints with the Superintendence of Industry and Commerce in the event of a violation by Sistemas Litográficos of the provisions of Law 1581 of 2012, Decree 1377 of 2013, or any other regulations that modify, add to, or complement them, in accordance with the requirements of Article 16 of Law 1581 of 2012.",
+      "text6": "To revoke the authorization granted for the processing of my Personal Data.",
+      "text7": "To request removal from the database.",
+      "text8": "To access my Personal Data collected and processed by Sistemas Litográficos.",
+      "text9": "In order to exercise the rights mentioned above or to submit inquiries or complaints related to my Personal Data, I may contact the Customer Support Center via www.sistemaslitograficos.com or by calling 604 322 0830.\n\nCustomer signature:\n\nName:\n\nID Number:\n\nDate:\n\nIf the data subject is a minor, the authorization must be signed by their legal representative."
+    },
+    {
+      "title": "ANNEX 2",
+      "subtitle": "PRIVACY NOTICE",
+      "text": "Data Controller: Sistemas Litográficos identified with Tax ID No. 890.922.323-1.\n\nIn accordance with the provisions of Law 1581 of 2012, we inform you that the personal data you have provided us, as a customer or supplier of goods and services, will be part of our database to be used for the following purposes: measuring satisfaction levels, informing about service campaigns, communicating promotional campaigns, conducting surveys, sending maintenance reminders, executing loyalty campaigns, sending event invitations, updating data, inviting to vehicle test drives, offering products and services, communicating news about the Sistemas Litográficos brand and its sales and service network, and communicating information related to products for financing the acquisition of our goods and services.\n\nThe handling of such data will be carried out in accordance with the “Manual of Policies and Procedures for the Processing of Personal Data,” which contains the policies established by our Company for data processing, the mechanisms to ensure the effective exercise of the rights of the data subject to know, update, rectify, and delete the data held in our database, as well as to file claims with the data controller and revoke authorization for its use. This manual can be consulted on the website: www.sistemaslitograficos.com"
+    }
+  ] 
+},
+"products": {
+    "Editorial": {
+      "name": "Editorial",
+      "desc": "Transformamos ideas en publicaciones memorables. Ideal para libros, revistas y más."
+    },
+    "Publicomerciales": {
+      "name": "Publicomerciales",
+      "desc": "Diseños impactantes que venden. Dale presencia a tu marca con piezas promocionales."
+    },
+    "Packaging": {
+      "name": "Packaging",
+      "desc": "Crea una experiencia de marca desde el primer contacto. Empaques que destacan."
+    },
+    "Corporativa":{
+      "categoria": "Corporativo",
+      "desc": "Impulsa tu identidad visual con artículos que comunican profesionalismo."
+            
+    },
+    "Publicidad Exterior": {
+      "categoria": "Publicidad Exterior",
+      "desc": "Atrae miradas con formatos grandes y resistentes. Ideal para calles y eventos."
+         
+    },
+    "Material P.O.P":{
+            
+      "categoria": "MaterialPop",
+      "desc":"Destaca en el punto de venta con piezas creativas y funcionales."
+          
+    },
+    "Agenda": {
+
+      "categoria": {
+        "Editorial":"Editorial", 
+        "Corporativo":"Corporativo"
+      },
+      "desc":"Útiles y con gran impacto visual. Las agendas personalizadas refuerzan tu marca cada día."
+
+    },
+    "Brochure/Plegable":{
+      "categoria":{ 
+        "Editorial":"Editorial",
+        "Publicidad" :"Publicidad"
+      },
+      "desc": "Presenta tu portafolio con estilo. Ideal para eventos, ventas o como presentación empresarial."
+     
+    },
+    "Cartilla/Catálogo":{     
+      "categoria": "Editorial",
+      "desc": "Organiza y muestra tu información de forma clara y atractiva. Perfecto para catálogos y manuales."
+
+    },
+    "Libro": {
+           
+      "categoria": "Editorial",
+      "desc": "Desde novelas hasta libros técnicos. Calidad editorial que resalta el contenido."
+      
+        },
+    "Periódico": {
+      
+      "categoria": {
+        "Editorial":"Editorial",
+        "Publicidad":"Publicidad"
+      },
+      "desc":"Ideal para medios internos, publicaciones comunitarias o promocionales. Efectivo y económico."
+      
+    },
+    "Revista": {
+        
+      "categoria": "Editorial",
+      "desc":"Diseños atractivos y coherentes. Impacta a tus lectores con contenido de calidad y presentación profesional."
+      
+    },
+    "Afiches":  {
+      "categoria": {
+        "Publicidad":"Publicidad",
+        "MaterialPop":"Material P.O.P"},
+      "desc": "Captura la atención con diseños llamativos en gran formato. Perfectos para promociones o campañas visuales."
+            
+    },
+    "Boletas":{
+      "categoria": "Publicidad",
+      "desc": "Entradas personalizadas con alta calidad de impresión. Seguridad y diseño para tu evento."
+    },
+        
+    "Menú":{
+      "categoria": "Publicidad",
+      "desc":"Diseñamos menús que reflejan el estilo de tu restaurante. Claros, duraderos y atractivos."
+    },
+
+
+    "Volantes":{
+      "categoria": "Advertising",
+      "desc": "Promote directly and effectively. Flyers with strategic design and high impact."  
+    },
+    "Bolsas": {
+      "categoria": {
+        "Empaque":"Empaques",
+        "MaterialPop":"Material P.O.P"
+      },
+      "desc": "Empaca con estilo y funcionalidad. Las bolsas personalizadas son ideales para entregar productos y reforzar tu marca."
+    },
+    
+    "Caja / Empaque": {
+      "categoria": "Empaque",
+      "desc": "Cajas personalizadas que protegen y promocionan tus productos. Perfectas para retail o envíos."
+    },
+    "Etiqueta Adhesiva": {
+      "categoria": "Empaque",
+      "desc": "Etiqueta tus productos con estilo. Adhesivos personalizados para destacar tu marca en cada detalle."
+    },
+    "Etiquetas":   {
+      "categoria": {
+        "Empaque":"Empaques", 
+        "MaterialPop":"Material P.O.P"
+      },
+      "desc": "Soluciones versátiles para clasificar y promocionar. Etiquetas impresas a la medida de tus necesidades."
+    },
+  
+    "Block de notas": {
+      "categoria": "Corporativo",
+      "desc": "Funcionales y promocionales. Ideal como regalo corporativo o herramienta de trabajo diaria."
+    },
+    "Bolsa Corporativa": {
+      "categoria": "Corporativo",
+      "desc": "Refuerza tu imagen de marca con bolsas institucionales elegantes y resistentes."
+    },
+    "Almanaque / Calendario": {
+      "categoria": "Corporativo",
+      "desc": "Marca presencia todo el año con calendarios personalizados que combinan funcionalidad y diseño."
+    },
+    "Carpetas": {
+      "categoria": "Corporativo",
+      "desc": "Organización y presentación profesional. Carpetas corporativas ideales para propuestas y eventos."
+    },
+    "Membrete": {
+      "categoria": "Corporativo",
+      "desc": "Comunica formalidad y coherencia con membretes que refuerzan tu identidad de marca."
+    },
+    "Sellos": {
+      "categoria": "Corporativo",
+      "desc": "Agiliza procesos y añade profesionalismo con sellos personalizados de alta calidad."
+    },
+    "Señalización": {
+      "categoria": "Corporativo",
+      "desc": "Orienta, informa y refuerza la imagen de tu empresa con señalización personalizada y funcional."
+    },
+    "Sobres": {
+      "categoria": "Corporativo",
+      "desc": "Dale un toque profesional a tu correspondencia. Sobres personalizados para todo tipo de comunicación empresarial."
+    },
+
+
+    "Souvenirs": {
+      "categoria": {
+        "Corporativo":"Corporativo",
+        "MaterialPop":"Material P.O.P"
+      },
+      "desc": "Regalos promocionales que dejan huella. Souvenirs ideales para fidelizar y sorprender a tus clientes."
+    },
+    "Talonarios": {
+      "categoria": "Corporativo",
+      "desc": "Control y organización en cada hoja. Talonarios personalizados para facturas, pedidos y más."
+    },
+    "Tarjetas": {
+      "categoria": "Corporativo",
+      "desc": "Primera impresión con impacto. Tarjetas de presentación profesionales y memorables."
+    },
+    "Vinilo / Plotter": {
+      "categoria": {
+        "Corporativo":"Corporativo",
+        "Publicidad Exteriror":"Publicidad Exterior",
+        "MaterialPop":"Material P.O.P"
+    },
+      "desc": "Ideal para decorar espacios o señalizar con estilo. Vinilos resistentes y personalizados."
+    },
+    "Floorgrap": {
+      "categoria": {
+        "Publicidad Exterior":"Publicidad Exterior",
+        "MaterialPop":"Material P.O.P"
+      },
+      "desc": "Publicidad en el piso con impacto visual. Floorgraps para señalización o promociones llamativas."
+    },
+    "Microperforado": {
+      "categoria": "Publicidad Exterior",
+      "desc": "Vinilo microperforado ideal para ventanas. Visibilidad desde el interior y publicidad desde el exterior."
+    },
+    "Pendón": {
+      "categoria": {
+        "Publicidad Exterior":"Publicidad Exterior",
+        "MaterialPop":"Material P.O.P"
+      },
+      "desc": "Impacto visual en eventos o puntos de venta. Pendones resistentes y personalizados."
+    },
+    "Rompe Tráfico": {
+      "categoria": {
+        "Publicidad Exterior":"Publicidad Exterior",
+        "MaterialPop":"Material P.O.P"
+      },
+      "desc": "Diseños resistentes para captar atención en zonas de alto tránsito. Publicidad directa y efectiva."
+    },
+    "Valla publicitaria": {
+      "categoria": "Publicidad Exterior",
+      "desc": "Impacto masivo y alta visibilidad. Las vallas publicitarias son ideales para campañas de gran alcance."
+    },
+    "Vinilo laminado": {
+      "categoria": "Publicidad Exterior",
+      "desc": "Durabilidad y protección extra. Perfecto para exteriores o superficies expuestas."
+    },
+      "Dangler": {
+    "categoria": "MaterialPop",
+    "desc": "Promociona con creatividad desde el techo. Llamativos, versátiles y fáciles de instalar."
+    },
+    "Display / Móvil": {
+      "categoria": "MaterialPop",
+      "desc": "Soluciones visuales que elevan tus productos en el punto de venta. Diseños atractivos y funcionales."
+    },
+    "Exhibidor": {
+      "categoria": "MaterialPop",
+      "desc": "Resalta tus productos con exhibidores personalizados. Funcionalidad y marca en un solo elemento."
+    },
+    "Góndola": {
+      "categoria": "MaterialPop",
+      "desc": "Optimiza espacios de venta y aumenta la visibilidad de tus productos con góndolas personalizadas."
+    }
+  }
+}
