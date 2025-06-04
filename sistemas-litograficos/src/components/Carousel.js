@@ -1,15 +1,37 @@
 // File: src/components/Carousel.js
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Slider from 'react-slick';
 import '../App.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
+
+
+function useWindowWidth() {
+  const [width, setWidth] = useState(window.innerWidth);
+  useEffect(() => {
+    const handleResize = () => setWidth(window.innerWidth);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+  return width;
+}
+
 const Carousel=()=> {
-  const banners = [
+
+  const width = useWindowWidth();
+
+  const bannersDesktop = [
     require('../assets/banner1.webp'),
     require('../assets/banner2.webp'),
   ];
+
+  const bannersMobile = [
+    require('../assets/banner-movil.jpg'),
+    require('../assets/banner-movil.jpg'),
+  ];
+
+  const banners = width < 768 ? bannersMobile : bannersDesktop
 
   const settings = {
     dots: true,

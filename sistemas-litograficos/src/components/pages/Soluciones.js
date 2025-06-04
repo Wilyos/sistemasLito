@@ -80,7 +80,7 @@ const Soluciones=()=>{
         {
             id: 9,
             name: 'Cartilla/Catálogo',
-            image: require('../../assets/cartilla.webp'),
+            image: require('../../assets/catalogo.webp'),
             categoria: ['Editorial'],
             descripcion: 'Organiza y muestra tu información de forma clara y atractiva. Perfecto para catálogos y manuales.',
             whatsapp: true
@@ -160,7 +160,7 @@ const Soluciones=()=>{
         {
             id: 19,
             name: 'Etiqueta Adhesiva',
-            image: require('../../assets/popPortafolio.jpg'),
+            image: require('../../assets/etiquetaAd.webp'),
             categoria: ['Empaque'],
             descripcion: 'Etiqueta tus productos con estilo. Adhesivos personalizados para destacar tu marca en cada detalle.',
             whatsapp: true
@@ -208,7 +208,7 @@ const Soluciones=()=>{
         {
             id: 25,
             name: 'Membrete',
-            image: require('../../assets/popPortafolio.jpg'),
+            image: require('../../assets/membrete.webp'),
             categoria: ['Corporativo'],
             descripcion: 'Comunica formalidad y coherencia con membretes que refuerzan tu identidad de marca.',
             whatsapp: true
@@ -224,7 +224,7 @@ const Soluciones=()=>{
         {
             id: 27,
             name: 'Señalización',
-            image: require('../../assets/popPortafolio.jpg'),
+            image: require('../../assets/señalizacion.webp'),
             categoria: ['Corporativo'],
             descripcion: 'Orienta, informa y refuerza la imagen de tu empresa con señalización personalizada y funcional.',
             whatsapp: true
@@ -232,7 +232,7 @@ const Soluciones=()=>{
        {
             id: 28,
             name: 'Sobres',
-            image: require('../../assets/popPortafolio.jpg'),
+            image: require('../../assets/sobre.jpg'),
             categoria: ['Corporativo'],
             descripcion: 'Dale un toque profesional a tu correspondencia. Sobres personalizados para todo tipo de comunicación empresarial.',
             whatsapp: true
@@ -240,7 +240,7 @@ const Soluciones=()=>{
         {
             id: 29,
             name: 'Souvenirs',
-            image: require('../../assets/popPortafolio.jpg'),
+            image: require('../../assets/souvenir.webp'),
             categoria: ['Corporativo', 'MaterialPop'],
             descripcion: 'Regalos promocionales que dejan huella. Souvenirs ideales para fidelizar y sorprender a tus clientes.',
             whatsapp: true
@@ -248,7 +248,7 @@ const Soluciones=()=>{
         {
             id: 30,
             name: 'Talonarios',
-            image: require('../../assets/popPortafolio.jpg'),
+            image: require('../../assets/talonario.webp'),
             categoria: ['Corporativo'],
             descripcion: 'Control y organización en cada hoja. Talonarios personalizados para facturas, pedidos y más.',
             whatsapp: true
@@ -256,7 +256,7 @@ const Soluciones=()=>{
         {
             id: 31,
             name: 'Tarjetas',
-            image: require('../../assets/popPortafolio.jpg'),
+            image: require('../../assets/tarjetas.webp'),
             categoria: ['Corporativo'],
             descripcion: 'Primera impresión con impacto. Tarjetas de presentación profesionales y memorables.',
             whatsapp: true
@@ -264,7 +264,7 @@ const Soluciones=()=>{
         {
             id: 32,
             name: 'Vinilo / Plotter',
-            image: require('../../assets/popPortafolio.jpg'),
+            image: require('../../assets/plotter.webp'),
             categoria: ['Corporativo','Publicidad Exterior','MaterialPop'],
             descripcion: 'Ideal para decorar espacios o señalizar con estilo. Vinilos resistentes y personalizados.',
             whatsapp: true
@@ -272,7 +272,7 @@ const Soluciones=()=>{
         {
             id: 33,
             name: 'Floorgrap',
-            image: require('../../assets/popPortafolio.jpg'),
+            image: require('../../assets/floograp.webp'),
             categoria: ['Publicidad Exterior', 'MaterialPop'],
             descripcion: 'Publicidad en el piso con impacto visual. Floorgraps para señalización o promociones llamativas.',
             whatsapp: true
@@ -280,7 +280,7 @@ const Soluciones=()=>{
         {
             id: 34,
             name: 'Microperforado',
-            image: require('../../assets/popPortafolio.jpg'),
+            image: require('../../assets/microper.webp'),
             categoria: ['Publicidad Exterior'],
             descripcion: 'Vinilo microperforado ideal para ventanas. Visibilidad desde el interior y publicidad desde el exterior.',
             whatsapp: true
@@ -288,7 +288,7 @@ const Soluciones=()=>{
         {
             id: 35,
             name: 'Pendón',
-            image: require('../../assets/popPortafolio.jpg'),
+            image: require('../../assets/pendon.webp'),
             categoria: ['Publicidad Exterior', 'MaterialPop'],
             descripcion: 'Impacto visual en eventos o puntos de venta. Pendones resistentes y personalizados.',
             whatsapp: true
@@ -296,7 +296,7 @@ const Soluciones=()=>{
          {
             id: 36,
             name: 'Rompe Tráfico',
-            image: require('../../assets/popPortafolio.jpg'),
+            image: require('../../assets/rompetr.webp'),
             categoria: ['Publicidad Exterior', 'MaterialPop'],
             descripcion: 'Diseños resistentes para captar atención en zonas de alto tránsito. Publicidad directa y efectiva.',
             whatsapp: true
@@ -304,7 +304,7 @@ const Soluciones=()=>{
         {
             id: 38,
             name: 'Valla publicitaria',
-            image: require('../../assets/popPortafolio.jpg'),
+            image: require('../../assets/publicidadEx.webp'),
             categoria: ['Publicidad Exterior'],
             descripcion: 'Impacto masivo y alta visibilidad. Las vallas publicitarias son ideales para campañas de gran alcance.',
             whatsapp: true
@@ -312,7 +312,7 @@ const Soluciones=()=>{
         {
             id: 39,
             name: 'Vinilo laminado',
-            image: require('../../assets/popPortafolio.jpg'),
+            image: require('../../assets/vinilo.webp'),
             categoria: ['Publicidad Exterior'],
             descripcion: 'Durabilidad y protección extra. Perfecto para exteriores o superficies expuestas.',
             whatsapp: true
@@ -320,7 +320,7 @@ const Soluciones=()=>{
         {
             id: 40,
             name: 'Dangler',
-            image: require('../../assets/popPortafolio.jpg'),
+            image: require('../../assets/dangler.webp'),
             categoria: ['MaterialPop'],
             descripcion: 'Promociona con creatividad desde el techo. Llamativos, versátiles y fáciles de instalar.',
             whatsapp: true
@@ -328,7 +328,7 @@ const Soluciones=()=>{
         {
             id: 41,
             name: 'Display / Móvil',
-            image: require('../../assets/popPortafolio.jpg'),
+            image: require('../../assets/dangler.webp'),
             categoria: ['MaterialPop'],
             descripcion: 'Soluciones visuales que elevan tus productos en el punto de venta. Diseños atractivos y funcionales.',
             whatsapp: true
@@ -336,7 +336,7 @@ const Soluciones=()=>{
         {
             id: 42,
             name: 'Exhibidor',
-            image: require('../../assets/popPortafolio.jpg'),
+            image: require('../../assets/gondola.webp'),
             categoria: ['MaterialPop'],
             descripcion: 'Resalta tus productos con exhibidores personalizados. Funcionalidad y marca en un solo elemento.',
             whatsapp: true
@@ -344,7 +344,7 @@ const Soluciones=()=>{
         {
             id: 43,
             name: 'Góndola',
-            image: require('../../assets/popPortafolio.jpg'),
+            image: require('../../assets/gondola.webp'),
             categoria: ['MaterialPop'],
             descripcion: 'Optimiza espacios de venta y aumenta la visibilidad de tus productos con góndolas personalizadas.',
             whatsapp: true
