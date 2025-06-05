@@ -1309,7 +1309,7 @@ aside{
 
 .producto-detalles{
   background-color: black;
-  color:#ccc;
+  color:whitesmoke;
   padding: .5rem;
   border-radius: 2rem;
   margin-top: -2rem;
@@ -1320,6 +1320,7 @@ aside{
 }
 .producto-titulo{
   font-size: 1rem;
+  color: whitesmoke;
 }
 
 .movil{
@@ -1409,7 +1410,7 @@ aside{
 }
 
 .confirmacion-container p {
-  color: #636262;
+  color: whitesmoke;
   font-size: 1.2rem;
 }
 
@@ -1428,7 +1429,7 @@ aside{
 }
 
 .container-privacy h1, h2, h3, h4 {
-  color: #636262;
+  color: whitesmoke;
   margin-bottom: .5rem;
 }
 .container-privacy p{
