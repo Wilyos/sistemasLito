@@ -2,13 +2,13 @@
     "menu": "Menú",
     "all_products": "Todos los productos",
     "categories": {
-        "Editorial": "Editoriales",
-        "Publicidad": "Publicidad",
-        "Empaque": "Empaques",
-        "Corporativo": "Corporativo",
-        "Publicidad Exterior": "Publicidad Exterior",
-        "MaterialPop": "Material P.O.P"
-  },
+      "Editorial": "Editorial",
+      "Publicidad": "Publicidad",
+      "Empaque": "Empaque",
+      "Corporativo": "Corporativo",
+      "Publicidad Exterior": "Publicidad Exterior",
+      "MaterialPop": "Material P.O.P"
+    },
    "navbar": {
         "home": "Inicio",
         "about": "Quiénes Somos",
@@ -280,229 +280,251 @@
 },
 
   "products": {
-    "Editorial": {
-      "name": "Editorial",
-      "desc": "Transformamos ideas en publicaciones memorables. Ideal para libros, revistas y más."
+  "Editorial": {
+    "name": "Editorial",
+    "categoria": "Editorial",
+    "desc": "Transformamos ideas en publicaciones memorables. Ideal para libros, revistas y más."
+  },
+  "Publicomerciales": {
+    "name": "Publicomerciales",
+    "categoria": "Publicomerciales",
+    "desc": "Diseños impactantes que venden. Dale presencia a tu marca con piezas promocionales."
+  },
+  "Packaging": {
+    "name": "Empaques",
+    "categoria": "Packaging",
+    "desc": "Crea una experiencia de marca desde el primer contacto. Empaques que destacan."
+  },
+  "Corporativa": {
+    "name": "Corporativo",
+    "categoria": "Corporativo",
+    "desc": "Impulsa tu identidad visual con artículos que comunican profesionalismo."
+  },
+  "Publicidad Exterior": {
+    "name": "Publicidad Exterior",
+    "categoria": "Publicidad Exterior",
+    "desc": "Atrae miradas con formatos grandes y resistentes. Ideal para calles y eventos."
+  },
+  "Material P.O.P": {
+    "name": "Material P.O.P",
+    "categoria": "MaterialPop",
+    "desc": "Destaca en el punto de venta con piezas creativas y funcionales."
+  },
+  "Agenda": {
+    "name": "Agenda",
+    "categoria": {
+      "Editorial": "Editorial",
+      "Corporativo": "Corporativo"
     },
-    "Publicomerciales": {
-      "name": "Publicomerciales",
-      "desc": "Diseños impactantes que venden. Dale presencia a tu marca con piezas promocionales."
+    "desc": "Útiles y con gran impacto visual. Las agendas personalizadas refuerzan tu marca cada día."
+  },
+  "Brochure/Plegable": {
+    "name": "Brochure/Plegable",
+    "categoria": {
+      "Editorial": "Editorial",
+      "Publicidad": "Publicidad"
     },
-    "Packaging": {
-      "name": "Packaging",
-      "desc": "Crea una experiencia de marca desde el primer contacto. Empaques que destacan."
+    "desc": "Presenta tu portafolio con estilo. Ideal para eventos, ventas o como presentación empresarial."
+  },
+  "Cartilla/Catálogo": {
+    "name": "Cartilla/Catálogo",
+    "categoria": "Editorial",
+    "desc": "Organiza y muestra tu información de forma clara y atractiva. Perfecto para catálogos y manuales."
+  },
+  "Libro": {
+    "name": "Libro",
+    "categoria": "Editorial",
+    "desc": "Desde novelas hasta libros técnicos. Calidad editorial que resalta el contenido."
+  },
+  "Periódico": {
+    "name": "Periódico",
+    "categoria": {
+      "Editorial": "Editorial",
+      "Publicidad": "Publicidad"
     },
-    "Corporativa":{
-      "categoria": "Corporativo",
-      "desc": "Impulsa tu identidad visual con artículos que comunican profesionalismo."
-            
+    "desc": "Ideal para medios internos, publicaciones comunitarias o promocionales. Efectivo y económico."
+  },
+  "Revista": {
+    "name": "Revista",
+    "categoria": "Editorial",
+    "desc": "Diseños atractivos y coherentes. Impacta a tus lectores con contenido de calidad y presentación profesional."
+  },
+  "Afiches": {
+    "name": "Afiches",
+    "categoria": {
+      "Publicidad": "Publicidad",
+      "MaterialPop": "Material P.O.P"
     },
-    "Publicidad Exterior": {
-      "categoria": "Publicidad Exterior",
-      "desc": "Atrae miradas con formatos grandes y resistentes. Ideal para calles y eventos."
-         
+    "desc": "Captura la atención con diseños llamativos en gran formato. Perfectos para promociones o campañas visuales."
+  },
+  "Boletas": {
+    "name": "Boletas",
+    "categoria": "Publicidad",
+    "desc": "Entradas personalizadas con alta calidad de impresión. Seguridad y diseño para tu evento."
+  },
+  "Menú": {
+    "name": "Menú",
+    "categoria": "Publicidad",
+    "desc": "Diseñamos menús que reflejan el estilo de tu restaurante. Claros, duraderos y atractivos."
+  },
+  "Volantes": {
+    "name": "Volantes",
+    "categoria": "Publicidad",
+    "desc": "Promociona de forma directa y efectiva. Volantes con diseño estratégico y gran impacto."
+  },
+  "Bolsas": {
+    "name": "Bolsas",
+    "categoria": {
+      "Empaque": "Empaques",
+      "MaterialPop": "Material P.O.P"
     },
-    "Material P.O.P":{
-            
-      "categoria": "MaterialPop",
-      "desc":"Destaca en el punto de venta con piezas creativas y funcionales."
-          
+    "desc": "Empaca con estilo y funcionalidad. Las bolsas personalizadas son ideales para entregar productos y reforzar tu marca."
+  },
+  "Caja / Empaque": {
+    "name": "Caja / Empaque",
+    "categoria": "Empaque",
+    "desc": "Cajas personalizadas que protegen y promocionan tus productos. Perfectas para retail o envíos."
+  },
+  "Etiqueta Adhesiva": {
+    "name": "Etiqueta Adhesiva",
+    "categoria": "Empaque",
+    "desc": "Etiqueta tus productos con estilo. Adhesivos personalizados para destacar tu marca en cada detalle."
+  },
+  "Etiquetas": {
+    "name": "Etiquetas",
+    "categoria": {
+      "Empaque": "Empaques",
+      "MaterialPop": "Material P.O.P"
     },
-    "Agenda": {
-
-      "categoria": {
-        "Editorial":"Editorial", 
-        "Corporativo":"Corporativo"
-      },
-      "desc":"Útiles y con gran impacto visual. Las agendas personalizadas refuerzan tu marca cada día."
-
+    "desc": "Soluciones versátiles para clasificar y promocionar. Etiquetas impresas a la medida de tus necesidades."
+  },
+  "Block de notas": {
+    "name": "Block de notas",
+    "categoria": "Corporativo",
+    "desc": "Funcionales y promocionales. Ideal como regalo corporativo o herramienta de trabajo diaria."
+  },
+  "Bolsa Corporativa": {
+    "name": "Bolsa Corporativa",
+    "categoria": "Corporativo",
+    "desc": "Refuerza tu imagen de marca con bolsas institucionales elegantes y resistentes."
+  },
+  "Almanaque / Calendario": {
+    "name": "Almanaque / Calendario",
+    "categoria": "Corporativo",
+    "desc": "Marca presencia todo el año con calendarios personalizados que combinan funcionalidad y diseño."
+  },
+  "Carpetas": {
+    "name": "Carpetas",
+    "categoria": "Corporativo",
+    "desc": "Organización y presentación profesional. Carpetas corporativas ideales para propuestas y eventos."
+  },
+  "Membrete": {
+    "name": "Membrete",
+    "categoria": "Corporativo",
+    "desc": "Comunica formalidad y coherencia con membretes que refuerzan tu identidad de marca."
+  },
+  "Sellos": {
+    "name": "Sellos",
+    "categoria": "Corporativo",
+    "desc": "Agiliza procesos y añade profesionalismo con sellos personalizados de alta calidad."
+  },
+  "Señalización": {
+    "name": "Señalización",
+    "categoria": "Corporativo",
+    "desc": "Orienta, informa y refuerza la imagen de tu empresa con señalización personalizada y funcional."
+  },
+  "Sobres": {
+    "name": "Sobres",
+    "categoria": "Corporativo",
+    "desc": "Dale un toque profesional a tu correspondencia. Sobres personalizados para todo tipo de comunicación empresarial."
+  },
+  "Souvenirs": {
+    "name": "Souvenirs",
+    "categoria": {
+      "Corporativo": "Corporativo",
+      "MaterialPop": "Material P.O.P"
     },
-    "Brochure/Plegable":{
-      "categoria":{ 
-        "Editorial":"Editorial",
-        "Publicidad" :"Publicidad"
-      },
-      "desc": "Presenta tu portafolio con estilo. Ideal para eventos, ventas o como presentación empresarial."
-     
+    "desc": "Regalos promocionales que dejan huella. Souvenirs ideales para fidelizar y sorprender a tus clientes."
+  },
+  "Talonarios": {
+    "name": "Talonarios",
+    "categoria": "Corporativo",
+    "desc": "Control y organización en cada hoja. Talonarios personalizados para facturas, pedidos y más."
+  },
+  "Tarjetas": {
+    "name": "Tarjetas",
+    "categoria": "Corporativo",
+    "desc": "Primera impresión con impacto. Tarjetas de presentación profesionales y memorables."
+  },
+  "Vinilo / Plotter": {
+    "name": "Vinilo / Plotter",
+    "categoria": {
+      "Corporativo": "Corporativo",
+      "Publicidad Exterior": "Publicidad Exterior",
+      "MaterialPop": "Material P.O.P"
     },
-    "Cartilla/Catálogo":{
-            
-      "categoria": "Editorial",
-      "desc": "Organiza y muestra tu información de forma clara y atractiva. Perfecto para catálogos y manuales."
-
+    "desc": "Ideal para decorar espacios o señalizar con estilo. Vinilos resistentes y personalizados."
+  },
+  "Floorgrap": {
+    "name": "Floorgrap",
+    "categoria": {
+      "Publicidad Exterior": "Publicidad Exterior",
+      "MaterialPop": "Material P.O.P"
     },
-    "Libro": {
-           
-      "categoria": "Editorial",
-      "desc": "Desde novelas hasta libros técnicos. Calidad editorial que resalta el contenido."
-      
-        },
-    "Periódico": {
-      
-      "categoria": {
-        "Editorial":"Editorial",
-        "Publicidad":"Publicidad"
-      },
-      "desc":"Ideal para medios internos, publicaciones comunitarias o promocionales. Efectivo y económico."
-      
+    "desc": "Publicidad en el piso con impacto visual. Floorgraps para señalización o promociones llamativas."
+  },
+  "Microperforado": {
+    "name": "Microperforado",
+    "categoria": "Publicidad Exterior",
+    "desc": "Vinilo microperforado ideal para ventanas. Visibilidad desde el interior y publicidad desde el exterior."
+  },
+  "Pendón": {
+    "name": "Pendón",
+    "categoria": {
+      "Publicidad Exterior": "Publicidad Exterior",
+      "MaterialPop": "Material P.O.P"
     },
-    "Revista": {
-        
-      "categoria": "Editorial",
-      "desc":"Diseños atractivos y coherentes. Impacta a tus lectores con contenido de calidad y presentación profesional."
-      
+    "desc": "Impacto visual en eventos o puntos de venta. Pendones resistentes y personalizados."
+  },
+  "Rompe Tráfico": {
+    "name": "Rompe Tráfico",
+    "categoria": {
+      "Publicidad Exterior": "Publicidad Exterior",
+      "MaterialPop": "Material P.O.P"
     },
-    "Afiches":  {
-      "categoria": {
-        "Publicidad":"Publicidad",
-        "MaterialPop":"Material P.O.P"},
-      "desc": "Captura la atención con diseños llamativos en gran formato. Perfectos para promociones o campañas visuales."
-            
-    },
-    "Boletas":{
-      "categoria": "Publicidad",
-      "desc": "Entradas personalizadas con alta calidad de impresión. Seguridad y diseño para tu evento."
-    },
-        
-    "Menú":{
-      "categoria": "Publicidad",
-      "desc":"Diseñamos menús que reflejan el estilo de tu restaurante. Claros, duraderos y atractivos."
-    },
-    "Volantes":{
-      "categoria": "Publicidad",
-      "desc": "Promociona de forma directa y efectiva. Volantes con diseño estratégico y gran impacto."
-    },
-    "Bolsas": {
-      "categoria": {
-        "Empaque":"Empaques",
-        "MaterialPop":"Material P.O.P"
-      },
-      "desc": "Empaca con estilo y funcionalidad. Las bolsas personalizadas son ideales para entregar productos y reforzar tu marca."
-    },
-    
-    "Caja / Empaque": {
-      "categoria": "Empaque",
-      "desc": "Cajas personalizadas que protegen y promocionan tus productos. Perfectas para retail o envíos."
-    },
-    "Etiqueta Adhesiva": {
-      "categoria": "Empaque",
-      "desc": "Etiqueta tus productos con estilo. Adhesivos personalizados para destacar tu marca en cada detalle."
-    },
-    "Etiquetas":   {
-      "categoria": {
-        "Empaque":"Empaques", 
-        "MaterialPop":"Material P.O.P"
-      },
-      "desc": "Soluciones versátiles para clasificar y promocionar. Etiquetas impresas a la medida de tus necesidades."
-    },
-  
-    "Block de notas": {
-      "categoria": "Corporativo",
-      "desc": "Funcionales y promocionales. Ideal como regalo corporativo o herramienta de trabajo diaria."
-    },
-    "Bolsa Corporativa": {
-      "categoria": "Corporativo",
-      "desc": "Refuerza tu imagen de marca con bolsas institucionales elegantes y resistentes."
-    },
-    "Almanaque / Calendario": {
-      "categoria": "Corporativo",
-      "desc": "Marca presencia todo el año con calendarios personalizados que combinan funcionalidad y diseño."
-    },
-    "Carpetas": {
-      "categoria": "Corporativo",
-      "desc": "Organización y presentación profesional. Carpetas corporativas ideales para propuestas y eventos."
-    },
-    "Membrete": {
-      "categoria": "Corporativo",
-      "desc": "Comunica formalidad y coherencia con membretes que refuerzan tu identidad de marca."
-    },
-    "Sellos": {
-      "categoria": "Corporativo",
-      "desc": "Agiliza procesos y añade profesionalismo con sellos personalizados de alta calidad."
-    },
-    "Señalización": {
-      "categoria": "Corporativo",
-      "desc": "Orienta, informa y refuerza la imagen de tu empresa con señalización personalizada y funcional."
-    },
-    "Sobres": {
-      "categoria": "Corporativo",
-      "desc": "Dale un toque profesional a tu correspondencia. Sobres personalizados para todo tipo de comunicación empresarial."
-    },
-
-
-    "Souvenirs": {
-      "categoria": {
-        "Corporativo":"Corporativo",
-        "MaterialPop":"Material P.O.P"
-      },
-      "desc": "Regalos promocionales que dejan huella. Souvenirs ideales para fidelizar y sorprender a tus clientes."
-    },
-    "Talonarios": {
-      "categoria": "Corporativo",
-      "desc": "Control y organización en cada hoja. Talonarios personalizados para facturas, pedidos y más."
-    },
-    "Tarjetas": {
-      "categoria": "Corporativo",
-      "desc": "Primera impresión con impacto. Tarjetas de presentación profesionales y memorables."
-    },
-    "Vinilo / Plotter": {
-      "categoria": {
-        "Corporativo":"Corporativo",
-        "Publicidad Exteriror":"Publicidad Exterior",
-        "MaterialPop":"Material P.O.P"
-    },
-      "desc": "Ideal para decorar espacios o señalizar con estilo. Vinilos resistentes y personalizados."
-    },
-    "Floorgrap": {
-      "categoria": {
-        "Publicidad Exterior":"Publicidad Exterior",
-        "MaterialPop":"Material P.O.P"
-      },
-      "desc": "Publicidad en el piso con impacto visual. Floorgraps para señalización o promociones llamativas."
-    },
-    "Microperforado": {
-      "categoria": "Publicidad Exterior",
-      "desc": "Vinilo microperforado ideal para ventanas. Visibilidad desde el interior y publicidad desde el exterior."
-    },
-    "Pendón": {
-      "categoria": {
-        "Publicidad Exterior":"Publicidad Exterior",
-        "MaterialPop":"Material P.O.P"
-      },
-      "desc": "Impacto visual en eventos o puntos de venta. Pendones resistentes y personalizados."
-    },
-    "Rompe Tráfico": {
-      "categoria": {
-        "Publicidad Exterior":"Publicidad Exterior",
-        "MaterialPop":"Material P.O.P"
-      },
-      "desc": "Diseños resistentes para captar atención en zonas de alto tránsito. Publicidad directa y efectiva."
-    },
-    "Valla publicitaria": {
-      "categoria": "Publicidad Exterior",
-      "desc": "Impacto masivo y alta visibilidad. Las vallas publicitarias son ideales para campañas de gran alcance."
-    },
-    "Vinilo laminado": {
-      "categoria": "Publicidad Exterior",
-      "desc": "Durabilidad y protección extra. Perfecto para exteriores o superficies expuestas."
-    },
-      "Dangler": {
+    "desc": "Diseños resistentes para captar atención en zonas de alto tránsito. Publicidad directa y efectiva."
+  },
+  "Valla publicitaria": {
+    "name": "Valla publicitaria",
+    "categoria": "Publicidad Exterior",
+    "desc": "Impacto masivo y alta visibilidad. Las vallas publicitarias son ideales para campañas de gran alcance."
+  },
+  "Vinilo laminado": {
+    "name": "Vinilo laminado",
+    "categoria": "Publicidad Exterior",
+    "desc": "Durabilidad y protección extra. Perfecto para exteriores o superficies expuestas."
+  },
+  "Dangler": {
+    "name": "Dangler",
     "categoria": "MaterialPop",
     "desc": "Promociona con creatividad desde el techo. Llamativos, versátiles y fáciles de instalar."
-    },
-    "Display / Móvil": {
-      "categoria": "MaterialPop",
-      "desc": "Soluciones visuales que elevan tus productos en el punto de venta. Diseños atractivos y funcionales."
-    },
-    "Exhibidor": {
-      "categoria": "MaterialPop",
-      "desc": "Resalta tus productos con exhibidores personalizados. Funcionalidad y marca en un solo elemento."
-    },
-    "Góndola": {
-      "categoria": "MaterialPop",
-      "desc": "Optimiza espacios de venta y aumenta la visibilidad de tus productos con góndolas personalizadas."
-    }
+  },
+  "Display / Móvil": {
+    "name": "Display / Móvil",
+    "categoria": "MaterialPop",
+    "desc": "Soluciones visuales que elevan tus productos en el punto de venta. Diseños atractivos y funcionales."
+  },
+  "Exhibidor": {
+    "name": "Exhibidor",
+    "categoria": "MaterialPop",
+    "desc": "Resalta tus productos con exhibidores personalizados. Funcionalidad y marca en un solo elemento."
+  },
+  "Góndola": {
+    "name": "Góndola",
+    "categoria": "MaterialPop",
+    "desc": "Optimiza espacios de venta y aumenta la visibilidad de tus productos con góndolas personalizadas."
   }
+}
 
 
   

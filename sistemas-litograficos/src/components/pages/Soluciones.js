@@ -406,7 +406,7 @@ const Soluciones=()=>{
                                         }
                                     }
                                 >
-                                    <i className="fa-regular fa-hand-point-right"></i> Publicidad
+                                    <i className="fa-regular fa-hand-point-right"></i> {t(`categories.Publicidad`)}
                                 </button>
                             </li>
                             <li>
@@ -418,7 +418,7 @@ const Soluciones=()=>{
                                         }
                                     }
                                 >
-                                    <i className="fa-regular fa-hand-point-right"></i> Empaques
+                                    <i className="fa-regular fa-hand-point-right"></i> {t(`categories.Empaque`)}
                                 </button>
                             </li>
                             <li>
@@ -430,7 +430,7 @@ const Soluciones=()=>{
                                         }
                                     }
                                 >
-                                    <i className="fa-regular fa-hand-point-right"></i> Corporativo
+                                    <i className="fa-regular fa-hand-point-right"></i> {t(`categories.Corporativo`)}
                                 </button>
                             </li>
                             <li>
@@ -442,7 +442,7 @@ const Soluciones=()=>{
                                         }
                                     }
                                 >
-                                    <i className="fa-regular fa-hand-point-right"></i> Publicidad Exterior
+                                    <i className="fa-regular fa-hand-point-right"></i>{t(`categories.Publicidad Exterior`)}
                                 </button>
                             </li>
                             <li>
@@ -454,7 +454,7 @@ const Soluciones=()=>{
                                         }
                                     }
                                 >
-                                    <i className="fa-regular fa-hand-point-right"></i> Material P.O.P
+                                    <i className="fa-regular fa-hand-point-right"></i>{t(`categories.MaterialPop`)}
                                 </button>
                             </li>
                         </ul>
@@ -462,17 +462,19 @@ const Soluciones=()=>{
                 </aside>
                 <main className="main-soluciones">
                     <h2 className="titulo-soluciones">
-                        {selectedCategory === "todos" ? "Todos los productos" : selectedCategory}
+                    {selectedCategory === "todos"
+                        ? t("all_products")
+                        : t(`categories.${selectedCategory}`)}
                     </h2>
                     <div className="contenedor-soluciones">
                         {filteredProducts.map(product => (
                             <div key={product.id} className="productos">
                                 <img className="producto-imagen-soluciones" src={product.image} alt={product.name} />
                                 <div className="overlay">
-                                    <div className="text">{product.descripcion}</div>
+                                    <div className="text">{t(`products.${product.descripcion}.desc`)}</div>
                                 </div>
                                 <div className="producto-detalles">
-                                    <h3 className="produto-titulo">{product.name}</h3>
+                                    <h3 className="produto-titulo">{t(`products.${product.name}.name`)}</h3>
                                 </div>
                             </div>
                         ))}
