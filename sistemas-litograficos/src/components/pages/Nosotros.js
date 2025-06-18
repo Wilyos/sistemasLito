@@ -25,7 +25,7 @@ const Nosotros = () => {
             <p>{t("about.description_2")}</p>
           </div>
           <div>
-            <img className="img-nosotros" alt="masde20" src={require('../../assets/masde20a.png')} />
+            <img className="img-nosotros" alt="masde20" src={require('../../assets/20a.png')} />
           </div>
         </div>
         <div className="nosotros-valores">
