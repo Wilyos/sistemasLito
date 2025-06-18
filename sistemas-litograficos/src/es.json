@@ -73,7 +73,7 @@
 
 "quote": {
   "title": "Cotización",
-  "subtitle": "Los campos marcados con * son obligatorios",
+  "subtitle": "<strong>Nos pondremos en contacto contigo en maximo 30 minutos.</strong><br/>Los campos marcados con * son obligatorios",
   "name": "Nombre",
   "email": "Correo electrónico",
   "phone": "Teléfono",

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from 'react-router-dom';
-import { useTranslation } from "react-i18next";
+import { useTranslation, Trans } from "react-i18next";
 import emailjs from "emailjs-com";
 import "../../App.css";
 import { Helmet } from "react-helmet";
@@ -69,7 +69,9 @@ const Cotizacion = () => {
         <meta name="description" content="Comunícate con nosotros para cotizaciones, diseño e impresión profesional." />
       </Helmet>
       <h1 className="cotizacion-title">{t("quote.title")}</h1>
-      <p className="cotizacion-subtitle">{t("quote.subtitle")}</p>
+        <p className="cotizacion-subtitle">
+          <Trans i18nKey="quote.subtitle" />
+        </p>
       <form className="cotizacion-form" onSubmit={handleSubmit}>
         <div className="form-group">
           <label htmlFor="nombre">{t("quote.name")} *</label>
