@@ -14,7 +14,7 @@ const Clientes= ()=> {
         { id: 1, name: 'Autolarte', image: require('../assets/AUTOLARTE.png') },
         { id: 2, name: 'Alcaldia-Bello', image: require('../assets/bello.png') },
         { id: 3, name: 'cats', image: require('../assets/Cats_Boston2.png') },
-        { id: 4, name: 'Fedean', image: require('../assets/AUTOLARTE.png') },
+        { id: 4, name: 'Fedean', image: require('../assets/fedean.png') },
         { id: 5, name: 'Pizza_Doble_Pizza', image: require('../assets/Pizza_Doble_Pizza.png') },
         { id: 6, name: 'Tiendas_D1', image: require('../assets/D1.png') },
         { id: 7, name: 'Universidad_de_Antioquia', image: require('../assets/UDEA.png') },
