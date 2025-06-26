@@ -316,6 +316,45 @@ p{
 /* Responsive para pantallas pequeñas */
 @media (max-width: 768px) {
 
+
+   .menu {
+    display: none;
+    flex-direction: column;
+    background: rgba(3, 3, 3, 1);
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    padding: 20px 10px;
+    border-radius: 25px; /* Más redondeado */
+    box-shadow: 0 8px 32px rgba(0,0,0,0.35);
+    z-index: 2000; /* Más alto que los botones de idioma */
+    min-width: 160px;
+    align-items: center;
+  }
+  .menu.open {
+    display: flex;
+  }
+  .menu li {
+    margin: 12px 0;
+    width: 100%;
+    text-align: center;
+  }
+  .menu a {
+    font-size: 1.1rem;
+    border-radius: 15px;
+    padding: 10px 0;
+    width: 100%;
+    display: block;
+  }
+  /* Asegura que los botones de idioma estén arriba del menú */
+  .navbar > div {
+    position: relative;
+    z-index: 2100;
+    display: flex;
+    gap: 8px;
+    margin-left: auto;
+    margin-right: 10px;
+  }
   .contenedor-soluciones {
     grid-template-columns: 1fr;
   }
@@ -423,7 +462,7 @@ p{
 .contacto-banner {
   width: 100%;
   height: 330px; 
-  background-image: url('./assets/banner_cont2.png'); 
+  background-image: url('./assets/banner-cont.png'); 
   background-size:cover; 
   background-position: center;
   display: flex;
@@ -615,8 +654,17 @@ p{
 @media (max-width: 480px) {
 
   .contacto-banner {
-    height: 150px; /* Altura mínima para móviles */
+    height: 500px; /* Altura mínima para móviles */
     padding: 5px;
+    background-image: url('./assets/banner-cont-mobile.png'); 
+    background-size: contain; 
+    background-position: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    position: relative; 
+
   }
 
   .contacto-banner-text h1 {
@@ -654,10 +702,25 @@ p{
 /* Contenedor principal del componente */
 .clientes {
   padding: 40px 20px;
-  background-color: black;
+  background: url('./assets/fondo3.png') center center/cover no-repeat fixed;
+  position: relative;
   text-align: center;
   justify-content: center;
   align-items: center;
+}
+
+.clientes-overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+  pointer-events: none;
+  backdrop-filter: blur(8px); 
+}
+
+.clientes > *:not(.clientes-overlay) {
+  position: relative;
+  z-index: 2;
 }
 
 .clientes h2 {
@@ -680,28 +743,33 @@ p{
   align-items: center;
   justify-content: center;
   padding: 10px;
-  background-color: black;
+  background-color: transparent;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .clientes-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
 
 /* Imagen de los clientes */
 .clientes-image {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   object-fit: contain;
   margin-bottom: 10px;
   align-self: center;
   justify-self: center;
   display: block; 
   margin: 0 auto; 
+  border-radius: 16px;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  transition: none;
 }
+
+
 
 /* Nombre del cliente */
 .clientes-card h3 {
