@@ -57,8 +57,16 @@ const Contacto =() => {
           <meta name="description" content="Comunícate con nosotros para cotizaciones, diseño e impresión profesional." />
         </Helmet>
         <div className="contacto-banner">
+          <a
+            href="https://wa.me/message/JHWMGEF6WKHDI1"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ display: "block", width: "100%", height: "100%" }}
+            title="¡Escríbenos por WhatsApp!"
+          ></a>
             <div className="contacto-banner-text">
             </div>
+      
         </div>
         <div className="contacto">
         <div className="contacto-info">
