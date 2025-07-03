@@ -346,7 +346,8 @@ p{
     width: 100%;
     display: block;
   }
-  /* Asegura que los botones de idioma estén arriba del menú */
+
+
   .navbar > div {
     position: relative;
     z-index: 2100;
@@ -647,6 +648,21 @@ p{
 
   .contact-form button {
     font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1360px) {
+  .contacto-banner {
+    height: 220px; /* Ajusta según lo que se vea mejor */
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+  }
+  .contacto-banner-text h1 {
+    font-size: 2.2rem;
+  }
+  .contacto-banner-text p {
+    font-size: 1rem;
   }
 }
 
