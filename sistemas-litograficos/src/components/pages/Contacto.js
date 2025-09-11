@@ -36,6 +36,9 @@ const Contacto =() => {
           )
           .then(
             (result) => {
+              if (window.fbq) {
+                window.fbq('track', 'Lead');
+              }
               setStatus(t('contact.success'));
               setFormData({
                 name: '',
@@ -63,6 +66,7 @@ const Contacto =() => {
             rel="noopener noreferrer"
             style={{ display: "block", width: "100%", height: "100%" }}
             title="¡Escríbenos por WhatsApp!"
+            onClick={() => window.fbq && window.fbq('track', 'Contact')}
           ></a>
             <div className="contacto-banner-text">
             </div>

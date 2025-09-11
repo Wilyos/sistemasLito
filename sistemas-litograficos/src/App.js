@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Carousel from './components/Carousel';
 import Footer from './components/Footer';
@@ -16,10 +16,20 @@ import PrivacyPolicy from './components/pages/PrivacyPolicy';
 import Aside from './components/Aside';
 import './i18n';
 
+function MetaPixelTracker() {
+  const location = useLocation();
+  useEffect(() => {
+    if (window.fbq) {
+      window.fbq('track', 'PageView');
+    }
+  }, [location.pathname]);
+  return null;
+}
 
 const App =()=> {
   return (
     <Router>
+      <MetaPixelTracker />
       <div className="App">
         <Navbar />
         <Routes>
