@@ -14,7 +14,7 @@
 
 /* Base Overrides for Landing Page */
 .App {
-  background-color: var(--ml-bg);
+  background-color: transparent;
   color: var(--ml-text);
   font-family: 'Inter', sans-serif;
   overflow-x: hidden;
@@ -91,7 +91,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   text-align: center;
   padding: 0 20px;
-  background: radial-gradient(circle at 50% 50%, rgba(10, 191, 4, 0.15) 0%, var(--ml-bg) 70%);
+  background: radial-gradient(circle at 50% 50%, rgba(10, 191, 4, 0.15) 0%, transparent 70%);
   overflow: hidden;
 }
 
@@ -170,7 +170,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Modern Services (Aside) */
 .modern-services {
   padding: 100px 20px;
-  background: var(--ml-bg);
+  background: transparent;
 }
 
 .section-title {
@@ -259,7 +259,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Modern Portfolio */
 .modern-portfolio {
   padding: 100px 20px;
-  background: var(--ml-bg-light);
+  background: rgba(17, 17, 17, 0.5);
 }
 
 .portfolio-grid {
@@ -310,7 +310,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Modern Clientes */
 .modern-clientes {
   padding: 100px 20px;
-  background: var(--ml-bg);
+  background: transparent;
   overflow: hidden;
 }
 
@@ -517,10 +517,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .blob {
   position: absolute;
-  filter: blur(90px);
+  filter: blur(80px);
   border-radius: 50%;
   animation: floatBlobs 20s infinite ease-in-out alternate;
-  opacity: 0.15;
+  opacity: 0.35;
 }
 
 .blob-1 {
