@@ -11,7 +11,7 @@ const Footer =()=> {
         <div className="wrapper-footer">
           <div className="footer-widget">
             <a href="/">
-              <img src={require('../assets/logoSis.png')} alt="logo-footer" className="logo-footers"/>
+              <img src={require('../assets/logoA.png')} alt="logo-footer" className="logo-footers"/>
             </a>
             <p className="desc">
               {t('footer.desc')}
