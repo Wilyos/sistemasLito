@@ -231,6 +231,17 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 1;
 }
 
+.service-gif {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 1;
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(10, 191, 4, 0.4);
+}
+
 .service-card h3 {
   font-size: 1.5rem;
   margin-bottom: 15px;
