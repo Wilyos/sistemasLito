@@ -502,3 +502,58 @@ h1, h2, h3, h4, h5, h6 {
 .solucion-card:hover .solucion-title-static {
   opacity: 0;
 }
+
+/* =========================================
+   Animated Background Blobs (Lightweight)
+========================================= */
+
+.bg-blobs {
+  position: fixed;
+  top: 0; left: 0; width: 100vw; height: 100vh;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.blob {
+  position: absolute;
+  filter: blur(90px);
+  border-radius: 50%;
+  animation: floatBlobs 20s infinite ease-in-out alternate;
+  opacity: 0.15;
+}
+
+.blob-1 {
+  width: 500px;
+  height: 500px;
+  background: var(--ml-brand);
+  top: -10%;
+  left: -10%;
+  animation-duration: 25s;
+}
+
+.blob-2 {
+  width: 600px;
+  height: 600px;
+  background: #024a01;
+  bottom: -20%;
+  right: -10%;
+  animation-duration: 30s;
+  animation-delay: -5s;
+}
+
+.blob-3 {
+  width: 400px;
+  height: 400px;
+  background: #0abf04;
+  top: 40%;
+  left: 60%;
+  animation-duration: 35s;
+  animation-delay: -10s;
+}
+
+@keyframes floatBlobs {
+  0% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(50px, 100px) scale(1.1); }
+  100% { transform: translate(-50px, 50px) scale(0.9); }
+}
