@@ -45,7 +45,10 @@ h1, h2, h3, h4, h5, h6 {
 .modern-navbar .logo img {
   height: 40px;
   width: auto;
-  filter: drop-shadow(0 0 8px rgba(10, 191, 4, 0.3));
+  background-color: #ffffff;
+  padding: 4px 12px;
+  border-radius: 6px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
 
 .modern-nav-links {
