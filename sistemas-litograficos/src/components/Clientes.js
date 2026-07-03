@@ -1,9 +1,9 @@
 import React from 'react';
-import cliente1 from '../assets/banc.jpg';
-import cliente2 from '../assets/colombina.jpg';
-import cliente3 from '../assets/jhon.png';
-import cliente4 from '../assets/valle.jpg';
-import cliente5 from '../assets/logo-banco.png';
+import cliente1 from '../assets/D1.png';
+import cliente2 from '../assets/COMFENALCO.png';
+import cliente3 from '../assets/UDEA.png';
+import cliente4 from '../assets/bello.png';
+import cliente5 from '../assets/logo.png';
 
 const Clientes = () => {
   const logos = [cliente1, cliente2, cliente3, cliente4, cliente5];

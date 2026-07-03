@@ -1,10 +1,10 @@
 import React from 'react';
-import producto1 from '../assets/productos/catalogo.webp';
-import producto2 from '../assets/productos/empaques.webp';
-import producto3 from '../assets/productos/bolsas.webp';
-import producto4 from '../assets/productos/tarjetas.webp';
-import producto5 from '../assets/productos/revista.webp';
-import producto6 from '../assets/productos/etiquetaAd.webp';
+import producto1 from '../assets/catalogo.webp';
+import producto2 from '../assets/empaques.webp';
+import producto3 from '../assets/bolsas.webp';
+import producto4 from '../assets/tarjetas.webp';
+import producto5 from '../assets/revista.webp';
+import producto6 from '../assets/etiquetaAd.webp';
 
 const Portafolio = () => {
   const items = [

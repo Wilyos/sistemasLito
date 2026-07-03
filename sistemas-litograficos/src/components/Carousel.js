@@ -1,10 +1,7 @@
 import React from 'react';
-import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 
 const Carousel = () => {
-  const { t } = useTranslation();
-
   return (
     <section className="modern-hero">
       <div className="modern-hero-content">
