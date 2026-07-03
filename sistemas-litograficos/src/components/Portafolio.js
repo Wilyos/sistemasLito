@@ -1,63 +1,36 @@
 import React from 'react';
-import Slider from 'react-slick';
-import { useTranslation } from 'react-i18next';
-import '../App.css';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import producto1 from '../assets/productos/catalogo.webp';
+import producto2 from '../assets/productos/empaques.webp';
+import producto3 from '../assets/productos/bolsas.webp';
+import producto4 from '../assets/productos/tarjetas.webp';
+import producto5 from '../assets/productos/revista.webp';
+import producto6 from '../assets/productos/etiquetaAd.webp';
 
-const Portafolio=()=> {
-  const { t } = useTranslation();
+const Portafolio = () => {
+  const items = [
+    { img: producto1, title: 'Catálogos' },
+    { img: producto2, title: 'Empaques' },
+    { img: producto3, title: 'Bolsas Corporativas' },
+    { img: producto4, title: 'Tarjetas de Presentación' },
+    { img: producto5, title: 'Revistas' },
+    { img: producto6, title: 'Etiquetas Adhesivas' },
+  ];
 
-    const products = [
-        { id: 1, name: 'Editorial', image: require('../assets/agenda.webp') },
-        { id: 2, name: 'Publicidad', image: require('../assets/afiche.webp') },
-        { id: 3, name: 'Empaques', image: require('../assets/caja.webp') },
-        { id: 4, name: 'Corporativa', image: require('../assets/corporativo.webp') },
-        { id: 5, name: 'Publicidad Exterior', image: require('../assets/publicidadEx.webp')},
-        { id: 6, name: 'Material P.O.P', image: require('../assets/tazaSouvenir.webp') }
-    ];
-
-    const settings = {
-        dots: false,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 3,
-        waitForAnimate: false,
-        autoplay: true,
-        autoplaySpeed: 2500,
-        responsive: [
-            {
-              breakpoint: 1474,
-              settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2,
-              }
-            },
-            {
-              breakpoint: 980,
-              settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-              }
-            }
-          ]
-      };
-      
-
-    return (
-        <div className="portafolio">
-             <h2>{t('portfolio.title')}</h2>
-            <Slider {...settings}>
-                {products.map(product => (
-                    <div key={product.id} className="portafolio-card">
-                        <img src={product.image} alt={product.name} className="portafolio-image" />
-                        <h3>{t(`portfolio.${product.name}`)}</h3>
-                    </div>
-                ))}
-            </Slider>
-       
-        </div>
-    );
-}
+  return (
+    <section className="modern-portfolio">
+      <h2 className="section-title">Nuestro <span>Portafolio</span></h2>
+      <div className="portfolio-grid">
+        {items.map((item, idx) => (
+          <div className="portfolio-item" key={idx}>
+            <img src={item.img} alt={item.title} />
+            <div className="portfolio-overlay">
+              <h3>{item.title}</h3>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+};
 
 export default Portafolio;

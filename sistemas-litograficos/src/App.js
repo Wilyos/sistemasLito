@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import './App.css';
+import './ModernLanding.css'; // Add modern styles for new proposal
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Carousel from './components/Carousel';

@@ -1,0 +1,338 @@
+/* ModernLanding.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@300;500;700;900&display=swap');
+
+:root {
+  --ml-bg: #050505;
+  --ml-bg-light: #111111;
+  --ml-text: #ffffff;
+  --ml-text-dim: #a0a0a0;
+  --ml-brand: #0ABF04;
+  --ml-brand-glow: rgba(10, 191, 4, 0.4);
+  --ml-glass: rgba(255, 255, 255, 0.03);
+  --ml-glass-border: rgba(255, 255, 255, 0.05);
+}
+
+/* Base Overrides for Landing Page */
+.App {
+  background-color: var(--ml-bg);
+  color: var(--ml-text);
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Outfit', sans-serif;
+  margin: 0;
+  text-shadow: none; /* override old app.css */
+}
+
+/* Modern Navbar */
+.modern-navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 15px 40px;
+  background: rgba(5, 5, 5, 0.8);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--ml-glass-border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+.modern-navbar .logo img {
+  height: 40px;
+  width: auto;
+  filter: drop-shadow(0 0 8px rgba(10, 191, 4, 0.3));
+}
+
+.modern-nav-links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.modern-nav-links a {
+  color: var(--ml-text);
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.modern-nav-links a:hover {
+  color: var(--ml-brand);
+}
+
+.modern-nav-links .highlight-btn {
+  background: var(--ml-brand);
+  color: #000;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-weight: 700;
+  box-shadow: 0 0 15px var(--ml-brand-glow);
+}
+.modern-nav-links .highlight-btn:hover {
+  background: #fff;
+  color: #000;
+  box-shadow: 0 0 20px rgba(255,255,255,0.5);
+}
+
+/* Modern Hero */
+.modern-hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  padding: 0 20px;
+  background: radial-gradient(circle at 50% 50%, rgba(10, 191, 4, 0.15) 0%, var(--ml-bg) 70%);
+  overflow: hidden;
+}
+
+.modern-hero::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; width: 100%; height: 100%;
+  background: url('https://www.transparenttextures.com/patterns/cubes.png');
+  opacity: 0.1;
+  pointer-events: none;
+}
+
+.modern-hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  animation: fadeInUp 1s ease forwards;
+}
+
+.modern-hero h1 {
+  font-size: 4.5rem;
+  font-weight: 900;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  background: linear-gradient(to right, #fff, var(--ml-brand));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.modern-hero p {
+  font-size: 1.2rem;
+  color: var(--ml-text-dim);
+  margin-bottom: 40px;
+}
+
+.modern-cta-group {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.modern-btn {
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: none;
+}
+
+.modern-btn.primary {
+  background: var(--ml-brand);
+  color: #000;
+  box-shadow: 0 0 20px var(--ml-brand-glow);
+}
+
+.modern-btn.primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 30px var(--ml-brand);
+}
+
+.modern-btn.secondary {
+  background: var(--ml-glass);
+  color: #fff;
+  border: 1px solid var(--ml-glass-border);
+  backdrop-filter: blur(5px);
+}
+
+.modern-btn.secondary:hover {
+  background: rgba(255,255,255,0.1);
+  transform: translateY(-3px);
+}
+
+/* Modern Services (Aside) */
+.modern-services {
+  padding: 100px 20px;
+  background: var(--ml-bg);
+}
+
+.section-title {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 60px;
+  color: #fff;
+}
+
+.section-title span {
+  color: var(--ml-brand);
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.service-card {
+  background: var(--ml-glass);
+  border: 1px solid var(--ml-glass-border);
+  border-radius: 20px;
+  padding: 40px 20px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  transition: all 0.4s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.service-card::before {
+  content: '';
+  position: absolute;
+  top: -50%; left: -50%; width: 200%; height: 200%;
+  background: radial-gradient(circle, var(--ml-brand-glow) 0%, transparent 70%);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  z-index: 0;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  border-color: var(--ml-brand);
+}
+
+.service-card:hover::before {
+  opacity: 0.2;
+}
+
+.service-card i {
+  font-size: 3rem;
+  color: var(--ml-brand);
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.service-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  position: relative;
+  z-index: 1;
+}
+
+.service-card p {
+  color: var(--ml-text-dim);
+  font-size: 0.95rem;
+  position: relative;
+  z-index: 1;
+}
+
+/* Modern Portfolio */
+.modern-portfolio {
+  padding: 100px 20px;
+  background: var(--ml-bg-light);
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.portfolio-item {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  aspect-ratio: 4/3;
+  cursor: pointer;
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.portfolio-overlay {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.9), transparent);
+  padding: 30px 20px 20px;
+  transform: translateY(100%);
+  transition: transform 0.4s ease;
+}
+
+.portfolio-item:hover img {
+  transform: scale(1.1);
+}
+
+.portfolio-item:hover .portfolio-overlay {
+  transform: translateY(0);
+}
+
+.portfolio-overlay h3 {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+/* Modern Clientes */
+.modern-clientes {
+  padding: 100px 20px;
+  background: var(--ml-bg);
+  overflow: hidden;
+}
+
+.clientes-track {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.cliente-logo {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  filter: grayscale(100%) opacity(0.5);
+  transition: all 0.4s ease;
+}
+
+.cliente-logo:hover {
+  filter: grayscale(0%) opacity(1);
+  transform: scale(1.1);
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 768px) {
+  .modern-hero h1 { font-size: 3rem; }
+  .modern-nav-links { display: none; }
+  .modern-cta-group { flex-direction: column; }
+}
