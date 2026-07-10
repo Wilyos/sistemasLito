@@ -1,24 +1,26 @@
 import React from 'react';
-import producto1 from '../assets/catalogo.webp';
-import producto2 from '../assets/empaques.webp';
-import producto3 from '../assets/bolsas.webp';
-import producto4 from '../assets/tarjetas.webp';
-import producto5 from '../assets/revista.webp';
-import producto6 from '../assets/etiquetaAd.webp';
+import producto1 from '../assets/catalogo/catalogo.png';
+import producto2 from '../assets/catalogo/empaques.png';
+import producto3 from '../assets/catalogo/bolsas.png';
+import producto4 from '../assets/catalogo/tarjetas.png';
+import producto5 from '../assets/catalogo/revista.png';
+import producto6 from '../assets/catalogo/adhesivos.png';
+import { useTranslation } from 'react-i18next';
 
 const Portafolio = () => {
+  const { t } = useTranslation();
   const items = [
-    { img: producto1, title: 'Catálogos' },
-    { img: producto2, title: 'Empaques' },
-    { img: producto3, title: 'Bolsas Corporativas' },
-    { img: producto4, title: 'Tarjetas de Presentación' },
-    { img: producto5, title: 'Revistas' },
-    { img: producto6, title: 'Etiquetas Adhesivas' },
+    { img: producto1, title: t('portfolio_section.catalogos') },
+    { img: producto2, title: t('portfolio_section.empaques') },
+    { img: producto3, title: t('portfolio_section.bolsas') },
+    { img: producto4, title: t('portfolio_section.tarjetas') },
+    { img: producto5, title: t('portfolio_section.revistas') },
+    { img: producto6, title: t('portfolio_section.etiquetas') },
   ];
 
   return (
     <section className="modern-portfolio">
-      <h2 className="section-title">Nuestro <span>Portafolio</span></h2>
+      <h2 className="section-title">{t('portfolio_section.title1')} <span>{t('portfolio_section.title2')}</span></h2>
       <div className="portfolio-grid">
         {items.map((item, idx) => (
           <div className="portfolio-item" key={idx}>

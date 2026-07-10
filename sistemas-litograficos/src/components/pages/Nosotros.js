@@ -1,57 +1,96 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
-import "../../App.css";
-import { Helmet } from "react-helmet";
+import "../../ModernLanding.css";
+import SEO from "../SEO";
+
 const Nosotros = () => {
   const { t } = useTranslation();
+  const revealRefs = useRef([]);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("revealed");
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+
+    revealRefs.current.forEach((el) => {
+      if (el) observer.observe(el);
+    });
+
+    return () => observer.disconnect();
+  }, []);
+
+  const addToRefs = (el) => {
+    if (el && !revealRefs.current.includes(el)) {
+      revealRefs.current.push(el);
+    }
+  };
 
   return (
     <>
-      <Helmet>
-        <title>Sobre Nosotros | Sistemas Litográficos</title>
-        <meta name="description" content="Aprende un poco mas de nosotros y nuestro objetivo." />
-      </Helmet>
-   
-      <div className="nosotros-banner">
-        <div className="nosotros-banner-text">
-          <h1>{t("about.title")}</h1>
-        </div>
+      <SEO title={t("about.title")} description="Aprende un poco mas de nosotros y nuestro objetivo." />
+      
+      {/* Background Animated Blobs */}
+      <div className="bg-blobs">
+        <div className="blob blob-1"></div>
+        <div className="blob blob-2"></div>
+        <div className="blob blob-3"></div>
       </div>
-      <div className="nosotros-container">
-        <div className="nosotros-descripcion">
-          <div>
-            <p>{t("about.description_1")}</p>
-            <br />
+
+      {/* Giant Watermark */}
+      <div className="nosotros-watermark">20 AÑOS</div>
+   
+      <div className="modern-nosotros-hero reveal-element" ref={addToRefs}>
+        <div className="modern-hero-content nosotros-hero-content">
+          <h1>{t("about.title")}</h1>
+          <p>{t("about.description_1")}</p>
+        </div>
+        <img className="nosotros-hero-badge" alt="Más de 20 años" src={require('../../assets/20a.png')} />
+      </div>
+
+      <div className="modern-nosotros-container">
+        
+        {/* Description & 3D Image */}
+        <div className="nosotros-split-section reveal-element" ref={addToRefs}>
+          <div className="modern-glass-card flex-1 desc-card">
             <p>{t("about.description_2")}</p>
           </div>
-          <div>
-            <img className="img-nosotros" alt="masde20" src={require('../../assets/20a.png')} />
+          <div className="flex-1 image-3d-container">
+            <img className="image-3d" alt="Valores" src={require('../../assets/valores.png')} />
           </div>
         </div>
-        <div className="nosotros-valores">
-          <div>
-            <img className="img-nosotros" alt="valores" src={require('../../assets/valores.png')} />
-          </div>
-          <div>
-            <h2>{t("about.values_title")}</h2>
-            <ul>
-              {t("about.values", { returnObjects: true }).map((valor, idx) => (
-                <li key={idx}>{valor}</li>
+
+        {/* Values section */}
+        <div className="modern-nosotros-valores reveal-element" ref={addToRefs}>
+          <h2>{t("about.values_title")}</h2>
+          <div className="valores-grid">
+             {t("about.values", { returnObjects: true }).map((valor, idx) => (
+                <div className="modern-glass-card valor-card" key={idx} style={{ '--delay': `${idx * 0.1}s` }}>
+                  <div className="valor-icon">✨</div>
+                  <p>{valor}</p>
+                </div>
               ))}
-            </ul>
           </div>
         </div>
-        <span className="nosotros-linea"></span>
-        <div className="nosotros-mision-vision">
-          <div>
+
+        {/* Mission and Vision */}
+        <div className="modern-nosotros-mision-vision reveal-element" ref={addToRefs}>
+          <div className="modern-glass-card flex-1">
             <h2>{t("about.mission_title")}</h2>
             <p>{t("about.mission")}</p>
           </div>
-          <div>
+          <div className="modern-glass-card flex-1">
             <h2>{t("about.vision_title")}</h2>
             <p dangerouslySetInnerHTML={{ __html: t("about.vision") }} />
           </div>
         </div>
+
       </div>
     </>
   );
