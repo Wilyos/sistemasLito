@@ -72,7 +72,10 @@ const Nosotros = () => {
           <div className="valores-grid">
              {t("about.values", { returnObjects: true }).map((valor, idx) => (
                 <div className="modern-glass-card valor-card" key={idx} style={{ '--delay': `${idx * 0.1}s` }}>
-                  <div className="valor-icon">✨</div>
+                  <div className="valor-icon-wrapper">
+                    <div className="valor-number">0{idx + 1}</div>
+                    <div className="valor-icon">✨</div>
+                  </div>
                   <p>{valor}</p>
                 </div>
               ))}
@@ -81,11 +84,13 @@ const Nosotros = () => {
 
         {/* Mission and Vision */}
         <div className="modern-nosotros-mision-vision reveal-element" ref={addToRefs}>
-          <div className="modern-glass-card flex-1">
+          <div className="modern-glass-card flex-1 mision-vision-card">
+            <div className="mv-icon">🎯</div>
             <h2>{t("about.mission_title")}</h2>
             <p>{t("about.mission")}</p>
           </div>
-          <div className="modern-glass-card flex-1">
+          <div className="modern-glass-card flex-1 mision-vision-card">
+            <div className="mv-icon">🚀</div>
             <h2>{t("about.vision_title")}</h2>
             <p dangerouslySetInnerHTML={{ __html: t("about.vision") }} />
           </div>
