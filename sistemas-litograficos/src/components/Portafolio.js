@@ -1,10 +1,10 @@
 import React from 'react';
-import producto1 from '../assets/catalogo/catalogo.png';
+import producto1 from '../assets/img2/revista2.webp';
 import producto2 from '../assets/catalogo/empaques.png';
 import producto3 from '../assets/catalogo/bolsas.png';
 import producto4 from '../assets/catalogo/tarjetas.png';
-import producto5 from '../assets/catalogo/revista.png';
-import producto6 from '../assets/catalogo/adhesivos.png';
+import producto5 from '../assets/img2/cartilla.webp';
+import producto6 from '../assets/img2/stickers.webp';
 import { useTranslation } from 'react-i18next';
 
 const Portafolio = () => {
