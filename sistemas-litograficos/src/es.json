@@ -549,5 +549,18 @@
   "clientes_section": {
     "title1": "Confían en",
     "title2": "Nosotros"
+  },
+  "banner_carousel": {
+    "title1": "Nuestros",
+    "title2": "Destacados",
+    "subtitle": "Descubre nuestros proyectos destacados y soluciones impresas de alta calidad",
+    "banner1_title":"Empaques y Publicidad" ,
+    "banner1_desc": "Diseños innovadores que potencian el impacto de tu marca",
+    "banner2_title":"Impresión de Alta Precisión",
+    "banner2_desc": "Tecnología litográfica offset para acabados impecables",
+    "banner3_title": "Soluciones Corporativas",
+    "banner3_desc": "empaques en gran volumen",
+    "banner4_title": "Calidad Litográfica",
+    "banner4_desc": "Más de 20 años de experiencia transformando grandes ideas"
   }
 }

@@ -1111,3 +1111,250 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: column;
   }
 }
+
+/* =========================================
+   React Bits 3D Carousel Section
+========================================= */
+
+.react-bits-carousel-section {
+  padding: 80px 20px 100px;
+  position: relative;
+  background: radial-gradient(circle at 50% 50%, rgba(10, 191, 4, 0.08) 0%, transparent 70%);
+  overflow: hidden;
+  user-select: none;
+}
+
+.react-bits-carousel-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.react-bits-subtitle {
+  color: var(--ml-text-dim);
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: -40px auto 0;
+}
+
+.react-bits-carousel-container {
+  position: relative;
+  max-width: 1400px;
+  height: 460px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: grab;
+}
+
+.react-bits-carousel-container:active {
+  cursor: grabbing;
+}
+
+.react-bits-carousel-stage {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  perspective: 1200px;
+  transform-style: preserve-3d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.react-bits-card {
+  position: absolute;
+  width: 980px;
+  max-width: 92%;
+  height: 380px;
+  border-radius: 20px;
+  transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1), 
+              opacity 0.6s cubic-bezier(0.25, 1, 0.5, 1), 
+              filter 0.6s cubic-bezier(0.25, 1, 0.5, 1),
+              box-shadow 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+  will-change: transform, opacity, filter;
+  cursor: pointer;
+}
+
+.react-bits-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: #050505;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.react-bits-card.active .react-bits-card-inner {
+  border-color: var(--ml-brand);
+}
+
+/* Background blur of banner for seamless border fill */
+.react-bits-img-bg {
+  position: absolute;
+  top: -15%;
+  left: -15%;
+  width: 130%;
+  height: 130%;
+  object-fit: cover;
+  filter: blur(28px) brightness(0.35);
+  opacity: 0.8;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Main uncropped banner image */
+.react-bits-img {
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  z-index: 2;
+  transition: transform 0.5s ease;
+  filter: drop-shadow(0 8px 25px rgba(0, 0, 0, 0.7));
+}
+
+.react-bits-card:hover .react-bits-img {
+  transform: scale(1.02);
+}
+
+.react-bits-card-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 25px 25px 18px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.3) 70%, transparent 100%);
+  color: #fff;
+  z-index: 3;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  pointer-events: none;
+}
+
+.react-bits-card-overlay h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 4px;
+  font-family: 'Outfit', sans-serif;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.9);
+}
+
+.react-bits-card-overlay p {
+  font-size: 0.9rem;
+  color: var(--ml-brand);
+  margin: 0;
+  font-weight: 600;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.9);
+}
+
+/* Nav Buttons */
+.react-bits-nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: rgba(15, 15, 15, 0.75);
+  border: 1px solid var(--ml-glass-border);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 20;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+}
+
+.react-bits-nav-btn.prev {
+  left: 10px;
+}
+
+.react-bits-nav-btn.next {
+  right: 10px;
+}
+
+.react-bits-nav-btn:hover {
+  background: var(--ml-brand);
+  color: #000;
+  border-color: var(--ml-brand);
+  box-shadow: 0 0 20px var(--ml-brand-glow);
+  transform: translateY(-50%) scale(1.1);
+}
+
+/* Dots */
+.react-bits-dots {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 30px;
+}
+
+.react-bits-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 0;
+}
+
+.react-bits-dot:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.react-bits-dot.active {
+  width: 32px;
+  border-radius: 10px;
+  background: var(--ml-brand);
+  box-shadow: 0 0 12px var(--ml-brand-glow);
+}
+
+@media (max-width: 1024px) {
+  .react-bits-carousel-container {
+    height: 400px;
+  }
+  .react-bits-card {
+    width: 94%;
+    height: 320px;
+  }
+}
+
+@media (max-width: 768px) {
+  .react-bits-carousel-container {
+    height: 280px;
+  }
+  .react-bits-card {
+    width: 96%;
+    height: 220px;
+  }
+  .react-bits-subtitle {
+    margin-top: -30px;
+    font-size: 0.95rem;
+  }
+  .react-bits-nav-btn {
+    width: 40px;
+    height: 40px;
+  }
+  .react-bits-card-overlay {
+    padding: 15px 15px 10px;
+  }
+  .react-bits-card-overlay h3 {
+    font-size: 1rem;
+  }
+  .react-bits-card-overlay p {
+    font-size: 0.8rem;
+  }
+}
+

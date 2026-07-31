@@ -549,5 +549,18 @@
   "clientes_section": {
     "title1": "They Trust",
     "title2": "Us"
+  },
+  "banner_carousel": {
+    "title1": "Our",
+    "title2": "Highlights",
+    "subtitle": "Discover our highlighted projects and high-quality printed solutions",
+    "banner1_title": "Packaging & Advertising",
+    "banner1_desc": "Innovative designs that boost your brand impact",
+    "banner2_title": "High Precision Printing",
+    "banner2_desc": "Offset lithographic technology for flawless finishes",
+    "banner3_title": "Corporate Solutions",
+    "banner3_desc": "High volume packaging",
+    "banner4_title": "Lithographic Quality",
+    "banner4_desc": "Over 20 years of experience turning big ideas into reality"
   }
 }

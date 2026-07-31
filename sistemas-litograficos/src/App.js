@@ -11,6 +11,7 @@ import Portafolio from './components/Portafolio';
 import WhatsApp from './components/whatsapp';
 import Clientes from './components/Clientes';
 import Aside from './components/Aside';
+import BannerCarousel from './components/BannerCarousel';
 import Loader from './components/Loader';
 import SEO from './components/SEO';
 import './i18n';
@@ -57,6 +58,7 @@ const App = () => {
                     <SEO title="Inicio" />
                     <Carousel />
                     <Aside />
+                    <BannerCarousel />
                     <Portafolio />
                     <Clientes />
                   </>
