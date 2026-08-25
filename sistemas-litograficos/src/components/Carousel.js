@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import heroVideo from '../assets/heroVideo.mp4';
+import heroVideoMp4 from '../assets/heroVideo.mp4';
+import heroVideoWebm from '../assets/heroVideo.webm';
+import heroPoster from '../assets/heroPoster.webp';
 
 const Carousel = () => {
   const { t } = useTranslation();
@@ -12,9 +14,12 @@ const Carousel = () => {
         loop 
         muted 
         playsInline 
+        preload="auto"
+        poster={heroPoster}
         className="modern-hero-video"
       >
-        <source src={heroVideo} type="video/mp4" />
+        <source src={heroVideoWebm} type="video/webm" />
+        <source src={heroVideoMp4} type="video/mp4" />
       </video>
       <div className="modern-hero-content">
         <h1>{t('hero.title')}</h1>
